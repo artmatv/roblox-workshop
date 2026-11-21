@@ -1,0 +1,129 @@
+{
+  "files": [
+    {
+      "originalPath": "references/example-cow.paint.json",
+      "path": "resources/references/example-cow.paint.json",
+      "hash": "c323e0b29cddd2fe9aca160009b41f7922d39a229419bbb4f57ecb2aad1054f8"
+    },
+    {
+      "originalPath": "references/example-manifest.json",
+      "path": "resources/references/example-manifest.json",
+      "hash": "8a566303a72b7fa5fdf798aeb223bb1192937d44b10ce1adb2d427f496897799"
+    },
+    {
+      "originalPath": "references/example-pig.paint.json",
+      "path": "resources/references/example-pig.paint.json",
+      "hash": "1fe4c1254e47a5b59a59f0a328767820d683325122e2a57db2b8272ca422864f"
+    },
+    {
+      "originalPath": "references/hard-surface-route.md",
+      "path": "resources/references/hard-surface-route.md",
+      "hash": "4688831e4caa541747453943e2514a53cab9485982ed9f71d0ab5f08ad561f3a"
+    },
+    {
+      "originalPath": "references/licences.md",
+      "path": "resources/references/licences.md",
+      "hash": "bef9d7f6bcdf8097e9bac63f76e5c569c3db3ad020c9d058b306f1730d4b396f"
+    },
+    {
+      "originalPath": "references/traps.md",
+      "path": "resources/references/traps.md",
+      "hash": "3f3175360eabba9425629ec32b1a351f9e4d4cc70cc98b9ef380bea89daba1a8"
+    },
+    {
+      "originalPath": "scripts/axes_probe.py",
+      "path": "resources/scripts/axes_probe.py",
+      "hash": "e682f6394cd7bcdc1e8b62b2cdad49a7b83104d757a39b83c2ea915be5964183"
+    },
+    {
+      "originalPath": "scripts/check_colours.py",
+      "path": "resources/scripts/check_colours.py",
+      "hash": "f38fb5fbd7090d2bdf6627752224ff2b4d0ec5c3214229d69c696936c247b589"
+    },
+    {
+      "originalPath": "scripts/check_prop.py",
+      "path": "resources/scripts/check_prop.py",
+      "hash": "90697892099cfffec69fdf16f060fef5639e90bd30b031f2341940d08b8bfb62"
+    },
+    {
+      "originalPath": "scripts/export_for_studio.py",
+      "path": "resources/scripts/export_for_studio.py",
+      "hash": "a5a36ca200f0a2756857ddc785ed6e5c07d7cb57c61e6206ff8fa7c1ca970cf5"
+    },
+    {
+      "originalPath": "scripts/export_skinned.py",
+      "path": "resources/scripts/export_skinned.py",
+      "hash": "237e50d3dd3678988818ac03a7000979e783d53b14bbbbe53b74175b87000015"
+    },
+    {
+      "originalPath": "scripts/finish_creature.py",
+      "path": "resources/scripts/finish_creature.py",
+      "hash": "e1f655df9ef5a05c5c9bf819a2fdbc59a86a1b4fc69f6f41149cd756134ffdef"
+    },
+    {
+      "originalPath": "scripts/glb_tool.py",
+      "path": "resources/scripts/glb_tool.py",
+      "hash": "531fbe89a5a8a30fc34651757d3bc42c59e03a095d688d90a7bfba0a252264ba"
+    },
+    {
+      "originalPath": "scripts/landmarks.py",
+      "path": "resources/scripts/landmarks.py",
+      "hash": "4ae18a861c0e9aab5617faa9db6ddded08f33334e50d1b06cb324db093411f06"
+    },
+    {
+      "originalPath": "scripts/make_paint_spec.py",
+      "path": "resources/scripts/make_paint_spec.py",
+      "hash": "25b87de27677bcca51dc2f9ea2c2eb85bf374cc222d8308bee59633e090c4b5f"
+    },
+    {
+      "originalPath": "scripts/mesh_pipeline.py",
+      "path": "resources/scripts/mesh_pipeline.py",
+      "hash": "187043eb273f21f44526cc49399bb7d6bdd2d6718dd547da060f2da202f7994d"
+    },
+    {
+      "originalPath": "scripts/paint_texture.py",
+      "path": "resources/scripts/paint_texture.py",
+      "hash": "e1fd2146c4fedfd3885b67f8c09cd72d1b9b505a304e05ed4bf024e54c1c4add"
+    },
+    {
+      "originalPath": "scripts/probe_rig.py",
+      "path": "resources/scripts/probe_rig.py",
+      "hash": "3d4f3aa75501fb9f6e8d1154a39238ec5917fac5ac584cde3110bfe1af743c36"
+    },
+    {
+      "originalPath": "scripts/quadruped_anim.py",
+      "path": "resources/scripts/quadruped_anim.py",
+      "hash": "c9c7450d02de080b06f5bfb096accbc43b99e06ca9dbe6675747df8c09f9c2de"
+    },
+    {
+      "originalPath": "scripts/quadruped_rig.py",
+      "path": "resources/scripts/quadruped_rig.py",
+      "hash": "7fab5b95308603e8fd4ab1923879f62fcec2ec061d412377faeb2861671ad10f"
+    },
+    {
+      "originalPath": "scripts/render_check.py",
+      "path": "resources/scripts/render_check.py",
+      "hash": "7042cfc8e961e9bb3068fd41d5fbf2567e9d62174fa71e8b23db8ebb5d667604"
+    },
+    {
+      "originalPath": "scripts/texture_bake.py",
+      "path": "resources/scripts/texture_bake.py",
+      "hash": "f0ad670fd5c25cd6f9a41b7e85af9325d66b2843e52c1d4d620fc1215a01db9b"
+    },
+    {
+      "originalPath": "scripts/verify_texture.py",
+      "path": "resources/scripts/verify_texture.py",
+      "hash": "77128c3059940254015a6614908e25b5a7934231eb212814673da2dd53dcbce7"
+    },
+    {
+      "originalPath": "scripts/verify.py",
+      "path": "resources/scripts/verify.py",
+      "hash": "8ef46ffb8068faec046e1381f5a0fb202d3d47daed7535aab24c0b42188bd42f"
+    },
+    {
+      "originalPath": "scripts/zprofile.py",
+      "path": "resources/scripts/zprofile.py",
+      "hash": "86234bb149e00d229ae69594155e8d0dafd5d78b4ae92077a8dbf55776d5a8ab"
+    }
+  ]
+}

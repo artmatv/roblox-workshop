@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-05T05:13:51.547Z",
+  "method": "normal PATCH settings.timeoutMinutes only; engine update source preserves unrelated settings and approvals; requirementsHash excludes settings",
+  "previousTimeout": 60,
+  "previousTimeoutProvenance": "authorized temporary value from prior task configuration",
+  "actualTimeout": 20,
+  "actualRevision": 10,
+  "actualMaxAttempts": 3,
+  "taskStatus": "blocked",
+  "taskError": "Независимая проверка недоступна: Внешний проверяющий вернул HTTP 503",
+  "requirementsHash": "60fd2e1ed24015fccdf88daeb379660c9c19ad3f1bbc7d588551240631fa5eba",
+  "approvals": {
+    "concept": {
+      "revision": 0,
+      "hash": "9145df9929fae98a36fc57061bd75b23c59d743767ef8a5847af279887937f9b",
+      "at": "2026-11-02T18:22:21.367Z"
+    },
+    "style": {
+      "revision": 0,
+      "hash": "c7e5b0055f6a61334185b5d8f6841d244c4c2e20ca9802db88399b803d0472ec",
+      "at": "2026-11-02T18:22:22.669Z"
+    },
+    "specification": {
+      "revision": 0,
+      "hash": "3337c23e3337d621769b56b66bbc8d4766ad1131d0102a4b354a62bd6bff0047",
+      "at": "2026-11-03T08:32:53.867Z"
+    },
+    "budget": {
+      "revision": 0,
+      "hash": "3f4b203939565980e45bb55a22c60546f4a976f20cf3b94fcf1b8df5e3801961",
+      "at": "2026-11-03T10:09:06.987Z"
+    }
+  },
+  "limitation": "initial API GET returned wrapper; discarded invalid null comparisons; no independent before/after approval hash claimed"
+}

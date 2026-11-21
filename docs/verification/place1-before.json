@@ -1,0 +1,287 @@
+{
+  "fingerprint": "1968752281:2993",
+  "placeId": 0,
+  "name": "Place1",
+  "instances": [
+    {
+      "path": "Lighting",
+      "properties": {
+        "ClockTime": 14.5,
+        "FogStart": 0,
+        "Ambient": {
+          "value": [
+            0.27450981736183167,
+            0.27450981736183167,
+            0.27450981736183167
+          ],
+          "type": "Color3"
+        },
+        "FogEnd": 100000,
+        "Brightness": 3,
+        "OutdoorAmbient": {
+          "value": [
+            0.27450981736183167,
+            0.27450981736183167,
+            0.27450981736183167
+          ],
+          "type": "Color3"
+        },
+        "FogColor": {
+          "value": [
+            0.7529412508010864,
+            0.7529412508010864,
+            0.7529412508010864
+          ],
+          "type": "Color3"
+        }
+      },
+      "className": "Lighting"
+    },
+    {
+      "path": "Lighting/Atmosphere",
+      "properties": {
+        "Color": {
+          "value": [
+            0.7803921699523926,
+            0.7803921699523926,
+            0.7803921699523926
+          ],
+          "type": "Color3"
+        }
+      },
+      "className": "Atmosphere"
+    },
+    {
+      "path": "Lighting/Bloom",
+      "properties": {
+        "Enabled": true,
+        "Size": 24
+      },
+      "className": "BloomEffect"
+    },
+    {
+      "path": "Lighting/DepthOfField",
+      "properties": {
+        "Enabled": false
+      },
+      "className": "DepthOfFieldEffect"
+    },
+    {
+      "path": "Lighting/Sky",
+      "properties": {},
+      "className": "Sky"
+    },
+    {
+      "path": "Lighting/SunRays",
+      "properties": {
+        "Enabled": true
+      },
+      "className": "SunRaysEffect"
+    },
+    {
+      "path": "StarterPlayer/StarterCharacterScripts",
+      "properties": {},
+      "className": "StarterCharacterScripts"
+    },
+    {
+      "path": "StarterPlayer/StarterPlayerScripts",
+      "properties": {},
+      "className": "StarterPlayerScripts"
+    },
+    {
+      "path": "Workspace/Baseplate",
+      "properties": {
+        "TopSurface": {
+          "value": "SurfaceType.Smooth",
+          "type": "Enum",
+          "token": 0
+        },
+        "CastShadow": true,
+        "BottomSurface": {
+          "value": "SurfaceType.Smooth",
+          "type": "Enum",
+          "token": 0
+        },
+        "CanCollide": true,
+        "Color": {
+          "value": [
+            0.35686275362968445,
+            0.35686275362968445,
+            0.35686275362968445
+          ],
+          "type": "Color3"
+        },
+        "CFrame": {
+          "value": [
+            0,
+            -8,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "type": "CFrame"
+        },
+        "CanTouch": true,
+        "Anchored": true,
+        "Rotation": {
+          "value": [
+            0,
+            0,
+            0
+          ],
+          "type": "Vector3"
+        },
+        "Transparency": 0,
+        "Reflectance": 0,
+        "Position": {
+          "value": [
+            0,
+            -8,
+            0
+          ],
+          "type": "Vector3"
+        },
+        "CanQuery": true,
+        "Material": {
+          "value": "Material.Plastic",
+          "type": "Enum",
+          "token": 256
+        },
+        "Shape": {
+          "value": "PartType.Block",
+          "type": "Enum",
+          "token": 1
+        },
+        "Size": {
+          "value": [
+            2048,
+            16,
+            2048
+          ],
+          "type": "Vector3"
+        }
+      },
+      "className": "Part"
+    },
+    {
+      "path": "Workspace/Baseplate/Texture",
+      "properties": {
+        "Rotation": 0,
+        "Transparency": 0.800000011920929,
+        "ZIndex": 1,
+        "Face": {
+          "value": "NormalId.Top",
+          "type": "Enum",
+          "token": 1
+        },
+        "Texture": "rbxassetid://6372755229"
+      },
+      "className": "Texture"
+    },
+    {
+      "path": "Workspace/SpawnLocation",
+      "properties": {
+        "CanQuery": true,
+        "Color": {
+          "value": [
+            0.6392157077789307,
+            0.6352941393852234,
+            0.6470588445663452
+          ],
+          "type": "Color3"
+        },
+        "Anchored": true,
+        "Material": {
+          "value": "Material.Plastic",
+          "type": "Enum",
+          "token": 256
+        },
+        "Size": {
+          "value": [
+            12,
+            1,
+            12
+          ],
+          "type": "Vector3"
+        },
+        "Enabled": true,
+        "BottomSurface": {
+          "value": "SurfaceType.Smooth",
+          "type": "Enum",
+          "token": 0
+        },
+        "CanCollide": true,
+        "CanTouch": true,
+        "Rotation": {
+          "value": [
+            0,
+            0,
+            0
+          ],
+          "type": "Vector3"
+        },
+        "Transparency": 0,
+        "CFrame": {
+          "value": [
+            0,
+            0.5,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "type": "CFrame"
+        },
+        "Position": {
+          "value": [
+            0,
+            0.5,
+            0
+          ],
+          "type": "Vector3"
+        },
+        "CastShadow": true,
+        "Reflectance": 0,
+        "Shape": {
+          "value": "PartType.Block",
+          "type": "Enum",
+          "token": 1
+        },
+        "TopSurface": {
+          "value": "SurfaceType.Smooth",
+          "type": "Enum",
+          "token": 0
+        }
+      },
+      "className": "SpawnLocation"
+    },
+    {
+      "path": "Workspace/SpawnLocation/Decal",
+      "properties": {
+        "Rotation": 0,
+        "Transparency": 0,
+        "ZIndex": 1,
+        "Face": {
+          "value": "NormalId.Top",
+          "type": "Enum",
+          "token": 1
+        },
+        "Texture": "rbxasset://textures/SpawnLocation.png"
+      },
+      "className": "Decal"
+    }
+  ]
+}

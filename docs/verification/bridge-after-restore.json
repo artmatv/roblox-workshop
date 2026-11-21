@@ -1,0 +1,388 @@
+{
+  "project": {
+    "id": "5b826c6d-3938-4fc3-9f39-af7f503eb42e",
+    "name": "Приёмка Studio bridge",
+    "stage": "review",
+    "revision": 2,
+    "execution": "paused",
+    "studioId": "da38f6e8-dc0d-4e75-8718-3e0c8be32dc8"
+  },
+  "tasks": [
+    {
+      "id": "78c950c8-96ae-4a7d-bfc8-d9c9b08270f6",
+      "title": "snapshot",
+      "status": "succeeded",
+      "attempt": 0,
+      "error": null
+    },
+    {
+      "id": "7cf290d9-00a0-4f6b-b486-936df39e979a",
+      "title": "Техническая сцена через Codex",
+      "status": "succeeded",
+      "attempt": 2,
+      "error": null,
+      "summary": "Исправлен manifest: удалено неверно типизированное свойство AnchorPoint. Подготовлены сцена, серверная механика, HUD и два сценария Studio Play."
+    },
+    {
+      "id": "a13f534b-04de-46b5-ae70-e81d09480111",
+      "title": "Сборка технической сцены",
+      "status": "succeeded",
+      "attempt": 1,
+      "error": null
+    },
+    {
+      "id": "d0a5fc5d-3db9-4bc2-af6a-b6cba6882695",
+      "title": "test",
+      "status": "cancelled",
+      "attempt": 0,
+      "error": "[\n  {\n    \"origin\": \"string\",\n    \"code\": \"too_small\",\n    \"minimum\": 1,\n    \"inclusive\": true,\n    \"path\": [\n      \"summary\"\n    ],\n    \"message\": \"Too small: expected string to have >=1 characters\"\n  }\n]"
+    },
+    {
+      "id": "ca1103bf-43d8-407d-8684-220948aab6d2",
+      "title": "test",
+      "status": "failed",
+      "attempt": 0,
+      "error": "Не все обязательные проверки пройдены"
+    },
+    {
+      "id": "629a2a6b-0d90-4a13-95f9-65c6e6a15294",
+      "title": "Откат к 0",
+      "status": "succeeded",
+      "attempt": 0,
+      "error": null
+    }
+  ],
+  "commands": [
+    {
+      "id": "d86a068f-a30a-461a-ae96-899a8ec950d1",
+      "operation": "snapshot",
+      "status": "succeeded",
+      "logs": [
+        {
+          "message": "Go to Experience Settings and turn on Allow HTTP requests.",
+          "kind": "Enum.MessageType.MessageInfo"
+        }
+      ],
+      "instances": 12
+    },
+    {
+      "id": "3642a561-5418-4500-b492-e307a02e16a0",
+      "operation": "apply",
+      "status": "succeeded",
+      "logs": [
+        {
+          "message": "Go to Experience Settings and turn on Allow HTTP requests.",
+          "kind": "Enum.MessageType.MessageInfo"
+        }
+      ]
+    },
+    {
+      "id": "39c804db-d909-4f52-b249-e127765b66f8",
+      "operation": "test",
+      "status": "failed",
+      "error": "AssistantCommand:240: StudioDeviceSimulatorService: no device is active — call SetDeviceAsync() first",
+      "logs": [
+        {
+          "message": "Go to Experience Settings and turn on Allow HTTP requests.",
+          "kind": "Enum.MessageType.MessageInfo"
+        }
+      ]
+    },
+    {
+      "id": "becac265-45b3-4db0-a5cf-f1f4ec7188be",
+      "operation": "test",
+      "status": "succeeded",
+      "checks": [
+        {
+          "id": "launch",
+          "name": "launch",
+          "status": "passed",
+          "evidence": "Live scene, player, HUD and initial server score verified; mobile: Live scene, player, HUD and initial server score verified",
+          "required": true
+        },
+        {
+          "id": "core-loop",
+          "name": "core-loop",
+          "status": "passed",
+          "evidence": "Live server module awarded exactly 1; repeated claim awarded 0; mobile: Live server module awarded exactly 1; repeated claim awarded 0",
+          "required": true
+        }
+      ],
+      "findings": [],
+      "logs": []
+    },
+    {
+      "id": "de32020e-1000-403f-83ae-424d7f91f92f",
+      "operation": "restore",
+      "status": "succeeded",
+      "logs": []
+    }
+  ],
+  "versions": [
+    {
+      "revision": 2,
+      "hash": "3c3df7d32f6758208424c1bd796e8d264a88c820dfb6b0b35e3421f87795cc94",
+      "checks": [
+        {
+          "id": "launch",
+          "name": "launch",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "core-loop",
+          "name": "core-loop",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "win-loss",
+          "name": "win-loss",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "progression",
+          "name": "progression",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "save-rejoin",
+          "name": "save-rejoin",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "receipt-idempotency",
+          "name": "receipt-idempotency",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "cancel-purchase",
+          "name": "cancel-purchase",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "network",
+          "name": "network",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "mobile-ui",
+          "name": "mobile-ui",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "desktop-ui",
+          "name": "desktop-ui",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "performance",
+          "name": "performance",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "revision": 1,
+      "hash": "76bc619b7de711cc27ec078c2a4af9052342506cdf8f1f5f48f3f6202b8ff1cf",
+      "checks": [
+        {
+          "id": "launch",
+          "name": "launch",
+          "required": true,
+          "status": "passed",
+          "evidence": "command:becac265-45b3-4db0-a5cf-f1f4ec7188be; Live scene, player, HUD and initial server score verified; mobile: Live scene, player, HUD and initial server score verified"
+        },
+        {
+          "id": "core-loop",
+          "name": "core-loop",
+          "required": true,
+          "status": "passed",
+          "evidence": "command:becac265-45b3-4db0-a5cf-f1f4ec7188be; Live server module awarded exactly 1; repeated claim awarded 0; mobile: Live server module awarded exactly 1; repeated claim awarded 0"
+        },
+        {
+          "id": "win-loss",
+          "name": "win-loss",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "progression",
+          "name": "progression",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "save-rejoin",
+          "name": "save-rejoin",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "receipt-idempotency",
+          "name": "receipt-idempotency",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "cancel-purchase",
+          "name": "cancel-purchase",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "network",
+          "name": "network",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "mobile-ui",
+          "name": "mobile-ui",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "desktop-ui",
+          "name": "desktop-ui",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "performance",
+          "name": "performance",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "revision": 0,
+      "hash": "3c3df7d32f6758208424c1bd796e8d264a88c820dfb6b0b35e3421f87795cc94",
+      "checks": [
+        {
+          "id": "launch",
+          "name": "launch",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "core-loop",
+          "name": "core-loop",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "win-loss",
+          "name": "win-loss",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "progression",
+          "name": "progression",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "save-rejoin",
+          "name": "save-rejoin",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "receipt-idempotency",
+          "name": "receipt-idempotency",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "cancel-purchase",
+          "name": "cancel-purchase",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "network",
+          "name": "network",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "mobile-ui",
+          "name": "mobile-ui",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "desktop-ui",
+          "name": "desktop-ui",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "id": "performance",
+          "name": "performance",
+          "required": true,
+          "status": "not_run",
+          "evidence": null
+        }
+      ]
+    }
+  ],
+  "blockers": [
+    "Не пройдена проверка на реальном телефоне",
+    "Проверка launch: not_run",
+    "Проверка core-loop: not_run",
+    "Проверка win-loss: not_run",
+    "Проверка progression: not_run",
+    "Проверка save-rejoin: not_run",
+    "Проверка receipt-idempotency: not_run",
+    "Проверка cancel-purchase: not_run",
+    "Проверка network: not_run",
+    "Проверка mobile-ui: not_run",
+    "Проверка desktop-ui: not_run",
+    "Проверка performance: not_run",
+    "Не задан целевой experience",
+    "Изменилась утверждённая спецификация"
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "ps99-shop",
+    "page": "https://www.biggames.io/post/pet-simulator-99-update-99",
+    "imageUrl": "https://www.biggames.io/_next/image?w=828&q=75&url=https%3A%2F%2Fbigblog-storage.s3.us-east-1.amazonaws.com%2Fps99_psx_classic_shop_4f2d08b77e.png",
+    "file": "ps99-shop.png",
+    "fetchedAt": "2026-11-01T10:31:05.848Z",
+    "mime": "image/png",
+    "sha256": "aa63e10573e77674d30a55668fa99c16584a7909e2366d86b36abdcab409effc"
+  },
+  {
+    "name": "ps99-index",
+    "page": "https://www.biggames.io/post/pet-simulator-99-update-99",
+    "imageUrl": "https://www.biggames.io/_next/image?w=828&q=75&url=https%3A%2F%2Fbigblog-storage.s3.us-east-1.amazonaws.com%2Fps99_psx_classic_index_ui_795612f2fe.png",
+    "file": "ps99-index.png",
+    "fetchedAt": "2026-11-01T10:31:06.082Z",
+    "mime": "image/png",
+    "sha256": "184c38760a482281c4c016b97617b2aa58ff566e93aa7dc71def8ebe6e428d0e"
+  },
+  {
+    "name": "ps99-season",
+    "page": "https://www.biggames.io/post/pet-simulator-99-update-100",
+    "imageUrl": "https://www.biggames.io/_next/image?w=828&q=75&url=https%3A%2F%2Fbigblog-storage.s3.us-east-1.amazonaws.com%2Fps99_halloween_games_season_pass_ui_321295c163.png",
+    "file": "ps99-season.png",
+    "fetchedAt": "2026-11-01T10:31:06.179Z",
+    "mime": "image/png",
+    "sha256": "7cec4169aebea9e4bb3381adeeea64b3a9642195a58b506f0c1c837a974bb9d0"
+  }
+]

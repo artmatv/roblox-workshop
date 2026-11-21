@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "originalPath": "examples/spec.example.json",
+      "path": "resources/examples/spec.example.json",
+      "hash": "72bc9514753911ee11610f58589a7921beed5cb1f39a3aac0cd33b74eabed8a7"
+    },
+    {
+      "originalPath": "scripts/emit_bank.py",
+      "path": "resources/scripts/emit_bank.py",
+      "hash": "08537e9600e90b43c3c1a479d8a891629c3d37722746fee6e060b599b309ef5d"
+    },
+    {
+      "originalPath": "scripts/emit_probe.py",
+      "path": "resources/scripts/emit_probe.py",
+      "hash": "7d2abbdf5cf0d2aca5accf4dd73bcb76ba98066d8b1ac739433875a156e4565d"
+    },
+    {
+      "originalPath": "scripts/pick.py",
+      "path": "resources/scripts/pick.py",
+      "hash": "8171ed1f81bf2b525b794d869d0a3045c37d61ebdb4d2e9fb6f255e07f0efdde"
+    }
+  ]
+}

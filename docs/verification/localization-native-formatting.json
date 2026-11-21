@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-02",
+  "studioId": "125d3d43-c5bb-41fa-ac3d-d5171dc9d631",
+  "studioVersion": "0.745.0.7451137",
+  "method": "Native LocalizationTable:SetEntries and Translator:FormatByKey, temporary table destroyed after execution",
+  "sourceLocaleId": "en-us",
+  "source": "Parcels: {count:int} / {total:int}",
+  "parameters": {"count": 1, "total": 3},
+  "english": "Parcels: 1 / 3",
+  "frenchFixture": "Colis : 1 / 3",
+  "entries": 1,
+  "passed": true,
+  "cloudTranslationTested": false,
+  "limitation": "Known French fixture tests formatting only. Published experience settings, automatic cloud translation and a real phone remain unverified."
+}

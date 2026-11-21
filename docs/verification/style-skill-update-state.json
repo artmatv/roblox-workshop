@@ -1,0 +1,246 @@
+{
+  "before": [
+    {
+      "id": "eac0e47c-dd88-4c71-a820-2819fa1f12f2",
+      "name": "Проверка интерфейса",
+      "revision": 0,
+      "selectedStyle": null,
+      "studioId": null,
+      "approvals": {
+        "concept": {
+          "revision": 0,
+          "hash": "5b49bc0d4b0d6bc141f290ac51e8453de3505c1fb159f6875aa6fdc53a262b6f",
+          "at": "2026-11-01T09:30:46.077Z"
+        }
+      },
+      "taskIds": [],
+      "commandIds": []
+    },
+    {
+      "id": "5b826c6d-3938-4fc3-9f39-af7f503eb42e",
+      "name": "Приёмка Studio bridge",
+      "revision": 2,
+      "selectedStyle": null,
+      "studioId": "da38f6e8-dc0d-4e75-8718-3e0c8be32dc8",
+      "approvals": {},
+      "taskIds": [
+        "78c950c8-96ae-4a7d-bfc8-d9c9b08270f6",
+        "7cf290d9-00a0-4f6b-b486-936df39e979a",
+        "a13f534b-04de-46b5-ae70-e81d09480111",
+        "d0a5fc5d-3db9-4bc2-af6a-b6cba6882695",
+        "ca1103bf-43d8-407d-8684-220948aab6d2",
+        "629a2a6b-0d90-4a13-95f9-65c6e6a15294"
+      ],
+      "commandIds": [
+        "d86a068f-a30a-461a-ae96-899a8ec950d1",
+        "3642a561-5418-4500-b492-e307a02e16a0",
+        "39c804db-d909-4f52-b249-e127765b66f8",
+        "becac265-45b3-4db0-a5cf-f1f4ec7188be",
+        "de32020e-1000-403f-83ae-424d7f91f92f"
+      ]
+    },
+    {
+      "id": "b70a5d55-2e59-494b-b217-02c44de12ef8",
+      "name": "Лунные почтальоны",
+      "revision": 0,
+      "selectedStyle": null,
+      "studioId": null,
+      "approvals": {
+        "concept": {
+          "revision": 0,
+          "hash": "778a25fd4f555ab0bc7eb3fd80c5ac3eb5d6c6816b52b595044e05ac9cdb9906",
+          "at": "2026-11-01T10:34:17.621Z"
+        }
+      },
+      "taskIds": [
+        "6977672f-ab1e-44b0-bc13-2fcf002d0a6a",
+        "61830e83-5906-4b6c-8d2d-db378da62649",
+        "3f34629a-9ae9-4602-b868-5d98ce10290f",
+        "a8b0d2d6-25cf-42c7-a788-c0511b05065e",
+        "89f56a8b-9211-478d-a51f-60da86a85cc9",
+        "e3797f2f-2221-457e-8589-dc9cc85718ab",
+        "e2ea9c94-c69f-4fdc-8a21-becb32bd9bcd",
+        "b6ae64be-9a56-474b-ab6d-68f17b1c62e1",
+        "78ffeb2f-23cf-4cad-853c-be68d6d9b83b",
+        "7d42bcc0-7569-4543-ba03-3477020dbc53",
+        "294a11f4-7307-4baa-a937-8edebe4ef21d",
+        "d3d9f88e-f2ac-4bb1-85ef-62fe98415d57",
+        "a5226509-0f0b-4bde-9906-379bf1755b8b",
+        "66b6b5d6-622f-4782-ba76-1ab2e0fab5bd",
+        "dd760a8b-8edc-46cb-9374-5bc9bbc5af51",
+        "b20b202d-64f8-4b3f-9c39-f665b3a52d44",
+        "04416f8a-8023-476b-9512-136f6f4bf1ad",
+        "d5f91019-b67c-4b71-90c4-51e23ad01ea4",
+        "bbf3c7ab-4e41-4afc-b578-1b2552d5ae46",
+        "3b43f0e5-9c7f-4a01-a5c8-b5cbf40d49eb",
+        "efd6a199-c1bc-4d29-ae03-31c6f6d6220b"
+      ],
+      "commandIds": [
+        "9894a619-d283-41da-ba63-c34848306a09",
+        "ec7fd327-15f9-4044-a06b-4b932f51ffe7",
+        "87404ae5-7a88-492e-96e7-1dec1281dc79",
+        "9474c429-2dc1-43d8-b616-4e06f480a339",
+        "5474cc53-4695-489a-925f-63695e511c31",
+        "8789125c-e039-4ecd-9b69-fc91ae85be49",
+        "8451c992-49f3-494b-a2d4-5065b7a8ae90",
+        "8048a011-7e2d-49d0-9b84-f27b80f61c17",
+        "111dee89-25ae-463b-842c-8ba1602b4d07",
+        "92a53c32-5486-4447-88c3-b3d43792503f",
+        "cbc1ba14-7d1e-48b1-a3b7-456f94f181ee",
+        "3be538d2-832e-427b-9cff-954c086d1ba1",
+        "2ccd9a75-edc3-46ed-aed7-84ec71c2f196",
+        "911632ac-bdb1-47e5-b096-25a73f2e3a9b",
+        "3a0fbbd5-6adb-4fc3-96aa-4ffc504f986b",
+        "859dc629-7221-4631-a8dd-f6dcec7a1587",
+        "0eb830aa-7640-46bc-b1c5-745dd01cc482",
+        "bb39581e-f4a7-4b9e-831e-0a30b59be0b7",
+        "68801d9f-37c7-4bae-8f7e-903760ae133c",
+        "98e5013f-3676-4f23-a1e8-7268e73e052e",
+        "3faa0a4e-96bf-4ca1-bbac-879b386b80bf",
+        "712cc48b-6299-412a-9ca6-1e420de5c397",
+        "dd8f2cd0-823c-4cdb-ab11-42598a0210f7",
+        "e5960585-c7f2-4b84-a509-5f0bf752cc29",
+        "b407edd7-61e2-4367-b341-d3a53342abe9",
+        "ef8fd703-4bbe-44c6-b188-0a76474e5f91",
+        "8fea83ac-24ce-4e08-b0a5-e5c8180e813b",
+        "97e5cf43-ba01-4b4b-b962-d10cf6b6ec2b",
+        "93cebfe2-cf2e-4c0d-b93d-8a52e888b7cf",
+        "cf7b7273-39eb-4685-8e06-249f933a4887",
+        "8d2a48ff-2e32-4b65-913b-3d680be7c3c5",
+        "87a0c21b-58b8-4018-92dc-363c40ca9867",
+        "82f1c782-17dd-41a4-81b4-ce08494c46f3",
+        "594933b6-e466-4b82-9806-7661b6b03ade",
+        "bfdbed35-a77e-4548-a227-8bfe115a01a1",
+        "3acaa272-24a7-4ef5-9256-5a75b6abaa31",
+        "44380fa5-f46f-44ab-ab6b-fa06d4b0b68b",
+        "32533f9e-7321-4b2a-af7a-aea73763423e",
+        "ccac98f1-16c2-4eb3-8011-ce27e308a663",
+        "4e321cf5-188a-41bb-8c7e-7a8381310425",
+        "cd4d342b-b10f-4d7b-aa8d-72ff22897852",
+        "8cf93d0a-d836-4cd6-a502-d64e2c786ebf"
+      ]
+    },
+    {
+      "id": "d716ad5a-4396-4545-bf77-a1097af4bae7",
+      "name": "Кристальный питомник",
+      "revision": 0,
+      "selectedStyle": null,
+      "studioId": null,
+      "approvals": {
+        "concept": {
+          "revision": 0,
+          "hash": "d8a17ebd54bd090313687b86588418101f90809e3125ac28b54b257d59b210c5",
+          "at": "2026-11-01T10:34:17.643Z"
+        }
+      },
+      "taskIds": [
+        "87b3136e-82b6-43b5-8e62-64b25e8d476e",
+        "9ed567c4-eb78-423c-af79-d1a4a554f43b",
+        "79e39395-4c04-487b-8b63-371fb1c7c122",
+        "ea08a46b-4dce-47b8-b343-c78ee54e84a2",
+        "118f623c-e02d-4107-9370-4d35bd95e8fd",
+        "5f815477-0fd0-4a5f-a4f7-68a11349fff2",
+        "c091e5ce-4eb1-4467-99f1-f918cd4abe92",
+        "1928063d-5417-4f5f-9ddb-1f9190868a9b",
+        "261d1b1d-d1d2-48cb-b49f-4de655132b9e",
+        "7b108ed6-a34a-4c23-a8cc-6d8066352d3c"
+      ],
+      "commandIds": [
+        "d4d40d8a-fffa-4afb-86d9-481872ed798e",
+        "ca93dadc-3ff5-40f2-b0ce-39f996c763d6",
+        "5fa4d568-3929-46a3-b3bf-e95a5b4d829f",
+        "07b3c3ce-4343-4954-9ea8-bfc8a5e5d5e1",
+        "1fada1fd-8266-427d-bd1b-61092dbf75b9",
+        "6436dde8-6d85-4152-acfe-3359712531ef",
+        "8776d45b-c4a2-48a4-b4b7-4dd6ac13f456"
+      ]
+    },
+    {
+      "id": "337e4454-3f11-448c-a3f5-d85add808128",
+      "name": "Световые маяки",
+      "revision": 0,
+      "selectedStyle": null,
+      "studioId": null,
+      "approvals": {
+        "concept": {
+          "revision": 0,
+          "hash": "b9bd97ff4ff8a5b6c6732a8048c18c0d9e2ed73e22ca09085845a21243a9331d",
+          "at": "2026-11-01T10:34:17.662Z"
+        }
+      },
+      "taskIds": [
+        "e244fe4c-ef52-4c3e-8c18-c90a4e5f21d5",
+        "c01dbb22-434f-4229-ba79-3b3cc2a0b877",
+        "18da3411-86c5-4118-b42a-1a210525b814",
+        "1ea4fe24-745a-4a3a-8e6d-650eed3ce411",
+        "b844484f-fd17-4972-956b-c62cc1387877",
+        "55eb730c-028c-41f2-919c-7eb1562a812a",
+        "b4ade359-da95-454f-844a-bbf39e60b332",
+        "f6a2edb1-0e44-4d95-ada1-983010ac6f3e"
+      ],
+      "commandIds": []
+    },
+    {
+      "id": "e8a2f8b9-3059-434d-8e3e-5c3bda85051b",
+      "name": "Проверка автоматических навыков",
+      "revision": 0,
+      "selectedStyle": null,
+      "studioId": null,
+      "approvals": {},
+      "taskIds": [],
+      "commandIds": []
+    },
+    {
+      "id": "87768022-1b2a-4c56-a874-aad04c76e6ef",
+      "name": "Приёмка плагина и дашборда",
+      "revision": 0,
+      "selectedStyle": null,
+      "studioId": null,
+      "approvals": {},
+      "taskIds": [
+        "8b4fa13a-e1cc-4d76-9921-1ad17e76e3ed",
+        "19b34c07-f5ad-41a5-8d15-b089c688ef75"
+      ],
+      "commandIds": [
+        "a50bd019-7e06-4643-8720-14f06f4b8655",
+        "1d4b4520-9e51-4dea-91d1-77134bfd6c23"
+      ]
+    },
+    {
+      "id": "6e2f4916-c5c9-4cd0-be4d-b92075fabd84",
+      "name": "123",
+      "revision": 0,
+      "selectedStyle": "1c8a39f8-9012-4d50-b8bd-16d1aee9cdab",
+      "studioId": "f5bb669f-0909-48bd-83d7-6cdf75679774",
+      "approvals": {
+        "concept": {
+          "revision": 0,
+          "hash": "20fd26b81580aed42dd90adce6e2b4a6e5b8bc15b795cc93d4b085da5088a74e",
+          "at": "2026-11-02T08:22:48.123Z"
+        }
+      },
+      "taskIds": [
+        "28d1c013-b6a3-4002-8913-b332acf7be8a",
+        "c5e9c63b-9817-4a8a-848a-f0c0d18543f1",
+        "93d79c0e-693e-4632-a251-114058184a96",
+        "d94f9e31-c34e-4b90-a309-27083223417a"
+      ],
+      "commandIds": [
+        "0d7a11a2-1e3f-4f6e-95e2-08bd5d5de128",
+        "b82a4f70-ff91-4475-8c66-6c34268fc112",
+        "48467847-2aa1-4171-a80f-52a320ab2209",
+        "692d8aac-1704-4a20-ac5b-f759fd92c641",
+        "a582a2d2-0302-491b-8621-6906b7d844a3",
+        "518b99a3-1937-448d-8b87-bd5913fb3448",
+        "632fc455-d5da-4f94-96fd-fcac6c58fbb7"
+      ]
+    }
+  ],
+  "verifiedAt": "2026-11-02T10:24:48.872Z",
+  "unchanged": true,
+  "automaticallyAssignedSkill": {
+    "id": "roblox-ui-styles",
+    "version": "1.0.0",
+    "hash": "1d83721dda488de12917f3dd85ee11f31c9b7531312a0a0bd42c735f9bacb170"
+  }
+}

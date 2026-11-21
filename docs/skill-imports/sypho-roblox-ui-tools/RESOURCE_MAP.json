@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "originalPath": "examples/coin_hud.json",
+      "path": "resources/examples/coin_hud.json",
+      "hash": "7f487099e95cdd60e464e3e544d34420c151ad55e1767e27d4af4e7c675bb4d8"
+    },
+    {
+      "originalPath": "references/icons.example.json",
+      "path": "resources/references/icons.example.json",
+      "hash": "9c06e09a8366033c2d6d4bd8a7032a02ce2519a08d52a6c0e4ca434681b57ebc"
+    },
+    {
+      "originalPath": "references/theme.json",
+      "path": "resources/references/theme.json",
+      "hash": "b52023db39c963c1db3edb596d45de8ae748f5ea59c522af884495140b64776f"
+    },
+    {
+      "originalPath": "references/ui-recipes.md",
+      "path": "resources/references/ui-recipes.md",
+      "hash": "ef3aed6eff1d63f08feef8275bae33d482cae2c9ea6620ad24d27329f0f7d442"
+    },
+    {
+      "originalPath": "references/UIController.client.lua",
+      "path": "resources/references/UIController.client.lua.txt",
+      "hash": "8c20c544285d48293fe7bf8dddf80834adbd6d2989b48d51b23d1f71dbd1d41d"
+    },
+    {
+      "originalPath": "scripts/gen_icon_bank.py",
+      "path": "resources/scripts/gen_icon_bank.py",
+      "hash": "de14eb75eba705f85e72f56744d0766b2720f3accb486e51f83476e572ed69f2"
+    },
+    {
+      "originalPath": "scripts/patterns.py",
+      "path": "resources/scripts/patterns.py",
+      "hash": "cb146558d754ffd5efdbb178f6ef941be1dadf64d913a67c822ed6b45f764d99"
+    },
+    {
+      "originalPath": "scripts/ui_build.py",
+      "path": "resources/scripts/ui_build.py",
+      "hash": "fff4cf9ec81d205b60fc5e331ede3c64ad67f642760e2609084b764d7fc0105c"
+    },
+    {
+      "originalPath": "scripts/ui_kit.py",
+      "path": "resources/scripts/ui_kit.py",
+      "hash": "974a88ec7f93bb9b935de0de7215099f96851f000ee55411d3992ad119e9580f"
+    },
+    {
+      "originalPath": "scripts/verify_icon_wiring.py",
+      "path": "resources/scripts/verify_icon_wiring.py",
+      "hash": "e93fc7dff500ef2086ec39040d0576e193d5041a5374b7343a0687218693280e"
+    },
+    {
+      "originalPath": "scripts/verify_labels.py",
+      "path": "resources/scripts/verify_labels.py",
+      "hash": "06b1df052ed92678121c02d6e942b392730455f4e874f8b92b9e93b6a1cae1cd"
+    },
+    {
+      "originalPath": "scripts/verify_name_contract.py",
+      "path": "resources/scripts/verify_name_contract.py",
+      "hash": "1d48108757c3257cb5bba8bcf9eff33bbaf6e44d7dc6378e3220bda16dfea416"
+    },
+    {
+      "originalPath": "scripts/verify_ui.py",
+      "path": "resources/scripts/verify_ui.py",
+      "hash": "50d4d77f181b3a6e9dcb703f6d70de34efaff4fc29bbf6a496911039ac511736"
+    }
+  ]
+}

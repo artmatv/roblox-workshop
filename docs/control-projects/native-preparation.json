@@ -1,0 +1,165 @@
+{
+  "at": "2026-11-01T20:09:01.927Z",
+  "projects": [
+    {
+      "key": "moon",
+      "project": "Лунные почтальоны",
+      "active": [
+        {
+          "id": "7d42bcc0-7569-4543-ba03-3477020dbc53",
+          "status": "verifying"
+        }
+      ],
+      "styles": [
+        {
+          "id": "b1d40473-1686-4a0b-ad78-93324b5083f9",
+          "name": "Блочная экспресс-почта",
+          "taskId": "b6ae64be-9a56-474b-ab6d-68f17b1c62e1",
+          "status": "succeeded",
+          "attempt": 1,
+          "hasScene": true,
+          "skills": [
+            "local-art",
+            "game-ui-ux",
+            "roblox-luau",
+            "roblox-ui",
+            "create-game-assets"
+          ],
+          "error": null
+        },
+        {
+          "id": "b0a4c818-9206-4da8-a0d5-2881389533f8",
+          "name": "Игрушечная орбита",
+          "taskId": "7d42bcc0-7569-4543-ba03-3477020dbc53",
+          "status": "verifying",
+          "attempt": 1,
+          "hasScene": true,
+          "skills": [
+            "local-art",
+            "game-ui-ux",
+            "roblox-luau",
+            "roblox-ui",
+            "create-game-assets"
+          ],
+          "error": null
+        },
+        {
+          "id": "76f6c5da-33a5-4503-9acf-e070d6714696",
+          "name": "Лунная экспедиция",
+          "taskId": "294a11f4-7307-4baa-a937-8edebe4ef21d",
+          "status": "succeeded",
+          "attempt": 1,
+          "hasScene": true,
+          "skills": [
+            "local-art",
+            "game-ui-ux",
+            "roblox-luau",
+            "roblox-ui",
+            "create-game-assets"
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "key": "crystal",
+      "project": "Кристальный питомник",
+      "started": "118f623c-e02d-4107-9370-4d35bd95e8fd",
+      "active": [],
+      "styles": [
+        {
+          "id": "a1283c83-5020-4655-87bb-a41242ee144f",
+          "name": "Ступенчатый сад",
+          "taskId": "79e39395-4c04-487b-8b63-371fb1c7c122",
+          "status": "succeeded",
+          "attempt": 2,
+          "hasScene": true,
+          "skills": [
+            "local-art",
+            "game-ui-ux",
+            "roblox-luau",
+            "roblox-ui",
+            "create-game-assets"
+          ],
+          "error": null
+        },
+        {
+          "id": "2197e5eb-381f-4ced-b943-1f1ff604af8d",
+          "name": "Купольная оранжерея",
+          "taskId": "ea08a46b-4dce-47b8-b343-c78ee54e84a2",
+          "status": "succeeded",
+          "attempt": 3,
+          "hasScene": true,
+          "skills": [
+            "local-art",
+            "game-ui-ux",
+            "roblox-luau",
+            "roblox-ui",
+            "create-game-assets"
+          ],
+          "error": null
+        },
+        {
+          "id": "264f9568-d341-49b9-baaa-323e445a51fb",
+          "name": "Минеральный каньон",
+          "taskId": "118f623c-e02d-4107-9370-4d35bd95e8fd",
+          "status": "queued",
+          "attempt": 0,
+          "hasScene": false,
+          "skills": [],
+          "error": null
+        }
+      ]
+    },
+    {
+      "key": "beacons",
+      "project": "Световые маяки",
+      "started": "b844484f-fd17-4972-956b-c62cc1387877",
+      "active": [],
+      "styles": [
+        {
+          "id": "ed813ed5-ee37-4228-9824-9d1d4da92c83",
+          "name": "Блочная энергостанция",
+          "taskId": "18da3411-86c5-4118-b42a-1a210525b814",
+          "status": "succeeded",
+          "attempt": 2,
+          "hasScene": true,
+          "skills": [
+            "local-art",
+            "game-ui-ux",
+            "roblox-luau",
+            "roblox-ui",
+            "create-game-assets"
+          ],
+          "error": null
+        },
+        {
+          "id": "d232412f-d18d-44a9-bdcb-d474a382719e",
+          "name": "Научный контур",
+          "taskId": "1ea4fe24-745a-4a3a-8e6d-650eed3ce411",
+          "status": "succeeded",
+          "attempt": 2,
+          "hasScene": true,
+          "skills": [
+            "local-art",
+            "game-ui-ux",
+            "roblox-luau",
+            "roblox-ui",
+            "create-game-assets"
+          ],
+          "error": null
+        },
+        {
+          "id": "39f07924-794a-44d1-9a6d-9fe37a37da00",
+          "name": "Долина древних маяков",
+          "taskId": "b844484f-fd17-4972-956b-c62cc1387877",
+          "status": "queued",
+          "attempt": 0,
+          "hasScene": false,
+          "skills": [],
+          "error": null
+        }
+      ]
+    }
+  ]
+}

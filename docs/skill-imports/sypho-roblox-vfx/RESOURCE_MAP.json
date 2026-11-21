@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "originalPath": "examples/simple_particle.json",
+      "path": "resources/examples/simple_particle.json",
+      "hash": "fac9f14609c274c64e430f411d59a5fcc7f9918afd063be39cccffd5ffb0894e"
+    },
+    {
+      "originalPath": "references/BEATS.md",
+      "path": "resources/references/BEATS.md",
+      "hash": "17fa4bcba23c9a3b1dde3da4b95b93f4a32da5f0e55d370f71c0d5b265a48bf2"
+    },
+    {
+      "originalPath": "references/DESIGN.md",
+      "path": "resources/references/DESIGN.md",
+      "hash": "b63af5974923eca6044c7ae081562ada2ae7844b319cd61266a914630d086dea"
+    },
+    {
+      "originalPath": "references/property-surface.md",
+      "path": "resources/references/property-surface.md",
+      "hash": "08da2c7c62eeee860895922c01b2fc20cc6dc996dd37aff37f4ca2431fc0d846"
+    },
+    {
+      "originalPath": "scripts/emit_luau.py",
+      "path": "resources/scripts/emit_luau.py",
+      "hash": "325f363531321a2df12e5ff2caecf618b6370b363a99fac7a571f0a3686b96f5"
+    },
+    {
+      "originalPath": "scripts/luau/engine.lua",
+      "path": "resources/scripts/luau/engine.lua.txt",
+      "hash": "16ce268d376b810455c5d59df11c28088bb58f94cec86b00f3ddea034896fea5"
+    },
+    {
+      "originalPath": "scripts/verify_vfx.py",
+      "path": "resources/scripts/verify_vfx.py",
+      "hash": "eff572267d0b419fa8c9a6cef2bb4b86fc3bd77e42062b7623b0131836c2c878"
+    }
+  ]
+}

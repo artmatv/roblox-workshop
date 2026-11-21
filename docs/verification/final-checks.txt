@@ -1,0 +1,59 @@
+
+> roblox-autonomous-studio@0.1.0 verify
+> npm run check && npm test && npm run build
+
+
+> roblox-autonomous-studio@0.1.0 check
+> tsc --noEmit
+
+
+> roblox-autonomous-studio@0.1.0 test
+> tsx --test tests/*.test.ts
+
+(node:33976) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ project, decisions and events survive a process restart (112.5112ms)
+✔ production cannot bypass concept/style/specification/budget gates (201.9749ms)
+✔ changing approved requirements invalidates dependent approvals and queued work (174.5575ms)
+✔ a file cannot escape the task root through relative traversal (87.8451ms)
+✔ budget reservations are atomic, counted once and released on settlement (142.4887ms)
+✔ invalid estimates, daily, stage and provider limits are enforced (114.0487ms)
+✔ quota maps include every source entry, clamp percentages and keep unknowns (0.4842ms)
+✔ scope and untrusted code are rejected before integration (79.5894ms)
+✔ changed pinned skills or unavailable required tools block execution (93.294ms)
+✔ Studio commands bind project, connection, revision and write queue (96.6519ms)
+✔ interrupted tasks and uncertain operations survive restart without replay (92.9805ms)
+✔ release requires actual checks, phone, assets, target and exact version (128.9893ms)
+✔ CSV handles quotes, missing values, provenance and duplicate imports (79.8362ms)
+✔ place XML exports nested services, typed properties and escaped source (0.7426ms)
+✔ retrying a failed Studio check requeues its operation instead of building an empty manifest (96.318ms)
+✔ an accepted corrected manifest clears the old error and normalizes a redundant matching name (83.8971ms)
+(node:16456) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ HTTP: authenticated project workflow, origin restrictions and scoped plugin pairing (371.54ms)
+(node:31820) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ a skill upgrade retains the pinned older instruction package (116.3164ms)
+✔ external API generation cannot bypass approved budget or spend on unknown free-credit applicability (113.8615ms)
+✔ backup contains an independently readable consistent SQLite database (118.7168ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2192.9174
+
+> roblox-autonomous-studio@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.2.2 building client environment for production...
+transforming...
+✓ 1653 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.42 kB │ gzip:  0.32 kB
+../dist/assets/index-CDb24ApQ.css   20.82 kB │ gzip:  5.70 kB
+../dist/assets/index-BGx_F9LL.js   325.66 kB │ gzip: 96.93 kB
+✓ built in 2.97s

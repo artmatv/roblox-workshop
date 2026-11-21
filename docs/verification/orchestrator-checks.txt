@@ -1,0 +1,113 @@
+
+> roblox-autonomous-studio@0.1.0 verify
+> npm run check && npm test && npm run build
+
+
+> roblox-autonomous-studio@0.1.0 check
+> tsc --noEmit
+
+
+> roblox-autonomous-studio@0.1.0 test
+> tsx --test tests/*.test.ts
+
+✔ repair feedback retains errors after a large layout report and both real devices (21.6491ms)
+(node:12348) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ service shutdown interrupts each active task once even when requested twice (1880.1418ms)
+✔ project, decisions and events survive a process restart (1163.876ms)
+✔ production cannot bypass concept/style/specification/budget gates (872.4612ms)
+✔ changing approved requirements invalidates dependent approvals and queued work (732.5393ms)
+✔ a file cannot escape the task root through relative traversal (1232.2068ms)
+✔ budget reservations are atomic, counted once and released on settlement (606.8157ms)
+✔ invalid estimates, daily, stage and provider limits are enforced (531.1695ms)
+✔ quota maps include every source entry, clamp percentages and keep unknowns (1.104ms)
+✔ scope and untrusted code are rejected before integration (483.3238ms)
+✔ changed pinned skills or unavailable required tools block execution (589.8171ms)
+✔ Studio commands bind project, connection, revision and write queue (523.7763ms)
+✔ interrupted tasks and uncertain operations survive restart without replay (489.7506ms)
+✔ release requires actual checks, phone, assets, target and exact version (497.5393ms)
+✔ CSV handles quotes, missing values, provenance and duplicate imports (449.7584ms)
+✔ place XML exports nested services, typed properties and escaped source (0.91ms)
+✔ XML enum tokens match verified Studio values without inventing unknown values (0.4817ms)
+✔ retrying a failed Studio check requeues its operation instead of building an empty manifest (483.3464ms)
+✔ an accepted corrected manifest clears the old error and normalizes a redundant matching name (426.6225ms)
+✔ invalid generated code is corrected automatically and retrying one task preserves its diagnostic (668.0128ms)
+(node:43808) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ new projects automatically receive complete pinned Roblox skills and tasks load instructions by role (1562.7419ms)
+✔ resumed Codex sessions receive the actual current skill instructions (1521.3301ms)
+(node:19920) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ dashboard reports the actual pinned skill after upgrade and respects a disabled package (1747.6807ms)
+✔ dashboard distinguishes configured localization, a real check, and outdated integration; downloads exist on disk (1358.0825ms)
+✔ Studio indicator requires a fresh live connection, including during Play (0.6107ms)
+(node:37640) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ English source catalogue, Roblox runtime and CSV are injected once and exported with AutoLocalize (50.0123ms)
+✔ non-English authored UI, source-locale overrides and invalid parameter keys fail before application (4.398ms)
+✔ production merges role catalogues, detects conflicting keys and retains untouched prior strings (3.2065ms)
+✔ all new and existing projects require localization; QA automatically receives the UI skills (1863.5408ms)
+(node:31048) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ HTTP: authenticated project workflow, origin restrictions and scoped plugin pairing (2232.1086ms)
+(node:10464) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ complete skill bundles retain reviewed tools without running them and use one primary UI skill (1850.3846ms)
+✔ a skill upgrade retains the pinned older instruction package (1294.1437ms)
+✔ external API generation cannot bypass approved budget or spend on unknown free-credit applicability (680.3135ms)
+✔ backup contains an independently readable consistent SQLite database (149.0105ms)
+(node:43112) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ unsupported Lighting service fields are reported together before a Studio write (6.6742ms)
+✔ a refusal or empty result cannot count as a prepared native scene (2.6411ms)
+✔ a bounded native patch preserves unchanged world and files and rejects stale or foreign bases (5.2724ms)
+✔ a reviewed local correction creates a new skill-backed artifact, preserves its base and cannot target a stale source (2087.7001ms)
+✔ resuming work preserves diagnostics and does not resurrect replaced previews or completed Studio failures (1103.8676ms)
+(node:13696) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ streaming deltas never rescan saved builds and relevant events load only active tasks (1691.4753ms)
+(node:34172) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ the orchestrator resolves the complete SPEC.md, rejects summary-only results and publishes nothing during preflight (1965.3355ms)
+✔ a real worker completion is quarantined and routed to a separate isolated orchestrator turn before any project/file change (1352.9453ms)
+✔ a rejected answer returns concrete findings to the same worker and cannot start dependencies (881.1161ms)
+✔ the reviewer receives the worker's actual context, full skill resources, research, illustrated kit and service contracts (1467.9991ms)
+✔ code and QA answers are gated too; forged passes and missing artifacts cannot enter Studio (917.3954ms)
+✔ changed requirements, contradictory verdicts and wrong hashes never publish a candidate (701.6676ms)
+✔ a paused/restarted review retains its candidate and resumes the review without another worker attempt (846.4768ms)
+✔ unavailable review keeps the candidate for retry; manual edits invalidate the document approval and provenance (677.4153ms)
+(node:49192) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ style comparison produces every screen on both devices and rejects palette-only variants (3066.1591ms)
+✔ concept art can load local guidance without Studio while scene validation still requires it (759.6076ms)
+✔ native candidates can be prepared offline, require compatible Studio to apply and repair failed runtime checks within the limit (943.0372ms)
+✔ new preview rendering preserves the previous package and cannot change selected styles (1276.5669ms)
+(node:44840) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ ready styles can be selected and approved offline; selection starts no agents, Studio commands or paid operations (2057.1147ms)
+✔ preset approval rejects changed definitions and pinned archives survive a skill upgrade (962.4802ms)
+✔ interface turns receive the pinned style skill, actual kit tokens, icon vectors and the selected user reference (841.3183ms)
+✔ preset catalogue, image files, selection and reload work through the authenticated API without Studio (1535.826ms)
+✔ SVG packages reject executable/external content while accepting the shipped standalone icons (0.5336ms)
+✔ an old concept image never hides a later Studio capture of the same screen (0.3249ms)
+ℹ tests 58
+ℹ suites 0
+ℹ pass 58
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13603.316
+
+> roblox-autonomous-studio@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.2.2 building client environment for production...
+transforming...
+✓ 1590 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.42 kB │ gzip:  0.31 kB
+../dist/assets/index-5-o1KEt3.css   25.98 kB │ gzip:  6.79 kB
+../dist/assets/index-D05tL74b.js   296.93 kB │ gzip: 90.20 kB
+✓ built in 4.72s

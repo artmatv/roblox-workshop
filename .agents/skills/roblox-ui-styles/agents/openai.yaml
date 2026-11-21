@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roblox UI Styles"
+  short_description: "Reusable Roblox style kits, icons and screen layouts"
+  default_prompt: "Use $roblox-ui-styles to choose a reusable style kit and apply it consistently to the Roblox interface."

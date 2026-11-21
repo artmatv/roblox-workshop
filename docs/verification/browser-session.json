@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-02T11:25:34.070Z",
+  "serviceWasRunning": true,
+  "anonymousBootstrapDenied": true,
+  "trustedLaunchEstablishesPersistentAccess": true,
+  "cookie": {
+    "httpOnly": true,
+    "sameSite": "Strict",
+    "path": "/api",
+    "lifetimeDays": 30,
+    "rootTokenExposed": false
+  },
+  "newTabWithEmptySessionStorage": "authorized",
+  "reopenedBrowserWithEmptySessionStorage": "authorized",
+  "networkFailureGetsDistinctMessage": true,
+  "connectionRecoversAutomatically": true,
+  "projectUnchanged": "6e2f4916-c5c9-4cd0-be4d-b92075fabd84",
+  "generatedTasks": 0,
+  "studioCommands": 0,
+  "errors": []
+}

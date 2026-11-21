@@ -1,0 +1,31 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local service data: projects, logins, sessions, keys, logs
+data/
+.env
+*.log
+test-results/
+playwright-report/
+
+# Pinned agent binaries and runtimes (copied in locally, see README)
+.tools/
+
+# Generated artifacts, local backups and scratch folders
+outputs/
+protocol/codex-*/
+.tmp-*/
+__pycache__/
+*.blend1
+
+# Personal notes and local assistant settings
+HANDOFF-*.md
+.claude/settings.local.json
+
+# Third-party game screenshots are fetched locally by scripts/cache-style-references.mjs
+docs/style-references/**/*.png
+docs/style-references/**/*.jpg
+
+# Reference photos of other games stay local (style presets work without them)
+.agents/skills/roblox-ui-styles/references/images/

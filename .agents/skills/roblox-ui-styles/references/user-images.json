@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "presetId": "bright-simulator",
+      "file": "bright-simulator.png",
+      "sha256": "7ea70c36b9f70bc70fae317b82946bd97b184c9e5b8329470196890fe1aca14e",
+      "source": "Photograph supplied by the user on 2026-11-02; personal visual reference, not an asset license"
+    },
+    {
+      "presetId": "tactical-tycoon",
+      "file": "tactical-tycoon.png",
+      "sha256": "2f80dd51bf86fac40b9ca1c6c00cea83cbe5841116673b78e8cbe77029a7de1c",
+      "source": "Photograph supplied by the user on 2026-11-02; personal visual reference, not an asset license"
+    },
+    {
+      "presetId": "neon-clicker",
+      "file": "neon-clicker.png",
+      "sha256": "947019b0807bcea654f744a6269ddb967f614a428237a5c75b22f787e4e0e948",
+      "source": "Photograph supplied by the user on 2026-11-02; personal visual reference, not an asset license"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "taskId": "8296649a-36bc-46e0-af95-d3796054cdcc",
+  "status": "passed",
+  "taskStatus": "succeeded",
+  "checks": 16,
+  "resourceFiles": 53,
+  "comparisons": {
+    "revision": true,
+    "stage": true,
+    "settings": true,
+    "approvals": true,
+    "skillPins": true
+  },
+  "revision": 10,
+  "execution": "decision",
+  "immutableReportSha256": "b4262f5ff7ad1c6825ea363bf0d2422a76817c8af16390388d171b1f0b347b65",
+  "immutableFrames": 5,
+  "sceneFingerprint": "4cc7edcd0dde899dd46efc45d73d11ab6bdbbb3b061ca7c47e7e3b58ac124d01",
+  "hostSfxMeasurements": [
+    {
+      "id": 139719503904449,
+      "length": 0.1173015873015873,
+      "loaded": true
+    },
+    {
+      "id": 88442833509532,
+      "length": 0.03375,
+      "loaded": true
+    },
+    {
+      "id": 87437544236708,
+      "length": 0.7275625,
+      "loaded": true
+    }
+  ],
+  "humanListening": "not_run",
+  "externalReviewSaved": true,
+  "recordedAt": "2026-11-04T15:28:01.714Z",
+  "immutableFramesVerified": true,
+  "activeTasks": [],
+  "additionalReview": {
+    "negativeFixture": {
+      "intent": "deliberately move FarDeck from x=16 to x=500 while declaring it reachable; expected FAIL",
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    "generatedLuau": {
+      "path": "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.lua",
+      "bytes": 1873,
+      "sha256": "37bd599ad15c0c1cb398b4505a373eb6529f9a46f3b08a2c95f1dd4b53ce2ca4",
+      "executed": false
+    },
+    "runtime": {
+      "executable": "C:\\Python312\\python.exe",
+      "modulePathsVia": "task-local PYTHONPATH",
+      "versions": {
+        "numpy": "2.4.3",
+        "scipy": "1.18.1",
+        "Pillow": "10.4.0"
+      }
+    },
+    "sceneBefore": {
+      "profile": "sypho-skills",
+      "taskId": "8296649a-36bc-46e0-af95-d3796054cdcc",
+      "attempt": 1,
+      "action": "before",
+      "probePath": "SoundService.__SyphoSkillProbe_8296649a",
+      "fingerprint": "4cc7edcd0dde899dd46efc45d73d11ab6bdbbb3b061ca7c47e7e3b58ac124d01",
+      "count": 3020
+    },
+    "sceneAfter": {
+      "profile": "sypho-skills",
+      "taskId": "8296649a-36bc-46e0-af95-d3796054cdcc",
+      "attempt": 1,
+      "action": "after",
+      "probePath": "SoundService.__SyphoSkillProbe_8296649a",
+      "fingerprint": "4cc7edcd0dde899dd46efc45d73d11ab6bdbbb3b061ca7c47e7e3b58ac124d01",
+      "count": 3020,
+      "scenePreserved": true
+    },
+    "shopAndCollectionViewedByController": true,
+    "textReviewerScope": "report JSON only; live scene and screenshot claims independently checked against fixed host trace and actual images",
+    "bankId": 139719503904449
+  }
+}

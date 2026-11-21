@@ -1,0 +1,500 @@
+{
+  "repo": "SyphoDev-yt/roblox-ai-skills",
+  "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+  "licensePath": "LICENSE.txt",
+  "licenseSha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b",
+  "youtubeAttribution": {
+    "readmeMentionsChannel": true,
+    "linksFound": []
+  },
+  "packages": [
+    {
+      "id": "sypho-roblox-map",
+      "source": "https://github.com/SyphoDev-yt/roblox-ai-skills/tree/5aad881d1e6553cc3671ad549fdf01b8191bdc37/skills/roblox-map",
+      "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "packageHash": "faeaf38fe93feee52ad897dcd3cc385ee68dade5e16b5ed2cf02eca86ebada04",
+      "license": "SyphoDev free licence",
+      "licensePath": "LICENSE.txt",
+      "youtubeLinksInReadme": [],
+      "included": [
+        {
+          "path": "LICENSE.txt",
+          "originalPath": null,
+          "bytes": 728,
+          "sha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b"
+        },
+        {
+          "path": "RESOURCE_MAP.json",
+          "originalPath": null,
+          "bytes": 4176,
+          "sha256": "37b46c0f28adde2ede26a1753d2c4c84600ccded177828bc2afaadfd707656b3"
+        },
+        {
+          "path": "resources/profiles/default.json",
+          "originalPath": "profiles/default.json",
+          "bytes": 1880,
+          "sha256": "0b4a53f6ddc701734040eb02ac598fd8d28276c8b7ed8d791dc5edc38058aaac"
+        },
+        {
+          "path": "resources/profiles/wallrun_example.json",
+          "originalPath": "profiles/wallrun_example.json",
+          "bytes": 4777,
+          "sha256": "3b1fbf467413763233c3e3009f8f25ad16386b578e2310f12cd33d242f9f4fca"
+        },
+        {
+          "path": "resources/references/map-design.md",
+          "originalPath": "references/map-design.md",
+          "bytes": 10632,
+          "sha256": "ac6a6428f84ff9594dc90a16f7054a7fe4566bbd2c0bfcf94ded6e28700e81ce"
+        },
+        {
+          "path": "resources/references/movement-numbers.md",
+          "originalPath": "references/movement-numbers.md",
+          "bytes": 4865,
+          "sha256": "5ecf3f4fcac19aa97b4db3043b8edada75d13c15bee4a275b04c17764195d98f"
+        },
+        {
+          "path": "resources/scripts/checks_budget.py",
+          "originalPath": "scripts/checks_budget.py",
+          "bytes": 5785,
+          "sha256": "09de9e738c8ec4e80f91213af18ce3b1b0449d2dbde8f8fcacb9c720b8124089"
+        },
+        {
+          "path": "resources/scripts/checks_design.py",
+          "originalPath": "scripts/checks_design.py",
+          "bytes": 21609,
+          "sha256": "230178f882dbc605964f84c8aa6bdce456e134e6f1f6914c9f6a3fc7dfb127d2"
+        },
+        {
+          "path": "resources/scripts/checks_terrain.py",
+          "originalPath": "scripts/checks_terrain.py",
+          "bytes": 34692,
+          "sha256": "ef40fdfa2a4bba39923b2fa03962482a32ab6f81f3c656965881875219b21882"
+        },
+        {
+          "path": "resources/scripts/emit.py",
+          "originalPath": "scripts/emit.py",
+          "bytes": 17625,
+          "sha256": "ddcd3027a32fb957836f4ed58dd256523e73c55c4ddd61db9d9af739871f9ad3"
+        },
+        {
+          "path": "resources/scripts/geom.py",
+          "originalPath": "scripts/geom.py",
+          "bytes": 14119,
+          "sha256": "01b8a071c31ee7ffb727a38e7951d37b218f0ca06ac2f1a143f510fa5001f47d"
+        },
+        {
+          "path": "resources/scripts/outline.py",
+          "originalPath": "scripts/outline.py",
+          "bytes": 4022,
+          "sha256": "a6dafa5e83fe0147470eb955ec7631e77af82a7b53ea461235c72a3ed23a630b"
+        },
+        {
+          "path": "resources/scripts/plan.py",
+          "originalPath": "scripts/plan.py",
+          "bytes": 11384,
+          "sha256": "ce9765fc3ade8fc9d14b0060ea34ae56b741bb68954d740f437be7b58f14b43d"
+        },
+        {
+          "path": "resources/scripts/prove.py",
+          "originalPath": "scripts/prove.py",
+          "bytes": 27161,
+          "sha256": "3b3b01e6813da2bb1baba682179071e070bbc809015974ccdb46886dfa19a6f3"
+        },
+        {
+          "path": "resources/scripts/reach.py",
+          "originalPath": "scripts/reach.py",
+          "bytes": 19354,
+          "sha256": "c362eff4f605f8005ee917f023760c85cec0b9e7cb9fd571b9a5ad0a24d66ac3"
+        },
+        {
+          "path": "resources/scripts/spec.py",
+          "originalPath": "scripts/spec.py",
+          "bytes": 25779,
+          "sha256": "263dc0eeb2a0cf76cccf04bc63f2fa9d654d7c2c400e9912bf40f361aa758c77"
+        },
+        {
+          "path": "resources/scripts/terrain.py",
+          "originalPath": "scripts/terrain.py",
+          "bytes": 26081,
+          "sha256": "cc780492164f6711d09fe14564e2ca2cddb53339270f110ecd02feb8a3f21fb0"
+        },
+        {
+          "path": "resources/scripts/theme.py",
+          "originalPath": "scripts/theme.py",
+          "bytes": 10186,
+          "sha256": "63ab9be7aaa8a6bf734f4cffbd1f2f9c2fb9979af6f46e228d02b808ba0d32c0"
+        },
+        {
+          "path": "resources/scripts/verify_map.py",
+          "originalPath": "scripts/verify_map.py",
+          "bytes": 6730,
+          "sha256": "0b87bb007847bd3ce22dbc95a25cd67879b14f9157a4a27978a604366fdb2dc0"
+        },
+        {
+          "path": "resources/specs/duel_arena.json",
+          "originalPath": "specs/duel_arena.json",
+          "bytes": 3648,
+          "sha256": "9a356f43af1ff142879491b5011d7fd95ebe5340e50cb932f92ee631474be8af"
+        },
+        {
+          "path": "resources/specs/meadow_island.json",
+          "originalPath": "specs/meadow_island.json",
+          "bytes": 3590,
+          "sha256": "c39f567ba0837c9eb90f7b0baa6c35e0f16df5e90807d8cd8ab9990a3e59e399"
+        },
+        {
+          "path": "resources/specs/minimal.json",
+          "originalPath": "specs/minimal.json",
+          "bytes": 989,
+          "sha256": "6e8111221f4c7f4e7b7d79d7581a16147ae98089a1ccdc287316bc37191fdcd9"
+        },
+        {
+          "path": "resources/specs/sky_citadel.json",
+          "originalPath": "specs/sky_citadel.json",
+          "bytes": 13713,
+          "sha256": "cbbe43317c4255f40121b1cfb639994eadcf2802dc845a429ff717ad1c09f049"
+        },
+        {
+          "path": "resources/themes/sky_citadel.json",
+          "originalPath": "themes/sky_citadel.json",
+          "bytes": 2075,
+          "sha256": "1961e8b6ebe59d6db01ccd081e234b5e4b1f0955e9d0cfafdaad14cb1778c0c9"
+        },
+        {
+          "path": "SKILL.md",
+          "originalPath": null,
+          "bytes": 3575,
+          "sha256": "b4531088f7d58ea2a8ae583d0fa729f61bbf39eb1e47c74ffcb681896e06f760"
+        },
+        {
+          "path": "TOOLING.md",
+          "originalPath": null,
+          "bytes": 694,
+          "sha256": "9c76ad52165a47d807d48e139169e718ccd1e9d226df753300e360f9a1f1b606"
+        },
+        {
+          "path": "UPSTREAM.md",
+          "originalPath": null,
+          "bytes": 50932,
+          "sha256": "a914f84005c8a9f26dd56ba0716967367de5755708f4bd1457c7ed85281a7b51"
+        }
+      ],
+      "excluded": [
+        {
+          "path": "LOCAL.template.md",
+          "reason": "machine-local setup and paths do not apply"
+        },
+        {
+          "path": "scripts/blockout.py",
+          "reason": "outside the selected offline workflow"
+        },
+        {
+          "path": "scripts/build_map.py",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/capture_receiver.py",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/lighting.py",
+          "reason": "outside the selected offline workflow"
+        },
+        {
+          "path": "scripts/luau/ambient.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/build.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/build_terrain.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/calibrate.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/capture_views.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/horizon_ocean.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/install_dressing.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/sample_view.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/spawn_probe.server.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/tide.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/verify_build.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/verify_ground.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/verify_placement.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/luau/verify_terrain.lua",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        },
+        {
+          "path": "scripts/preview.py",
+          "reason": "outside the selected offline workflow"
+        },
+        {
+          "path": "scripts/serve_map.py",
+          "reason": "Studio/network transport is not needed for offline prove/plan/emit; scene interaction stays in workshop MCP"
+        }
+      ]
+    },
+    {
+      "id": "sypho-roblox-sfx",
+      "source": "https://github.com/SyphoDev-yt/roblox-ai-skills/tree/5aad881d1e6553cc3671ad549fdf01b8191bdc37/skills/roblox-sfx",
+      "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "packageHash": "c5557f43ffadcc89d50fde04cb804de5e750810634a62ec412c73c4a835acb90",
+      "license": "SyphoDev free licence",
+      "licensePath": "LICENSE.txt",
+      "youtubeLinksInReadme": [],
+      "included": [
+        {
+          "path": "LICENSE.txt",
+          "originalPath": null,
+          "bytes": 728,
+          "sha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b"
+        },
+        {
+          "path": "RESOURCE_MAP.json",
+          "originalPath": null,
+          "bytes": 776,
+          "sha256": "56cb6a05d82b7befadf411988a5a007c0a6bddf24670ea3ea9b3c930ed29fc5e"
+        },
+        {
+          "path": "resources/examples/spec.example.json",
+          "originalPath": "examples/spec.example.json",
+          "bytes": 440,
+          "sha256": "72bc9514753911ee11610f58589a7921beed5cb1f39a3aac0cd33b74eabed8a7"
+        },
+        {
+          "path": "resources/scripts/emit_bank.py",
+          "originalPath": "scripts/emit_bank.py",
+          "bytes": 8574,
+          "sha256": "08537e9600e90b43c3c1a479d8a891629c3d37722746fee6e060b599b309ef5d"
+        },
+        {
+          "path": "resources/scripts/emit_probe.py",
+          "originalPath": "scripts/emit_probe.py",
+          "bytes": 4667,
+          "sha256": "7d2abbdf5cf0d2aca5accf4dd73bcb76ba98066d8b1ac739433875a156e4565d"
+        },
+        {
+          "path": "resources/scripts/pick.py",
+          "originalPath": "scripts/pick.py",
+          "bytes": 5621,
+          "sha256": "8171ed1f81bf2b525b794d869d0a3045c37d61ebdb4d2e9fb6f255e07f0efdde"
+        },
+        {
+          "path": "SKILL.md",
+          "originalPath": null,
+          "bytes": 3917,
+          "sha256": "315357110b027741e39c62e5d1e8628ccb4a8afff2ebb4a93def19fe160756a6"
+        },
+        {
+          "path": "UPSTREAM.md",
+          "originalPath": null,
+          "bytes": 9785,
+          "sha256": "677d0885ce395a021250253dc745cba030425546fa177c5c1ea5a470304a7e4a"
+        }
+      ],
+      "excluded": [
+        {
+          "path": "LOCAL.template.md",
+          "reason": "machine-local setup and paths do not apply"
+        },
+        {
+          "path": "scripts/find_sfx.py",
+          "reason": "network search replaced by controlled workshop.search_sfx"
+        }
+      ]
+    },
+    {
+      "id": "sypho-roblox-ui-tools",
+      "source": "https://github.com/SyphoDev-yt/roblox-ai-skills/tree/5aad881d1e6553cc3671ad549fdf01b8191bdc37/skills/roblox-ui",
+      "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "packageHash": "6fd14945177d9b23b19130dfada892488aa33ac2623654c20be502e4ee9ae669",
+      "license": "SyphoDev free licence",
+      "licensePath": "LICENSE.txt",
+      "youtubeLinksInReadme": [],
+      "included": [
+        {
+          "path": "LICENSE.txt",
+          "originalPath": null,
+          "bytes": 728,
+          "sha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b"
+        },
+        {
+          "path": "RESOURCE_MAP.json",
+          "originalPath": null,
+          "bytes": 2574,
+          "sha256": "4ffd7c3119abf5df0bbf385da030bbc2353771a0b6d93155ce35adede56b89aa"
+        },
+        {
+          "path": "resources/examples/coin_hud.json",
+          "originalPath": "examples/coin_hud.json",
+          "bytes": 1553,
+          "sha256": "7f487099e95cdd60e464e3e544d34420c151ad55e1767e27d4af4e7c675bb4d8"
+        },
+        {
+          "path": "resources/references/icons.example.json",
+          "originalPath": "references/icons.example.json",
+          "bytes": 1437,
+          "sha256": "9c06e09a8366033c2d6d4bd8a7032a02ce2519a08d52a6c0e4ca434681b57ebc"
+        },
+        {
+          "path": "resources/references/theme.json",
+          "originalPath": "references/theme.json",
+          "bytes": 970,
+          "sha256": "b52023db39c963c1db3edb596d45de8ae748f5ea59c522af884495140b64776f"
+        },
+        {
+          "path": "resources/references/ui-recipes.md",
+          "originalPath": "references/ui-recipes.md",
+          "bytes": 11146,
+          "sha256": "ef3aed6eff1d63f08feef8275bae33d482cae2c9ea6620ad24d27329f0f7d442"
+        },
+        {
+          "path": "resources/references/UIController.client.lua.txt",
+          "originalPath": "references/UIController.client.lua",
+          "bytes": 7872,
+          "sha256": "8c20c544285d48293fe7bf8dddf80834adbd6d2989b48d51b23d1f71dbd1d41d"
+        },
+        {
+          "path": "resources/scripts/gen_icon_bank.py",
+          "originalPath": "scripts/gen_icon_bank.py",
+          "bytes": 2245,
+          "sha256": "de14eb75eba705f85e72f56744d0766b2720f3accb486e51f83476e572ed69f2"
+        },
+        {
+          "path": "resources/scripts/patterns.py",
+          "originalPath": "scripts/patterns.py",
+          "bytes": 5441,
+          "sha256": "cb146558d754ffd5efdbb178f6ef941be1dadf64d913a67c822ed6b45f764d99"
+        },
+        {
+          "path": "resources/scripts/ui_build.py",
+          "originalPath": "scripts/ui_build.py",
+          "bytes": 62526,
+          "sha256": "fff4cf9ec81d205b60fc5e331ede3c64ad67f642760e2609084b764d7fc0105c"
+        },
+        {
+          "path": "resources/scripts/ui_kit.py",
+          "originalPath": "scripts/ui_kit.py",
+          "bytes": 12193,
+          "sha256": "974a88ec7f93bb9b935de0de7215099f96851f000ee55411d3992ad119e9580f"
+        },
+        {
+          "path": "resources/scripts/verify_icon_wiring.py",
+          "originalPath": "scripts/verify_icon_wiring.py",
+          "bytes": 4368,
+          "sha256": "e93fc7dff500ef2086ec39040d0576e193d5041a5374b7343a0687218693280e"
+        },
+        {
+          "path": "resources/scripts/verify_labels.py",
+          "originalPath": "scripts/verify_labels.py",
+          "bytes": 6052,
+          "sha256": "06b1df052ed92678121c02d6e942b392730455f4e874f8b92b9e93b6a1cae1cd"
+        },
+        {
+          "path": "resources/scripts/verify_name_contract.py",
+          "originalPath": "scripts/verify_name_contract.py",
+          "bytes": 5097,
+          "sha256": "1d48108757c3257cb5bba8bcf9eff33bbaf6e44d7dc6378e3220bda16dfea416"
+        },
+        {
+          "path": "resources/scripts/verify_ui.py",
+          "originalPath": "scripts/verify_ui.py",
+          "bytes": 29116,
+          "sha256": "50d4d77f181b3a6e9dcb703f6d70de34efaff4fc29bbf6a496911039ac511736"
+        },
+        {
+          "path": "SKILL.md",
+          "originalPath": null,
+          "bytes": 3344,
+          "sha256": "414404f57aeb000bcdc81a4689ab332e8c4b7bc9add9b4bb154392e9a0a50771"
+        },
+        {
+          "path": "TOOLING.md",
+          "originalPath": null,
+          "bytes": 1074,
+          "sha256": "d56d6a09bb61426bfabeee3295427988c7796c32eb76ec2615da3eadda5af068"
+        },
+        {
+          "path": "UPSTREAM.md",
+          "originalPath": null,
+          "bytes": 22861,
+          "sha256": "757c16e06ec11e61691627562dfc6e34a08fa846808ec652dda28f0e4ea9d0ad"
+        }
+      ],
+      "excluded": [
+        {
+          "path": "LOCAL.template.md",
+          "reason": "machine-local setup and paths do not apply"
+        },
+        {
+          "path": "references/fonts/Fredoka-Bold.ttf",
+          "reason": "binary font omitted; preview uses PIL fallback and Studio remains truth"
+        },
+        {
+          "path": "references/fonts/Fredoka-SemiBold.ttf",
+          "reason": "binary font omitted; preview uses PIL fallback and Studio remains truth"
+        },
+        {
+          "path": "references/fonts/FredokaOne-Regular.ttf",
+          "reason": "binary font omitted; preview uses PIL fallback and Studio remains truth"
+        },
+        {
+          "path": "scripts/gen_icons_cf.py",
+          "reason": "external generator and credentials are prohibited"
+        },
+        {
+          "path": "scripts/glyphs.py",
+          "reason": "optional icon processing needs image dependencies and is not required by the requested UI checks/build"
+        },
+        {
+          "path": "scripts/icon_cutout.py",
+          "reason": "optional icon processing needs image dependencies and is not required by the requested UI checks/build"
+        },
+        {
+          "path": "scripts/kaggle_icon_ab.py",
+          "reason": "external generator and credentials are prohibited"
+        },
+        {
+          "path": "scripts/upload_icons.py",
+          "reason": "external upload is not part of the offline task"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "taskId": "8296649a-36bc-46e0-af95-d3796054cdcc",
+  "projectId": "6e2f4916-c5c9-4cd0-be4d-b92075fabd84",
+  "startedAt": "2026-11-04T15:20:20.568Z",
+  "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+  "skills": [
+    {
+      "id": "sypho-roblox-map",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "hash": "a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c",
+      "status": "reviewed"
+    },
+    {
+      "id": "sypho-roblox-sfx",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "hash": "15433946e5facf0d3070586c4d5a3bbf0732a579a65b1036cc962212020d00c2",
+      "status": "reviewed"
+    },
+    {
+      "id": "sypho-roblox-ui-tools",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "hash": "1fb0ce17bf48eb1b04ecbd9afdc7cc7532d14c41f1f3fbbf8fd220df59a70124",
+      "status": "reviewed"
+    }
+  ],
+  "validationProfile": "sypho-skills",
+  "verificationReportPath": "reports/sypho-8296649a-36bc-46e0-af95-d3796054cdcc/report.json",
+  "launchWorkspace": "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace",
+  "status": "passed",
+  "taskStatus": "succeeded",
+  "validationReportPath": "reports/sypho-8296649a-36bc-46e0-af95-d3796054cdcc/report.json",
+  "validation": {
+    "status": "passed",
+    "taskId": "8296649a-36bc-46e0-af95-d3796054cdcc",
+    "attempt": 1,
+    "mtime": "2026-11-04T15:26:16.105Z",
+    "freshnessIssues": [],
+    "gatesPassed": true,
+    "checks": [
+      {
+        "id": "runtime-imports",
+        "status": "passed"
+      },
+      {
+        "id": "map-selftest",
+        "status": "passed"
+      },
+      {
+        "id": "terrain-selftest",
+        "status": "passed"
+      },
+      {
+        "id": "unreachable-check",
+        "status": "passed"
+      },
+      {
+        "id": "sfx-search",
+        "status": "passed"
+      },
+      {
+        "id": "sfx-probe",
+        "status": "passed"
+      },
+      {
+        "id": "sfx-cleanup",
+        "status": "passed"
+      },
+      {
+        "id": "sfx-bank",
+        "status": "passed"
+      },
+      {
+        "id": "ui-selftest",
+        "status": "passed"
+      },
+      {
+        "id": "touch-fit-positive",
+        "status": "passed"
+      },
+      {
+        "id": "touch-fit-negative",
+        "status": "passed"
+      },
+      {
+        "id": "labels-positive",
+        "status": "passed"
+      },
+      {
+        "id": "labels-negative",
+        "status": "passed"
+      },
+      {
+        "id": "hud-desktop-mobile",
+        "status": "passed"
+      },
+      {
+        "id": "five-captures",
+        "status": "passed"
+      },
+      {
+        "id": "scene-preserved",
+        "status": "passed"
+      }
+    ],
+    "missingChecks": [],
+    "commands": [
+      {
+        "name": "runtime-imports",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\runtime.py"
+        ],
+        "exitCode": 0,
+        "stdout": "{\n  \"python\": \"3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]\",\n  \"numpy\": {\n    \"version\": \"2.4.3\",\n    \"path\": \"D:\\\\Work\\\\roblox\\\\automation\\\\data\\\\projects\\\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\\\skill-validation\\\\8296649a-36bc-46e0-af95-d3796054cdcc\\\\workspace\\\\.tool-runtime\\\\python-818791323a-HpH7AC\\\\numpy\\\\__init__.py\"\n  },\n  \"scipy\": {\n    \"version\": \"1.18.1\",\n    \"path\": \"D:\\\\Work\\\\roblox\\\\automation\\\\data\\\\projects\\\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\\\skill-validation\\\\8296649a-36bc-46e0-af95-d3796054cdcc\\\\workspace\\\\.tool-runtime\\\\python-818791323a-HpH7AC\\\\scipy\\\\__init__.py\"\n  },\n  \"Pillow\": {\n    \"version\": \"10.4.0\",\n    \"path\": \"D:\\\\Work\\\\roblox\\\\automation\\\\data\\\\projects\\\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\\\skill-validation\\\\8296649a-36bc-46e0-af95-d3796054cdcc\\\\workspace\\\\.tool-runtime\\\\python-818791323a-HpH7AC\\\\PIL\\\\Image.py\"\n  }\n}\n",
+        "stderr": ""
+      },
+      {
+        "name": "map-selftest",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\verify_map.py"
+        ],
+        "exitCode": 0,
+        "stdout": "BASELINE (duel arena with the kill plane fixed to -200)\n  clean, no FAILs\n\n[CAUGHT ] part with no declared role (rejected at resolve time)\n[CAUGHT ] floating declared-grounded part              -> P1 = FAIL\n[CAUGHT ] no route to the Core                         -> P3 = FAIL\n[CAUGHT ] recoil-only prize reachable by jumping       -> P3 = FAIL\n[CAUGHT ] undeclared reachable platform                -> P3 = FAIL\n[CAUGHT ] interpenetrating parts                       -> P6 = FAIL   (also failing: ['P1'])\n[CAUGHT ] arena walled in, no sightlines               -> P5 = FAIL   (also failing: ['P10', 'P3', 'P6'])\n[CAUGHT ] scattered symmetric ring                     -> P8 = FAIL   (also failing: ['P1'])\n[CAUGHT ] invisible grapple anchor                     -> P4 = FAIL\n[CAUGHT ] kill plane too shallow                       -> P9 = FAIL\n[CAUGHT ] pocket with no way out                       -> P3 = FAIL   (also failing: ['P1'])\n\n11/11 sabotages caught by the intended check\n",
+        "stderr": ""
+      },
+      {
+        "name": "terrain-selftest",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\checks_terrain.py",
+          "--selftest"
+        ],
+        "exitCode": 0,
+        "stdout": "ok   flat     T1 want FAIL got FAIL the ground is too flat\nok   flat     T2 want FAIL got FAIL land p5-p95 49-61 studs, gentle ground levels at [59]\nok   boxy     T3 want FAIL got FAIL 2 cliff region(s) judged; map-wide 21% of steep faces axis-aligned (organic about 13-25%; a region over 60% fails)\nok   organic  T1 want PASS got PASS 0.0% of undesigned land flat, pads 0% of land\nok   organic  T3 want PASS got PASS 10 cliff region(s) judged; map-wide 17% of steep faces axis-aligned (organic about 13-25%; a region over 60% fails)\nok   organic  T2 want PASS got PASS land p5-p95 44-176 studs, gentle ground levels at [50, 74, 92, 110, 176]\n",
+        "stderr": ""
+      },
+      {
+        "name": "minimal-prove",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\prove.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.json",
+          "--json",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal-proof.json"
+        ],
+        "exitCode": 1,
+        "stdout": "MAP  Minimal    profile default    2 parts (2 structural / 0 decorative), 18 standable nodes\n     profile values NOT measured: autoStep, charHeight, charRadius, eyeHeight\n\n[PASS         ] P1  Grounding\n                every part with a declared grounding sits as declared\n\n[PASS         ] P10  Coplanar surfaces\n                no coplanar overlapping faces\n\n[WARN         ] P11  Empty space\n                the map has no props at all\n\n[INFO         ] P12  Entrances\n                no part declares a facing\n\n[INFO         ] P13  Feature dressing\n                no water or landmark declared\n\n[INFO         ] P14  Props in water\n                no water declared\n\n[INFO         ] P15  Clear routes\n                no routes declared\n\n[INFO         ] P16  Enclosure\n                open edges by declaration: tiny floating test map, the void is the boundary\n\n[PASS         ] P2  Standable surface\n                18 nodes across 2 walk-connected components\n\n[INFO         ] P21  Performance budget\n                no meshes placed; 2 instances\n\n[PASS         ] P2b  Recovery margin\n                no return route runs the climb budget to zero\n\n[PASS         ] P3  Intent match\n                every surface is reachable exactly as declared\n\n[PASS         ] P4  Anchor legitimacy\n                every declared anchor is solid, visible and in range\n\n[PASS         ] P5  Sightlines\n                100.0% of 153 sampled pairs have a clear line (band 0%-100%)\n\n[PASS         ] P6  Overlap\n                no structural parts interpenetrate (2 structural, 0 decorative skipped)\n\n[PASS         ] P7  Role coverage\n                every shipped movement tech has somewhere to live\n                  - roles: arena_floorx2\n\n[INFO         ] P8  Symmetry\n                no congruent ring of 3 or more parts to check\n\n[PASS         ] P9  Ring-out counterplay\n                ring-out declares no counterplay; the fall is clear to the kill plane and fatal by design\n                  - FarDeck: falls 30 studs to the ring-out at y=-30 in 0.55s, unrecoverable by declaration (counterplay 'none')\n                  - SpawnDeck: falls 30 studs to the ring-out at y=-30 in 0.55s, unrecoverable by declaration (counterplay 'none')\n\nRESULT: WARN\n",
+        "stderr": ""
+      },
+      {
+        "name": "minimal-plan",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\plan.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.json",
+          "--prove",
+          "-o",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal-plan.png"
+        ],
+        "exitCode": 0,
+        "stdout": "wrote D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal-plan.png\n",
+        "stderr": ""
+      },
+      {
+        "name": "minimal-emit",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\emit.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.json",
+          "--lua",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.lua"
+        ],
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"<frozen runpy>\", line 286, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\emit.py\", line 25, in <module>\n    import xml.sax.saxutils as sax\n  File \"C:\\Python312\\Lib\\xml\\sax\\saxutils.py\", line 6, in <module>\n    import os, urllib.parse, urllib.request\n  File \"C:\\Python312\\Lib\\urllib\\request.py\", line 88, in <module>\n    import http.client\n  File \"C:\\Python312\\Lib\\http\\client.py\", line 1448, in <module>\n    import ssl\n  File \"C:\\Python312\\Lib\\ssl.py\", line 944, in <module>\n    class SSLSocket(socket):\nTypeError: function() argument 'code' must be code, not str\n"
+      },
+      {
+        "name": "unreachable-check",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\prove.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\unreachable.json",
+          "--json",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\unreachable-proof.json"
+        ],
+        "exitCode": 1,
+        "stdout": "MAP  Minimal    profile default    2 parts (2 structural / 0 decorative), 18 standable nodes\n     profile values NOT measured: autoStep, charHeight, charRadius, eyeHeight\n\n[PASS         ] P1  Grounding\n                every part with a declared grounding sits as declared\n\n[PASS         ] P10  Coplanar surfaces\n                no coplanar overlapping faces\n\n[WARN         ] P11  Empty space\n                the map has no props at all\n\n[INFO         ] P12  Entrances\n                no part declares a facing\n\n[INFO         ] P13  Feature dressing\n                no water or landmark declared\n\n[INFO         ] P14  Props in water\n                no water declared\n\n[INFO         ] P15  Clear routes\n                no routes declared\n\n[INFO         ] P16  Enclosure\n                open edges by declaration: tiny floating test map, the void is the boundary\n\n[PASS         ] P2  Standable surface\n                18 nodes across 2 walk-connected components\n\n[INFO         ] P21  Performance budget\n                no meshes placed; 2 instances\n\n[PASS         ] P2b  Recovery margin\n                no return route runs the climb budget to zero\n\n[FAIL         ] P3  Intent match\n                declared reachability vs computed\n                  - FarDeck: intended reachable, but NO route exists\n\n[PASS         ] P4  Anchor legitimacy\n                every declared anchor is solid, visible and in range\n\n[PASS         ] P5  Sightlines\n                100.0% of 153 sampled pairs have a clear line (band 0%-100%)\n\n[PASS         ] P6  Overlap\n                no structural parts interpenetrate (2 structural, 0 decorative skipped)\n\n[PASS         ] P7  Role coverage\n                every shipped movement tech has somewhere to live\n                  - roles: arena_floorx2\n\n[INFO         ] P8  Symmetry\n                no congruent ring of 3 or more parts to check\n\n[PASS         ] P9  Ring-out counterplay\n                ring-out declares no counterplay; the fall is clear to the kill plane and fatal by design\n                  - FarDeck: falls 30 studs to the ring-out at y=-30 in 0.55s, unrecoverable by declaration (counterplay 'none')\n                  - SpawnDeck: falls 30 studs to the ring-out at y=-30 in 0.55s, unrecoverable by declaration (counterplay 'none')\n\nRESULT: FAIL\n",
+        "stderr": ""
+      },
+      {
+        "name": "unreachable-plan",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\plan.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\unreachable.json",
+          "--prove",
+          "-o",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\unreachable-plan.png"
+        ],
+        "exitCode": 0,
+        "stdout": "wrote D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\unreachable-plan.png\n",
+        "stderr": ""
+      },
+      {
+        "name": "ui-selftest",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-ui-tools\\1fb0ce17bf48eb1b04ecbd9afdc7cc7532d14c41f1f3fbbf8fd220df59a70124\\768bb3cb1a\\resources\\scripts\\verify_ui.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\ui-positive.json",
+          "--self-test"
+        ],
+        "exitCode": 0,
+        "stdout": "self-test: each check must go red on a sabotaged copy\n  PASS  touch_target   \n  PASS  safe_zone      \n  PASS  rotated_clip   \n  PASS  stroke_mix     \n  PASS  wrapper_box    \n  PASS  text_fit       \n  PASS  missing_icon   \n  PASS  overflow       \n  PASS  baseline       \n\nself-test PASSED\n",
+        "stderr": ""
+      },
+      {
+        "name": "touch-fit-positive",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-ui-tools\\1fb0ce17bf48eb1b04ecbd9afdc7cc7532d14c41f1f3fbbf8fd220df59a70124\\768bb3cb1a\\resources\\scripts\\verify_ui.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\ui-positive.json"
+        ],
+        "exitCode": 0,
+        "stdout": "\nui-positive.json: 0 fail, 0 warn, 1 info\n\n1 specs, 0 failures\n",
+        "stderr": ""
+      },
+      {
+        "name": "touch-fit-negative",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-ui-tools\\1fb0ce17bf48eb1b04ecbd9afdc7cc7532d14c41f1f3fbbf8fd220df59a70124\\768bb3cb1a\\resources\\scripts\\verify_ui.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\ui-negative.json"
+        ],
+        "exitCode": 1,
+        "stdout": "\nui-negative.json: 3 fail, 0 warn, 1 info\n  [fail] overflow       Modal is 1500x900, larger than the 1280x720 reference screen, so it is clipped\n  [fail] text_fit       Target: 'OK' only fits at 6px in a 20x20 box, down from the designed 12px (50%). Widen the box or shorten the text.\n  [fail] touch_target   Target is 20px at the 1280x720 reference, which is 10pt on phone-small (scale 0.50) - under the 44pt minimum. It needs to be at least 88px.\n\n1 specs, 3 failures\n",
+        "stderr": ""
+      },
+      {
+        "name": "labels-positive",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-ui-tools\\1fb0ce17bf48eb1b04ecbd9afdc7cc7532d14c41f1f3fbbf8fd220df59a70124\\768bb3cb1a\\resources\\scripts\\verify_labels.py",
+          "--ui",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\labels-positive\\ui",
+          "--client",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\labels-positive\\client"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS: all 1 dynamic labels are referenced by a controller\n",
+        "stderr": ""
+      },
+      {
+        "name": "labels-negative",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-ui-tools\\1fb0ce17bf48eb1b04ecbd9afdc7cc7532d14c41f1f3fbbf8fd220df59a70124\\768bb3cb1a\\resources\\scripts\\verify_labels.py",
+          "--ui",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\labels-negative\\ui",
+          "--client",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\labels-negative\\client"
+        ],
+        "exitCode": 1,
+        "stdout": "FAIL: 1 of 1 dynamic labels are written by nothing:\n  test.model.json/Count  (name 'Count' appears in NO controller)\n\nA label nobody writes renders its placeholder for the whole run.\n",
+        "stderr": ""
+      },
+      {
+        "name": "minimal-emit-retry",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import ssl,socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-map\\a5bda0091e8b9943a63c782fbcc4a635fbfe4d345993b4f5735521e3fcf7b63c\\74a0c9cc0f\\resources\\scripts\\emit.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.json",
+          "--lua",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.lua"
+        ],
+        "exitCode": 0,
+        "stdout": "[emit] applied volume.lift 8 - the spec is authored around y=0 and the built map sits clear of Studio's editor grid\nwrote D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\minimal.lua  (1832 bytes, 2 parts)\n",
+        "stderr": ""
+      },
+      {
+        "name": "sfx-pick",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import ssl,socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-sfx\\15433946e5facf0d3070586c4d5a3bbf0732a579a65b1036cc962212020d00c2\\43f9c864af\\resources\\scripts\\pick.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\candidates.json",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\measurements.csv",
+          "--out",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\manifest.json"
+        ],
+        "exitCode": 0,
+        "stdout": "filled 1 / 1 roles -> D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\manifest.json\n  ui_click                139719503904449   0.117s  UI_3_Clicks_02_Hover  <- listing lied\n",
+        "stderr": ""
+      },
+      {
+        "name": "sfx-emit-bank",
+        "command": [
+          "C:\\Python312\\python.exe",
+          "-s",
+          "-B",
+          "-c",
+          "import ssl,socket,sys,runpy; socket.socket=lambda *a,**k: (_ for _ in ()).throw(RuntimeError('offline')); p=sys.argv.pop(1); sys.path.insert(0,str(__import__('pathlib').Path(p).parent)); runpy.run_path(p,run_name='__main__')",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\skills\\packages\\sypho-roblox-sfx\\15433946e5facf0d3070586c4d5a3bbf0732a579a65b1036cc962212020d00c2\\43f9c864af\\resources\\scripts\\emit_bank.py",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\manifest.json",
+          "--out",
+          "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\sfx-bank"
+        ],
+        "exitCode": 0,
+        "stdout": "D:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\sfx-bank\\SoundBank.luau  1 roles  -> src/shared/Config/\nD:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\sfx-bank\\Sfx.luau                       -> src/shared/\nD:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\sfx-bank\\install.lua      -> execute_luau, to hear it in this place now\nD:\\Work\\roblox\\automation\\data\\projects\\6e2f4916-c5c9-4cd0-be4d-b92075fabd84\\skill-validation\\8296649a-36bc-46e0-af95-d3796054cdcc\\workspace\\reports\\sypho-8296649a-36bc-46e0-af95-d3796054cdcc\\sfx-bank\\tour.lua         -> execute_luau, plays the whole bank in order\n",
+        "stderr": ""
+      }
+    ],
+    "title": null
+  },
+  "trace": {
+    "records": 49,
+    "shellCalls": 16,
+    "lastTools": [
+      {
+        "tool": "screen_capture",
+        "success": true,
+        "exitCode": null
+      },
+      {
+        "tool": "start_stop_play",
+        "success": true,
+        "exitCode": null
+      },
+      {
+        "tool": "validation_control",
+        "exitCode": null
+      },
+      {
+        "tool": "validation_control",
+        "success": true,
+        "exitCode": null
+      },
+      {
+        "tool": "start_stop_play",
+        "success": true,
+        "exitCode": null
+      },
+      {
+        "tool": "screen_capture",
+        "exitCode": null
+      },
+      {
+        "tool": "screen_capture",
+        "success": true,
+        "exitCode": null
+      },
+      {
+        "tool": "start_stop_play",
+        "success": true,
+        "exitCode": null
+      },
+      {
+        "tool": "validation_control",
+        "exitCode": null
+      },
+      {
+        "tool": "validation_control",
+        "success": true,
+        "exitCode": null
+      },
+      {
+        "tool": "validation_control",
+        "exitCode": null
+      },
+      {
+        "tool": "validation_control",
+        "success": true,
+        "exitCode": null
+      }
+    ]
+  },
+  "evidenceFiles": [],
+  "completedAt": "2026-11-04T15:27:59.024Z"
+}

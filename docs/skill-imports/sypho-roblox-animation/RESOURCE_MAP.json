@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "originalPath": "references/example-fk-punch.json",
+      "path": "resources/references/example-fk-punch.json",
+      "hash": "31537aa3ffac08b4060cc903052e567c7f00ceeb998e9495791e1b1944ad6609"
+    },
+    {
+      "originalPath": "references/example-fk-roundhouse.json",
+      "path": "resources/references/example-fk-roundhouse.json",
+      "hash": "60e90aa6b9025e7e5b7350212649540ab2ea5013bbdb33c98ae358fbc7c5b101"
+    },
+    {
+      "originalPath": "references/example-fk-wave.json",
+      "path": "resources/references/example-fk-wave.json",
+      "hash": "0d3a2499b428540aa5d9c99785b14d3674e0bd233580ff5df15c833a77c32d85"
+    },
+    {
+      "originalPath": "references/example-uppercut.json",
+      "path": "resources/references/example-uppercut.json",
+      "hash": "b01a8c18e17b9b17b7b18732c7551eed7f7d6e158b23b7aa10ad11c348e594bf"
+    },
+    {
+      "originalPath": "references/pose-recipes.md",
+      "path": "resources/references/pose-recipes.md",
+      "hash": "128854fb76645ffcd68f8d799e6909bcc3312af354885ab76799405a7337608b"
+    },
+    {
+      "originalPath": "references/traps.md",
+      "path": "resources/references/traps.md",
+      "hash": "c98715bde22de25ee6d5847694003b4f5064274e0a40a2af60ac5b1cba3d9107"
+    },
+    {
+      "originalPath": "scripts/anim_render.py",
+      "path": "resources/scripts/anim_render.py",
+      "hash": "6c5ae7e27af8174095887ba85288bae0fac2197ace59d5c43a4290c6276fa741"
+    },
+    {
+      "originalPath": "scripts/calibrate_rig.py",
+      "path": "resources/scripts/calibrate_rig.py",
+      "hash": "78728a6963c23489c90bc61276817e7f19377440465ac6db078b9e26d824e284"
+    },
+    {
+      "originalPath": "scripts/fk_crouch.py",
+      "path": "resources/scripts/fk_crouch.py",
+      "hash": "bb168a99d679af2ff11160814d3dd027911d799f9861687672241d98aa112e78"
+    },
+    {
+      "originalPath": "scripts/fk_probe.py",
+      "path": "resources/scripts/fk_probe.py",
+      "hash": "8bc8582cee21ed234544e7fd5f8a57df88d302ea1208a619d54946f0471bcbf8"
+    },
+    {
+      "originalPath": "scripts/probe_bone.py",
+      "path": "resources/scripts/probe_bone.py",
+      "hash": "bb287d4bb8b4eaa2693b935e54a195b275c6695c5035ebbc6bcf0d6e0147dac1"
+    },
+    {
+      "originalPath": "scripts/r6_clip.py",
+      "path": "resources/scripts/r6_clip.py",
+      "hash": "8371f980e6beb14063c99075fc732796311e048f8dfe8111a24eefa06e20a2ad"
+    },
+    {
+      "originalPath": "scripts/r6_joint.py",
+      "path": "resources/scripts/r6_joint.py",
+      "hash": "0b6e9ee2048b22d797d8f6f3b358f959eee321557c2fd17833553d8f0a267098"
+    },
+    {
+      "originalPath": "scripts/r6_luau.py",
+      "path": "resources/scripts/r6_luau.py",
+      "hash": "39e3beee01ed26b0f17743ee0728bf0ef7222ba80373709eee9b1aa04978e340"
+    },
+    {
+      "originalPath": "scripts/rbx_axis_check.py",
+      "path": "resources/scripts/rbx_axis_check.py",
+      "hash": "4c83303928a2c3cb7e1c1c2bae96cd1d0b9ddf0714769a179da826eeb10815b5"
+    },
+    {
+      "originalPath": "scripts/sweep_control.py",
+      "path": "resources/scripts/sweep_control.py",
+      "hash": "64158b4b30071ecacb3c96f406775db876e17237751934df5926f351142cfbf8"
+    },
+    {
+      "originalPath": "scripts/to_roblox.py",
+      "path": "resources/scripts/to_roblox.py",
+      "hash": "24fe0a212ed03df891a4578408b9a1732c6d7ab68d54a6edf1bfe634e1ee4457"
+    }
+  ]
+}

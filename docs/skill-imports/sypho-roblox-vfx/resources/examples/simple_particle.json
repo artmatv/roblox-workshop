@@ -1,0 +1,164 @@
+{
+  "name": "SimpleParticlePreview",
+  "duration": 1.5,
+  "texture_portable": true,
+  "texture_refs": [
+    "rbxasset://textures/particles/sparkles_main.dds"
+  ],
+  "layers": [
+    {
+      "name": "Spark",
+      "class": "ParticleEmitter",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "emit": {
+        "mode": "burst",
+        "count": 12
+      },
+      "props": {
+        "Acceleration": {
+          "Vector3": [
+            0,
+            0,
+            0
+          ]
+        },
+        "Brightness": 1,
+        "Color": {
+          "ColorSequence": [
+            [
+              0,
+              [
+                1,
+                0.75,
+                0.25
+              ]
+            ],
+            [
+              1,
+              [
+                1,
+                0.2,
+                0.05
+              ]
+            ]
+          ]
+        },
+        "Drag": 0,
+        "EmissionDirection": {
+          "Enum": "NormalId.Top"
+        },
+        "Enabled": false,
+        "FlipbookFramerate": {
+          "NumberRange": [
+            0,
+            0
+          ]
+        },
+        "FlipbookLayout": {
+          "Enum": "ParticleFlipbookLayout.None"
+        },
+        "FlipbookMode": {
+          "Enum": "ParticleFlipbookMode.Loop"
+        },
+        "FlipbookStartRandom": false,
+        "Lifetime": {
+          "NumberRange": [
+            0.5,
+            1
+          ]
+        },
+        "LightEmission": 0,
+        "LightInfluence": 0,
+        "LockedToPart": false,
+        "Orientation": {
+          "Enum": "ParticleOrientation.FacingCamera"
+        },
+        "Rate": 0,
+        "RotSpeed": {
+          "NumberRange": [
+            0,
+            0
+          ]
+        },
+        "Rotation": {
+          "NumberRange": [
+            0,
+            360
+          ]
+        },
+        "Shape": {
+          "Enum": "ParticleEmitterShape.Box"
+        },
+        "ShapeInOut": {
+          "Enum": "ParticleEmitterShapeInOut.Outward"
+        },
+        "ShapeStyle": {
+          "Enum": "ParticleEmitterShapeStyle.Volume"
+        },
+        "Size": {
+          "NumberSequence": [
+            [
+              0,
+              0.5,
+              0
+            ],
+            [
+              1,
+              0.05,
+              0
+            ]
+          ]
+        },
+        "SpreadAngle": {
+          "Vector2": [
+            20,
+            20
+          ]
+        },
+        "Speed": {
+          "NumberRange": [
+            4,
+            8
+          ]
+        },
+        "Squash": {
+          "NumberSequence": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+        "TimeScale": 1,
+        "Transparency": {
+          "NumberSequence": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ]
+        },
+        "VelocityInheritance": 0,
+        "ZOffset": 0,
+        "WindAffectsDrag": false
+      }
+    }
+  ]
+}

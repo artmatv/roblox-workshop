@@ -1,0 +1,893 @@
+{
+  "repo": "SyphoDev-yt/roblox-ai-skills",
+  "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+  "licensePath": "LICENSE.txt",
+  "licenseSha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b",
+  "youtubeAttribution": {
+    "readmeMentionsChannel": true,
+    "linksFound": []
+  },
+  "packages": [
+    {
+      "id": "sypho-roblox-animation",
+      "source": "https://github.com/SyphoDev-yt/roblox-ai-skills/tree/5aad881d1e6553cc3671ad549fdf01b8191bdc37/skills/roblox-animation",
+      "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "packageHash": "7a960eaf3f14489c441a737e98addec5388bbb9878f18920e1609138532da6d8",
+      "license": "SyphoDev free licence",
+      "licensePath": "LICENSE.txt",
+      "youtubeLinksInReadme": [],
+      "included": [
+        {
+          "path": "LICENSE.txt",
+          "originalPath": null,
+          "bytes": 728,
+          "sha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b"
+        },
+        {
+          "path": "RESOURCE_MAP.json",
+          "originalPath": null,
+          "bytes": 3350,
+          "sha256": "8dfae3abb5ebb858ea985ed13c534be608995ff322eea655f61dfe44d731b03a"
+        },
+        {
+          "path": "resources/references/example-fk-punch.json",
+          "originalPath": "references/example-fk-punch.json",
+          "bytes": 8896,
+          "sha256": "31537aa3ffac08b4060cc903052e567c7f00ceeb998e9495791e1b1944ad6609"
+        },
+        {
+          "path": "resources/references/example-fk-roundhouse.json",
+          "originalPath": "references/example-fk-roundhouse.json",
+          "bytes": 11789,
+          "sha256": "60e90aa6b9025e7e5b7350212649540ab2ea5013bbdb33c98ae358fbc7c5b101"
+        },
+        {
+          "path": "resources/references/example-fk-wave.json",
+          "originalPath": "references/example-fk-wave.json",
+          "bytes": 9434,
+          "sha256": "0d3a2499b428540aa5d9c99785b14d3674e0bd233580ff5df15c833a77c32d85"
+        },
+        {
+          "path": "resources/references/example-uppercut.json",
+          "originalPath": "references/example-uppercut.json",
+          "bytes": 5991,
+          "sha256": "b01a8c18e17b9b17b7b18732c7551eed7f7d6e158b23b7aa10ad11c348e594bf"
+        },
+        {
+          "path": "resources/references/pose-recipes.md",
+          "originalPath": "references/pose-recipes.md",
+          "bytes": 4164,
+          "sha256": "128854fb76645ffcd68f8d799e6909bcc3312af354885ab76799405a7337608b"
+        },
+        {
+          "path": "resources/references/traps.md",
+          "originalPath": "references/traps.md",
+          "bytes": 26338,
+          "sha256": "c98715bde22de25ee6d5847694003b4f5064274e0a40a2af60ac5b1cba3d9107"
+        },
+        {
+          "path": "resources/scripts/anim_render.py",
+          "originalPath": "scripts/anim_render.py",
+          "bytes": 51241,
+          "sha256": "6c5ae7e27af8174095887ba85288bae0fac2197ace59d5c43a4290c6276fa741"
+        },
+        {
+          "path": "resources/scripts/calibrate_rig.py",
+          "originalPath": "scripts/calibrate_rig.py",
+          "bytes": 6941,
+          "sha256": "78728a6963c23489c90bc61276817e7f19377440465ac6db078b9e26d824e284"
+        },
+        {
+          "path": "resources/scripts/fk_crouch.py",
+          "originalPath": "scripts/fk_crouch.py",
+          "bytes": 3613,
+          "sha256": "bb168a99d679af2ff11160814d3dd027911d799f9861687672241d98aa112e78"
+        },
+        {
+          "path": "resources/scripts/fk_probe.py",
+          "originalPath": "scripts/fk_probe.py",
+          "bytes": 10843,
+          "sha256": "8bc8582cee21ed234544e7fd5f8a57df88d302ea1208a619d54946f0471bcbf8"
+        },
+        {
+          "path": "resources/scripts/probe_bone.py",
+          "originalPath": "scripts/probe_bone.py",
+          "bytes": 3350,
+          "sha256": "bb287d4bb8b4eaa2693b935e54a195b275c6695c5035ebbc6bcf0d6e0147dac1"
+        },
+        {
+          "path": "resources/scripts/r6_clip.py",
+          "originalPath": "scripts/r6_clip.py",
+          "bytes": 15979,
+          "sha256": "8371f980e6beb14063c99075fc732796311e048f8dfe8111a24eefa06e20a2ad"
+        },
+        {
+          "path": "resources/scripts/r6_joint.py",
+          "originalPath": "scripts/r6_joint.py",
+          "bytes": 4331,
+          "sha256": "0b6e9ee2048b22d797d8f6f3b358f959eee321557c2fd17833553d8f0a267098"
+        },
+        {
+          "path": "resources/scripts/r6_luau.py",
+          "originalPath": "scripts/r6_luau.py",
+          "bytes": 8993,
+          "sha256": "39e3beee01ed26b0f17743ee0728bf0ef7222ba80373709eee9b1aa04978e340"
+        },
+        {
+          "path": "resources/scripts/rbx_axis_check.py",
+          "originalPath": "scripts/rbx_axis_check.py",
+          "bytes": 9361,
+          "sha256": "4c83303928a2c3cb7e1c1c2bae96cd1d0b9ddf0714769a179da826eeb10815b5"
+        },
+        {
+          "path": "resources/scripts/sweep_control.py",
+          "originalPath": "scripts/sweep_control.py",
+          "bytes": 6410,
+          "sha256": "64158b4b30071ecacb3c96f406775db876e17237751934df5926f351142cfbf8"
+        },
+        {
+          "path": "resources/scripts/to_roblox.py",
+          "originalPath": "scripts/to_roblox.py",
+          "bytes": 13172,
+          "sha256": "24fe0a212ed03df891a4578408b9a1732c6d7ab68d54a6edf1bfe634e1ee4457"
+        },
+        {
+          "path": "SKILL.md",
+          "originalPath": null,
+          "bytes": 2201,
+          "sha256": "ba13ad9d75bbc0ca6c4130234537efea63866d3067c47302f447fa631b5c5eae"
+        },
+        {
+          "path": "TOOLING.md",
+          "originalPath": null,
+          "bytes": 1966,
+          "sha256": "3ff3bdd6813b8b4cf99f2d27a80b422969c21a47d434564144c5211b5959dcd8"
+        },
+        {
+          "path": "UPSTREAM.md",
+          "originalPath": null,
+          "bytes": 20403,
+          "sha256": "0d5b4e3b60078a19559ecce5d5eea3235a7c836567b4db23e1b085939389dde8"
+        }
+      ],
+      "localAdaptations": [
+        "scripts/anim_render.py and r6_clip.py select an available Eevee renderer; anim_render also avoids removed Action.fcurves logging; exact upstream source is preserved in UPSTREAM.md"
+      ],
+      "excluded": [
+        {
+          "path": "LOCAL.template.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/studio-binder.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/dump_kfs.luau",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/upload_animation.py",
+          "reason": "outside the selected, offline task workflow"
+        }
+      ]
+    },
+    {
+      "id": "sypho-roblox-3d-model",
+      "source": "https://github.com/SyphoDev-yt/roblox-ai-skills/tree/5aad881d1e6553cc3671ad549fdf01b8191bdc37/skills/roblox-3d-model",
+      "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "packageHash": "7ba9ec4342e011d08fe5da798705c506841cddcc9a648377ae8d5f1cf76f3825",
+      "license": "SyphoDev free licence",
+      "licensePath": "LICENSE.txt",
+      "youtubeLinksInReadme": [],
+      "included": [
+        {
+          "path": "LICENSE.txt",
+          "originalPath": null,
+          "bytes": 728,
+          "sha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b"
+        },
+        {
+          "path": "RESOURCE_MAP.json",
+          "originalPath": null,
+          "bytes": 4930,
+          "sha256": "42babe7e4381b07739a60be7015ea16353c0ee422698ec013fffab826f196d59"
+        },
+        {
+          "path": "resources/references/example-cow.paint.json",
+          "originalPath": "references/example-cow.paint.json",
+          "bytes": 4678,
+          "sha256": "c323e0b29cddd2fe9aca160009b41f7922d39a229419bbb4f57ecb2aad1054f8"
+        },
+        {
+          "path": "resources/references/example-manifest.json",
+          "originalPath": "references/example-manifest.json",
+          "bytes": 1170,
+          "sha256": "8a566303a72b7fa5fdf798aeb223bb1192937d44b10ce1adb2d427f496897799"
+        },
+        {
+          "path": "resources/references/example-pig.paint.json",
+          "originalPath": "references/example-pig.paint.json",
+          "bytes": 3031,
+          "sha256": "1fe4c1254e47a5b59a59f0a328767820d683325122e2a57db2b8272ca422864f"
+        },
+        {
+          "path": "resources/references/hard-surface-route.md",
+          "originalPath": "references/hard-surface-route.md",
+          "bytes": 3395,
+          "sha256": "4688831e4caa541747453943e2514a53cab9485982ed9f71d0ab5f08ad561f3a"
+        },
+        {
+          "path": "resources/references/licences.md",
+          "originalPath": "references/licences.md",
+          "bytes": 2275,
+          "sha256": "bef9d7f6bcdf8097e9bac63f76e5c569c3db3ad020c9d058b306f1730d4b396f"
+        },
+        {
+          "path": "resources/references/traps.md",
+          "originalPath": "references/traps.md",
+          "bytes": 24170,
+          "sha256": "3f3175360eabba9425629ec32b1a351f9e4d4cc70cc98b9ef380bea89daba1a8"
+        },
+        {
+          "path": "resources/scripts/axes_probe.py",
+          "originalPath": "scripts/axes_probe.py",
+          "bytes": 4587,
+          "sha256": "e682f6394cd7bcdc1e8b62b2cdad49a7b83104d757a39b83c2ea915be5964183"
+        },
+        {
+          "path": "resources/scripts/check_colours.py",
+          "originalPath": "scripts/check_colours.py",
+          "bytes": 3933,
+          "sha256": "f38fb5fbd7090d2bdf6627752224ff2b4d0ec5c3214229d69c696936c247b589"
+        },
+        {
+          "path": "resources/scripts/check_prop.py",
+          "originalPath": "scripts/check_prop.py",
+          "bytes": 4948,
+          "sha256": "90697892099cfffec69fdf16f060fef5639e90bd30b031f2341940d08b8bfb62"
+        },
+        {
+          "path": "resources/scripts/export_for_studio.py",
+          "originalPath": "scripts/export_for_studio.py",
+          "bytes": 5455,
+          "sha256": "a5a36ca200f0a2756857ddc785ed6e5c07d7cb57c61e6206ff8fa7c1ca970cf5"
+        },
+        {
+          "path": "resources/scripts/export_skinned.py",
+          "originalPath": "scripts/export_skinned.py",
+          "bytes": 5030,
+          "sha256": "237e50d3dd3678988818ac03a7000979e783d53b14bbbbe53b74175b87000015"
+        },
+        {
+          "path": "resources/scripts/finish_creature.py",
+          "originalPath": "scripts/finish_creature.py",
+          "bytes": 4660,
+          "sha256": "e1f655df9ef5a05c5c9bf819a2fdbc59a86a1b4fc69f6f41149cd756134ffdef"
+        },
+        {
+          "path": "resources/scripts/glb_tool.py",
+          "originalPath": "scripts/glb_tool.py",
+          "bytes": 9662,
+          "sha256": "531fbe89a5a8a30fc34651757d3bc42c59e03a095d688d90a7bfba0a252264ba"
+        },
+        {
+          "path": "resources/scripts/landmarks.py",
+          "originalPath": "scripts/landmarks.py",
+          "bytes": 3415,
+          "sha256": "4ae18a861c0e9aab5617faa9db6ddded08f33334e50d1b06cb324db093411f06"
+        },
+        {
+          "path": "resources/scripts/make_paint_spec.py",
+          "originalPath": "scripts/make_paint_spec.py",
+          "bytes": 17880,
+          "sha256": "25b87de27677bcca51dc2f9ea2c2eb85bf374cc222d8308bee59633e090c4b5f"
+        },
+        {
+          "path": "resources/scripts/mesh_pipeline.py",
+          "originalPath": "scripts/mesh_pipeline.py",
+          "bytes": 23390,
+          "sha256": "187043eb273f21f44526cc49399bb7d6bdd2d6718dd547da060f2da202f7994d"
+        },
+        {
+          "path": "resources/scripts/paint_texture.py",
+          "originalPath": "scripts/paint_texture.py",
+          "bytes": 16213,
+          "sha256": "e1fd2146c4fedfd3885b67f8c09cd72d1b9b505a304e05ed4bf024e54c1c4add"
+        },
+        {
+          "path": "resources/scripts/probe_rig.py",
+          "originalPath": "scripts/probe_rig.py",
+          "bytes": 1456,
+          "sha256": "3d4f3aa75501fb9f6e8d1154a39238ec5917fac5ac584cde3110bfe1af743c36"
+        },
+        {
+          "path": "resources/scripts/quadruped_anim.py",
+          "originalPath": "scripts/quadruped_anim.py",
+          "bytes": 8078,
+          "sha256": "c9c7450d02de080b06f5bfb096accbc43b99e06ca9dbe6675747df8c09f9c2de"
+        },
+        {
+          "path": "resources/scripts/quadruped_rig.py",
+          "originalPath": "scripts/quadruped_rig.py",
+          "bytes": 12043,
+          "sha256": "7fab5b95308603e8fd4ab1923879f62fcec2ec061d412377faeb2861671ad10f"
+        },
+        {
+          "path": "resources/scripts/render_check.py",
+          "originalPath": "scripts/render_check.py",
+          "bytes": 6663,
+          "sha256": "7042cfc8e961e9bb3068fd41d5fbf2567e9d62174fa71e8b23db8ebb5d667604"
+        },
+        {
+          "path": "resources/scripts/texture_bake.py",
+          "originalPath": "scripts/texture_bake.py",
+          "bytes": 23658,
+          "sha256": "f0ad670fd5c25cd6f9a41b7e85af9325d66b2843e52c1d4d620fc1215a01db9b"
+        },
+        {
+          "path": "resources/scripts/verify_texture.py",
+          "originalPath": "scripts/verify_texture.py",
+          "bytes": 7925,
+          "sha256": "77128c3059940254015a6614908e25b5a7934231eb212814673da2dd53dcbce7"
+        },
+        {
+          "path": "resources/scripts/verify.py",
+          "originalPath": "scripts/verify.py",
+          "bytes": 7081,
+          "sha256": "8ef46ffb8068faec046e1381f5a0fb202d3d47daed7535aab24c0b42188bd42f"
+        },
+        {
+          "path": "resources/scripts/zprofile.py",
+          "originalPath": "scripts/zprofile.py",
+          "bytes": 1383,
+          "sha256": "86234bb149e00d229ae69594155e8d0dafd5d78b4ae92077a8dbf55776d5a8ab"
+        },
+        {
+          "path": "SKILL.md",
+          "originalPath": null,
+          "bytes": 2335,
+          "sha256": "1a484f7f141f87c54944b01a9f17ca575553c77eb6adf390c56bb870c97e07cb"
+        },
+        {
+          "path": "TOOLING.md",
+          "originalPath": null,
+          "bytes": 3047,
+          "sha256": "ff894c8e0e3d56238aaf67753dbb27c5a74262b1093273d618adad0f3918e3e1"
+        },
+        {
+          "path": "UPSTREAM.md",
+          "originalPath": null,
+          "bytes": 42079,
+          "sha256": "0e640f4b91a7ddaa1263abcac618eb63876f25f859e8e4024ce1450a50ec03ca"
+        }
+      ],
+      "localAdaptations": [
+        "scripts/verify_texture.py child Blender launches use factory startup, offline mode, disabled autoexec and strict Python exit codes; render_check.py selects an available Eevee renderer; original source is preserved in UPSTREAM.md"
+      ],
+      "excluded": [
+        {
+          "path": "LOCAL.template.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/example-rifle.kiln.js",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/kiln-route.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/studio-wire.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/studio_import.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/batch.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/compare_sheet.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/concept_image.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/fill_meshbank_ids.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/gen_concepts_cf.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/grass_clump.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/image_to_3d.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/kaggle_flux.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/kaggle_hi3dgen.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/kaggle_run.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/kiln_to_roblox.mjs",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/measure_set.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/mesh_bank.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/orient_sheet.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/pair_sheet.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/serve_assets.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/tier3_props.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/upload_asset.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/wedge_slice.py",
+          "reason": "outside the selected, offline task workflow"
+        }
+      ]
+    },
+    {
+      "id": "sypho-roblox-vfx",
+      "source": "https://github.com/SyphoDev-yt/roblox-ai-skills/tree/5aad881d1e6553cc3671ad549fdf01b8191bdc37/skills/roblox-vfx",
+      "commit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+      "version": "5aad881d1e6553cc3671ad549fdf01b8191bdc37-workshop.1",
+      "packageHash": "788868a56d78a831e807c372b4f8ff3b6964e26102511842a3700a5f3b3a903b",
+      "license": "SyphoDev free licence",
+      "licensePath": "LICENSE.txt",
+      "youtubeLinksInReadme": [],
+      "included": [
+        {
+          "path": "LICENSE.txt",
+          "originalPath": null,
+          "bytes": 728,
+          "sha256": "bf7cd247e12e45233befb359d01576d8b28bf382ae4fb9a372eeb8606d5eb55b"
+        },
+        {
+          "path": "RESOURCE_MAP.json",
+          "originalPath": null,
+          "bytes": 1384,
+          "sha256": "a6c57af192b1a7610381e4f521fdb94fb19e746913fed90bc1ea615e548c204d"
+        },
+        {
+          "path": "resources/examples/simple_particle.json",
+          "originalPath": "examples/simple_particle.json",
+          "bytes": 3171,
+          "sha256": "fac9f14609c274c64e430f411d59a5fcc7f9918afd063be39cccffd5ffb0894e"
+        },
+        {
+          "path": "resources/references/BEATS.md",
+          "originalPath": "references/BEATS.md",
+          "bytes": 3781,
+          "sha256": "17fa4bcba23c9a3b1dde3da4b95b93f4a32da5f0e55d370f71c0d5b265a48bf2"
+        },
+        {
+          "path": "resources/references/DESIGN.md",
+          "originalPath": "references/DESIGN.md",
+          "bytes": 5577,
+          "sha256": "b63af5974923eca6044c7ae081562ada2ae7844b319cd61266a914630d086dea"
+        },
+        {
+          "path": "resources/references/property-surface.md",
+          "originalPath": "references/property-surface.md",
+          "bytes": 2824,
+          "sha256": "08da2c7c62eeee860895922c01b2fc20cc6dc996dd37aff37f4ca2431fc0d846"
+        },
+        {
+          "path": "resources/scripts/emit_luau.py",
+          "originalPath": "scripts/emit_luau.py",
+          "bytes": 14773,
+          "sha256": "325f363531321a2df12e5ff2caecf618b6370b363a99fac7a571f0a3686b96f5"
+        },
+        {
+          "path": "resources/scripts/luau/engine.lua.txt",
+          "originalPath": "scripts/luau/engine.lua",
+          "bytes": 40178,
+          "sha256": "16ce268d376b810455c5d59df11c28088bb58f94cec86b00f3ddea034896fea5"
+        },
+        {
+          "path": "resources/scripts/verify_vfx.py",
+          "originalPath": "scripts/verify_vfx.py",
+          "bytes": 16045,
+          "sha256": "eff572267d0b419fa8c9a6cef2bb4b86fc3bd77e42062b7623b0131836c2c878"
+        },
+        {
+          "path": "SKILL.md",
+          "originalPath": null,
+          "bytes": 1990,
+          "sha256": "94898a89087ae6c9774666b1068a50af193059adf578e9b2ba662a1ba9597090"
+        },
+        {
+          "path": "TOOLING.md",
+          "originalPath": null,
+          "bytes": 935,
+          "sha256": "9c90a6ac43335032c10b5fbca8e0180d797cfe531c3accb2f2723cf8057dc427"
+        },
+        {
+          "path": "UPSTREAM.md",
+          "originalPath": null,
+          "bytes": 79581,
+          "sha256": "9279fdad4def964dfe3a2a4ede6ec27aa04ef06f8342c7bd56d62d9702cb8274"
+        }
+      ],
+      "localAdaptations": [],
+      "excluded": [
+        {
+          "path": "LOCAL.template.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/CharacterVFX.server.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/HitSystem.luau",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/VFXKit.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/CATEGORIES.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/SCHEMA.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/STATS.json",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/STATS.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/tools/contact.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/tools/events.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/tools/measure.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/tools/palette.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/tools/strip.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/corpus/tools/vtt2txt.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/styles/STYLES.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/styles/anime_cel.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/styles/realistic.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "references/styles/stylised_game.md",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/assemble_kit.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/audition.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/classify_lib.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/compose.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/contact_grid.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/critic_gate.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/curate.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/emit_scenes.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/fetch_tex_hires.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/find_vfx.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/build.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/codec.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/demo_controller.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/harvest.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/runtime.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/scene.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/selftest_client.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/luau/stage.lua",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/payload.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "scripts/recipe_server.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/blender/volume_flipbook.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/build_eclipse_rend.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/build_explosion.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/build_riptide_lance.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/eclipse_rend.json",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/explosion_crimson.json",
+          "reason": "simulation effect schema is incompatible with the selected recipe verifier/emitter; replaced by a minimal verified portable example"
+        },
+        {
+          "path": "sim/effects/fxlib.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/fxmore.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/fxpolish.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/fxprops.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/index.json",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/riptide_lance.json",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/effects/roblox_units.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/index.html",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/mesh/make_dragon.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/mesh/make_meshes.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/mesh/make_props.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/mesh/obj_to_fbx.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/serve.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/snap.js",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/studio_kit.js",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/beams.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/build_library.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/check_library.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/contact_sheets.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/dedupe.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/find_tex.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/flips.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/prune_dupes.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/run_subset.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/runes.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/sprites.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/lib/texcore.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/magic_circles.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/make_magic_tex.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/make_painted.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/make_prop_tex.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/make_textures.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/vfxpaint.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tex/vfxtex.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tools/lune/build_check.luau",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tools/lune/compile_check.luau",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tools/phys_audit.js",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/tools/sa_parent_check.py",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/vfxrender.js",
+          "reason": "outside the selected, offline task workflow"
+        },
+        {
+          "path": "sim/vfxsim.js",
+          "reason": "outside the selected, offline task workflow"
+        }
+      ]
+    }
+  ]
+}

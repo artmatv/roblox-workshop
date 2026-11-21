@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-05T05:20:45.988Z",
+  "revision": 10,
+  "timeout": 20,
+  "maxAttempts": 3,
+  "taskId": "ccdadc57-405a-4d8b-9e57-5c90b09ddd03",
+  "status": "blocked",
+  "error": "Независимая проверка недоступна: Внешний проверяющий вернул HTTP 503",
+  "requirementsHash": "60fd2e1ed24015fccdf88daeb379660c9c19ad3f1bbc7d588551240631fa5eba",
+  "activeTasks": 0,
+  "commands": 0
+}

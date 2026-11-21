@@ -1,0 +1,16 @@
+{
+  "name": "DccFkFixture",
+  "fps": 8,
+  "duration": 0.5,
+  "loop": false,
+  "plain": true,
+  "preview": true,
+  "w": 240,
+  "h": 300,
+  "views": {"front": [0.0, -1.0, 0.0]},
+  "keyframes": [
+    {"t": 0.0, "ease": "smooth", "bones": {"RightUpperArm": {"rot": [0, 0, 0]}}},
+    {"t": 0.375, "ease": "smooth", "bones": {"RightUpperArm": {"rot": [-55, 0, 0]}}}
+  ]
+}
+

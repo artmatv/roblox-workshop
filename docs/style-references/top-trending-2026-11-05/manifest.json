@@ -1,0 +1,989 @@
+{
+  "collection": "roblox-top-trending-ui-2026-11-05",
+  "target_skill": "roblox-ui-styles",
+  "status": "reference_material",
+  "date_local": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "device": "Windows PC / Roblox Player",
+  "source_ru": "Все 20 изображений сняты заново в Windows-клиенте Roblox через Print Screen. Клиент сохранил игровые PNG с интерфейсом. Данные чарта относятся к моменту первичного отбора.",
+  "preparation_ru": "Каналы RGB взяты непосредственно из игровых PNG. Часть изображений дана целиком, часть вырезана без изменения масштаба. Однотонные маски отмечены в ignore_regions_px. Координаты XYXY от левого верхнего угла, правая и нижняя границы исключены. source_crop_px задан в исходном PNG, focus_px и ignore_regions_px относятся к опубликованному изображению.",
+  "usage_ru": "Использовать для разбора поведения и композиции. Игровые рисунки, тексты, цены и фирменные знаки принадлежат их создателям. Для собственных интерфейсов рисовать оригинальные элементы. Кадры разных размеров сняты на ПК.",
+  "chart": {
+    "observed_at": "2026-11-05T20:05:55.0876634+07:00",
+    "sort": "Top Trending",
+    "sort_id": "top-trending",
+    "filters": "device=computer,age=all,country=all",
+    "url": "https://apis.roblox.com/explore-api/v1/get-sorts?sessionId=6ed876db-a8c4-47a9-8790-ae9e426b91e3&device=computer&country=all",
+    "entries": [
+      {
+        "rank": 1,
+        "root_place_id": "2753915549",
+        "universe_id": "994732206",
+        "name": "[🎃] Blox Fruits"
+      },
+      {
+        "rank": 2,
+        "root_place_id": "119958473240233",
+        "universe_id": "10771421858",
+        "name": "DONT SPLASH"
+      },
+      {
+        "rank": 3,
+        "root_place_id": "120219252362013",
+        "universe_id": "10766972131",
+        "name": "[🎃] Throw Food For Animals"
+      },
+      {
+        "rank": 8,
+        "root_place_id": "117734411290994",
+        "universe_id": "10771997908",
+        "name": "+1 Spider Arm🕷️"
+      }
+    ]
+  },
+  "games": {
+    "blox": {
+      "name": "Blox Fruits",
+      "author": "Gamer Robot Inc",
+      "place_id": "2753915549",
+      "url": "https://www.roblox.com/games/2753915549/Blox-Fruits",
+      "theme": "Боевые приёмы и навигация",
+      "note": "На старте игрок сравнивает стороны. После выбора интерфейс отдаёт центр сцены персонажу. Экипировка и компас добавляют разные подсказки по мере надобности.",
+      "chart_rank": 1,
+      "universe_id": "994732206"
+    },
+    "splash": {
+      "name": "DONT SPLASH",
+      "author": "Bacon Theory",
+      "place_id": "119958473240233",
+      "url": "https://www.roblox.com/games/119958473240233/DONT-SPLASH",
+      "theme": "Снаряжение перед забегом",
+      "note": "После приветствия общий инвентарь показывает остатки и улучшения. Из него открывается экран экипировки с тремя слотами и условиями получения инструментов.",
+      "chart_rank": 2,
+      "universe_id": "10771421858"
+    },
+    "animals": {
+      "name": "Throw Food For Animals",
+      "author": "Goofy Chupacabra",
+      "place_id": "120219252362013",
+      "url": "https://www.roblox.com/games/120219252362013/Throw-Food-For-Animals",
+      "theme": "Коллекция, витрина и пустой инвентарь",
+      "note": "Один симулятор решает три разные задачи разными окнами. Каталог показывает масштаб коллекции, боковая панель подсказывает первое действие, а витрина даёт открыть подробности предложения.",
+      "chart_rank": 3,
+      "universe_id": "10766972131"
+    },
+    "spider": {
+      "name": "+1 Spider Arm",
+      "author": "This Time For Sure",
+      "place_id": "117734411290994",
+      "url": "https://www.roblox.com/games/117734411290994/1-Spider-Arm",
+      "theme": "Тренировка, улучшения и состояния наград",
+      "note": "На тренировочной площадке видны прибавка опыта и следующий порог. С неё открыты сравнение Rebirth, календарь с уже полученным первым днём и магазин.",
+      "chart_rank": 8,
+      "universe_id": "10771997908"
+    }
+  },
+  "frames": [
+    {
+      "id": "spider-training",
+      "game_id": "spider",
+      "title_ru": "Тренировочная площадка",
+      "tags": [
+        "hud",
+        "training",
+        "progression"
+      ],
+      "file": "frames/spider-training.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        234,
+        505,
+        571,
+        597
+      ],
+      "ignore_regions_px": [
+        [
+          153,
+          251,
+          246,
+          414
+        ],
+        [
+          354,
+          267,
+          448,
+          287
+        ]
+      ],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:15:22+07:00",
+      "original_file": "RobloxScreenShot20261105_201521824.png",
+      "original_sha256": "331a30581c6504d120e8c13ae5d463384c1f41d2842970f931eaca86651905a8",
+      "sha256": "7b60aebacb81c5b96aade17b4b688889391d238e03e4c9015caeb48e72e28024",
+      "observation_ru": "На площадке рядом с персонажем всплывает прибавка. Нижняя полоса показывает текущий уровень и опыт, а строка над ней — число механических рук и следующий порог.",
+      "principle_ru": "Раздели мгновенную награду, накопленный прогресс и ближайшее открытие. Для каждого оставь своё место в HUD."
+    },
+    {
+      "id": "spider-02-rebirth",
+      "game_id": "spider",
+      "title_ru": "Что изменит перерождение",
+      "tags": [
+        "progression",
+        "comparison",
+        "ready"
+      ],
+      "file": "frames/spider-02-rebirth.png",
+      "image_px": [
+        441,
+        281
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        185,
+        150,
+        626,
+        431
+      ],
+      "focus_px": [
+        0,
+        0,
+        441,
+        281
+      ],
+      "ignore_regions_px": [
+        [
+          187,
+          119,
+          244,
+          135
+        ]
+      ],
+      "framing": "panel_or_world_detail",
+      "saved_at": "2026-11-05T20:18:50+07:00",
+      "original_file": "RobloxScreenShot20261105_201850028.png",
+      "original_sha256": "36859f19845b75b06c688ca2fe20a2b718529949823912e0ef143fb8ead717fd",
+      "sha256": "d382582dce3d8891a74d66f1e0de60c6163cd26526fec700d4f6c914282fa449",
+      "observation_ru": "Окно показывает переход с уровня 20 на уровень 1 и рост множителя опыта с ×1 до ×1,5. Зелёная строка сообщает о готовности, а предупреждение объясняет сброс уровня.",
+      "principle_ru": "Покажи выигрыш и потерю в параллельных строках до подтверждения действия."
+    },
+    {
+      "id": "spider-daily-claimed",
+      "game_id": "spider",
+      "title_ru": "Календарь после выдачи",
+      "tags": [
+        "daily-reward",
+        "claimed",
+        "cooldown"
+      ],
+      "file": "frames/spider-daily-claimed.png",
+      "image_px": [
+        1235,
+        675
+      ],
+      "capture_viewport_px": [
+        3440,
+        1369
+      ],
+      "source_crop_px": [
+        1115,
+        345,
+        2350,
+        1020
+      ],
+      "focus_px": [
+        0,
+        0,
+        1235,
+        675
+      ],
+      "ignore_regions_px": [],
+      "framing": "panel_or_world_detail",
+      "saved_at": "2026-11-05T20:20:05+07:00",
+      "original_file": "RobloxScreenShot20261105_202004822.png",
+      "original_sha256": "0930b2dc4e29c6e44b2ca3f27afae61ebda150cacf7b01852afdbce16e6db693",
+      "sha256": "83d301f058cf7bf6d81ee482bd8bdf240b1795edf9a75bec59ecb3ef46fa7193",
+      "observation_ru": "На карточке первого дня стоит галочка. Внизу видны серия из одного дня и отсчёт до следующей награды. Второй день выделен в календаре и описан над ним.",
+      "principle_ru": "Продублируй получение награды значком и новым состоянием кнопки. Игрок должен видеть, когда можно вернуться."
+    },
+    {
+      "id": "spider-featured",
+      "game_id": "spider",
+      "title_ru": "Навигация внутри магазина",
+      "tags": [
+        "shop",
+        "navigation",
+        "offer"
+      ],
+      "file": "frames/spider-featured.png",
+      "image_px": [
+        510,
+        319
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        145,
+        135,
+        655,
+        454
+      ],
+      "focus_px": [
+        0,
+        0,
+        510,
+        319
+      ],
+      "ignore_regions_px": [],
+      "framing": "panel_or_world_detail",
+      "saved_at": "2026-11-05T20:23:02+07:00",
+      "original_file": "RobloxScreenShot20261105_202302233.png",
+      "original_sha256": "2ede4cd276b2cd5a3f410335fdd3c78b2d4643c26dac5cba71379e9e581dfdf5",
+      "sha256": "80354ae0bfa8d93f8c8a763c285cefcef9adb7d196f7816539e6843edafcedd8",
+      "observation_ru": "Слева остаётся узкая колонка категорий. Наверху расположен отдельный крупный набор, под ним — три карточки с эффектом и собственной ценой.",
+      "principle_ru": "В длинной витрине отдели переходы между категориями от покупки. Количество, эффект и срок действия должны читаться в пределах одной карточки."
+    },
+    {
+      "id": "spider-gift-conditions",
+      "game_id": "spider",
+      "title_ru": "Условия подарка",
+      "tags": [
+        "reward",
+        "requirements",
+        "modal"
+      ],
+      "file": "frames/spider-gift-conditions.png",
+      "image_px": [
+        294,
+        218
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        258,
+        196,
+        552,
+        414
+      ],
+      "focus_px": [
+        0,
+        0,
+        294,
+        218
+      ],
+      "ignore_regions_px": [],
+      "framing": "panel_or_world_detail",
+      "saved_at": "2026-11-05T20:22:12+07:00",
+      "original_file": "RobloxScreenShot20261105_202211960.png",
+      "original_sha256": "b935c5c3e0e7fe0f28ca6dc32f3030da9bfbe1c356cc307eb94770c60a2dbaf3",
+      "sha256": "0c6f96c33e5fc005f25d4e070e88bee1e5236603c250fd57ba997fbe7f5fb42b",
+      "observation_ru": "Панель перечисляет два условия и показывает обещанную награду в 25 побед. Проверка и получение собраны в одной кнопке. Снят экран до проверки.",
+      "principle_ru": "Расположи условия над действием и подпиши величину награды тем же символом, что на HUD."
+    },
+    {
+      "id": "blox-01-factions",
+      "game_id": "blox",
+      "title_ru": "Выбор стороны",
+      "tags": [
+        "onboarding",
+        "choice",
+        "comparison"
+      ],
+      "file": "frames/blox-01-factions.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        195,
+        190,
+        605,
+        449
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:49:55+07:00",
+      "original_file": "RobloxScreenShot20261105_204955603.png",
+      "original_sha256": "2d1eed12623467eeba68bc098388c8ec981378498bd59beef095005d95e8eec2",
+      "sha256": "2d1eed12623467eeba68bc098388c8ec981378498bd59beef095005d95e8eec2",
+      "observation_ru": "Две одинаково крупные карточки содержат портрет, название, исходный счёт и краткие условия. Красная и синяя стороны разделены обозначением VS.",
+      "principle_ru": "Сохрани одинаковый порядок полей у равноправных вариантов, чтобы игрок сравнил последствия выбора."
+    },
+    {
+      "id": "blox-02-hud",
+      "game_id": "blox",
+      "title_ru": "HUD в безопасной зоне",
+      "tags": [
+        "hud",
+        "resources",
+        "safe-zone"
+      ],
+      "file": "frames/blox-02-hud.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        3,
+        378,
+        550,
+        593
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:50:58+07:00",
+      "original_file": "RobloxScreenShot20261105_205058770.png",
+      "original_sha256": "7f468ca865dedfef8e5698c3cd70fc6c13009f3850d02aae1a5d967cf83c0c74",
+      "sha256": "7f468ca865dedfef8e5698c3cd70fc6c13009f3850d02aae1a5d967cf83c0c74",
+      "observation_ru": "Внизу слева собраны деньги, уровень, опыт, здоровье и энергия. У здоровья и энергии видны название и числовая пара. Статус безопасной зоны расположен отдельно над слотом.",
+      "principle_ru": "Разнеси личные показатели, режим зоны и экипировку. Оставь линию взгляда между персонажем и целью открытой."
+    },
+    {
+      "id": "blox-03-combat",
+      "game_id": "blox",
+      "title_ru": "Выбран ближний бой",
+      "tags": [
+        "combat",
+        "equipped",
+        "contextual-actions"
+      ],
+      "file": "frames/blox-03-combat.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        362,
+        417,
+        799,
+        599
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:52:06+07:00",
+      "original_file": "RobloxScreenShot20261105_205206122.png",
+      "original_sha256": "9e7b6314b3e2682a87bb49eb82df9146f04eb50f39c25427a2ffb2e8e33f0dfd",
+      "sha256": "9e7b6314b3e2682a87bb49eb82df9146f04eb50f39c25427a2ffb2e8e33f0dfd",
+      "observation_ru": "У слота появился светлый контур. В правом нижнем углу открылась панель Combat с мастерством, кнопками Z/X и требуемыми уровнями приёмов. Второй приём приглушён.",
+      "principle_ru": "Привяжи панель команд к выбору слота. Показывай причину блокировки рядом с командой."
+    },
+    {
+      "id": "blox-04-quest",
+      "game_id": "blox",
+      "title_ru": "Компас указал цель",
+      "tags": [
+        "wayfinding",
+        "quest",
+        "feedback"
+      ],
+      "file": "frames/blox-04-quest.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        92,
+        58,
+        705,
+        236
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:54:11+07:00",
+      "original_file": "RobloxScreenShot20261105_205410829.png",
+      "original_sha256": "34d87ad40c98fc916b7b51fa0185758801065d00ef59a7cd96fa302cf9067973",
+      "sha256": "34d87ad40c98fc916b7b51fa0185758801065d00ef59a7cd96fa302cf9067973",
+      "observation_ru": "После нажатия компаса сверху появилась инструкция о поиске NPC. Рядом с персонажем задания в мире появился восклицательный знак и расстояние.",
+      "principle_ru": "Проверь, что текст задания, визуальная метка и расстояние указывают на одну цель."
+    },
+    {
+      "id": "blox-05-strike",
+      "game_id": "blox",
+      "title_ru": "HUD во время удара",
+      "tags": [
+        "combat",
+        "action",
+        "readability"
+      ],
+      "file": "frames/blox-05-strike.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        325,
+        257,
+        799,
+        599
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:52:55+07:00",
+      "original_file": "RobloxScreenShot20261105_205255333.png",
+      "original_sha256": "e25add550774f6ce96f47373e357e65d821a8e72fb99e525f055ab4cdc3440e1",
+      "sha256": "e25add550774f6ce96f47373e357e65d821a8e72fb99e525f055ab4cdc3440e1",
+      "observation_ru": "Во время тренировочного удара поза персонажа видна в центре. Список приёмов остаётся справа, показатели и слот сохраняют свои места.",
+      "principle_ru": "Проверь боевой HUD в момент движения: кисти персонажа и направление действия должны читаться между панелями."
+    },
+    {
+      "id": "splash-welcome",
+      "game_id": "splash",
+      "title_ru": "Приветственный бонус",
+      "tags": [
+        "reward",
+        "requirements",
+        "onboarding"
+      ],
+      "file": "frames/splash-welcome.png",
+      "image_px": [
+        311,
+        228
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        247,
+        211,
+        558,
+        439
+      ],
+      "focus_px": [
+        0,
+        0,
+        311,
+        228
+      ],
+      "ignore_regions_px": [],
+      "framing": "panel_or_world_detail",
+      "saved_at": "2026-11-05T20:27:34+07:00",
+      "original_file": "RobloxScreenShot20261105_202734355.png",
+      "original_sha256": "ba272312afe5f8e641ae9b2ec3e70eaaa3dfde381e842c5f40295e3a9b6eb930",
+      "sha256": "36112715f647cbcaeb0e848006c038e7723dd3f6d0bb820c368da0cfe1ed90d1",
+      "observation_ru": "Приветственное окно показывает монеты и предмет самоспасения в двух отдельных карточках. Под ними указано условие и стоят две кнопки.",
+      "principle_ru": "Когда награда состоит из валюты и предмета, раздели их визуально и объясни порядок действий до получения."
+    },
+    {
+      "id": "splash-01-inventory",
+      "game_id": "splash",
+      "title_ru": "Запас и улучшения",
+      "tags": [
+        "inventory",
+        "resources",
+        "locked"
+      ],
+      "file": "frames/splash-01-inventory.png",
+      "image_px": [
+        785,
+        446
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        7,
+        99,
+        792,
+        545
+      ],
+      "focus_px": [
+        0,
+        0,
+        785,
+        446
+      ],
+      "ignore_regions_px": [],
+      "framing": "panel_or_world_detail",
+      "saved_at": "2026-11-05T20:29:10+07:00",
+      "original_file": "RobloxScreenShot20261105_202910301.png",
+      "original_sha256": "fce39b2610e0e13e640889aa31291785beffd67e76e8c2fd1c32be3fa7931032",
+      "sha256": "28439439b470ca36d77eb290a31792729efd149b5a19af10e0fa491b883c0429",
+      "observation_ru": "В левой колонке предметы показывают разные состояния, включая «0 left» и «locked». Справа улучшения перечисляют уровень и эффект. Кнопка Loadout находится под предметами.",
+      "principle_ru": "Разведи нулевой запас и закрытый предмет по тексту. Привяжи переход к экипировке к тому списку, которым игрок управляет."
+    },
+    {
+      "id": "splash-02-loadout",
+      "game_id": "splash",
+      "title_ru": "Один слот из трёх",
+      "tags": [
+        "loadout",
+        "slots",
+        "requirements"
+      ],
+      "file": "frames/splash-02-loadout.png",
+      "image_px": [
+        785,
+        447
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        7,
+        98,
+        792,
+        545
+      ],
+      "focus_px": [
+        0,
+        0,
+        785,
+        447
+      ],
+      "ignore_regions_px": [],
+      "framing": "panel_or_world_detail",
+      "saved_at": "2026-11-05T20:30:10+07:00",
+      "original_file": "RobloxScreenShot20261105_203010216.png",
+      "original_sha256": "8a1b353d28f8846218bb364f82a38051b6ba97de3c574f94608435a4bf156a72",
+      "sha256": "c5e1ef8acade23ca0e1623e5c8b9d8005c659fc4f4b20a6e4064fb75865ae4ba",
+      "observation_ru": "Слева видны один занятый и два пустых слота. Справа карточка камней содержит описание и остаток, у бутылок указано, сколько монет не хватает.",
+      "principle_ru": "Раздели то, что уже взято, и то, что доступно для выбора. Пустой слот должен объяснять, как его заполнить."
+    },
+    {
+      "id": "animals-01-hud",
+      "game_id": "animals",
+      "title_ru": "HUD в компактном окне",
+      "tags": [
+        "hud",
+        "compact",
+        "desktop"
+      ],
+      "file": "frames/animals-01-hud.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        7,
+        223,
+        796,
+        592
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:36:27+07:00",
+      "original_file": "RobloxScreenShot20261105_203627756.png",
+      "original_sha256": "ef2e56de2fa1aa436970cda9280e4838314daffaa23da35ec5b1da78fa26c278",
+      "sha256": "ef2e56de2fa1aa436970cda9280e4838314daffaa23da35ec5b1da78fa26c278",
+      "observation_ru": "Слева расположены книга Index и корзина Shop, справа — лапа Animals. Сила и деньги сведены в две строки снизу слева. Персонаж и ближайшая стрелка остаются видны.",
+      "principle_ru": "Группируй действия по смыслу. Проверяй видимость персонажа и направления движения в небольшом окне ПК."
+    },
+    {
+      "id": "animals-02-hud-wide",
+      "game_id": "animals",
+      "title_ru": "Тот же HUD в широком окне",
+      "tags": [
+        "hud",
+        "ultrawide",
+        "desktop"
+      ],
+      "file": "frames/animals-02-hud-wide.png",
+      "image_px": [
+        3440,
+        1369
+      ],
+      "capture_viewport_px": [
+        3440,
+        1369
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        3440,
+        1369
+      ],
+      "focus_px": [
+        20,
+        454,
+        357,
+        1345
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:37:08+07:00",
+      "original_file": "RobloxScreenShot20261105_203706967.png",
+      "original_sha256": "13a39b843f23923b5b611952e69d0fd33836dd3e78d441a812ac9baab3d749e1",
+      "sha256": "13a39b843f23923b5b611952e69d0fd33836dd3e78d441a812ac9baab3d749e1",
+      "observation_ru": "Книга и корзина остались слева, лапа — справа, показатели — внизу слева. Между группами стало больше игрового мира, при этом навигация занимает заметную высоту.",
+      "principle_ru": "Сравни реальные окна разной формы. Проверь и расстояние между группами, и размер самих кнопок."
+    },
+    {
+      "id": "animals-03-index",
+      "game_id": "animals",
+      "title_ru": "Коллекция и два счётчика",
+      "tags": [
+        "collection",
+        "locked",
+        "progress"
+      ],
+      "file": "frames/animals-03-index.png",
+      "image_px": [
+        3440,
+        1369
+      ],
+      "capture_viewport_px": [
+        3440,
+        1369
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        3440,
+        1369
+      ],
+      "focus_px": [
+        705,
+        45,
+        2739,
+        1320
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:39:06+07:00",
+      "original_file": "RobloxScreenShot20261105_203905731.png",
+      "original_sha256": "b1d4431a2c91745045cfe7949cadba910534a7c51aabf8930c2aad1d016d139b",
+      "sha256": "b1d4431a2c91745045cfe7949cadba910534a7c51aabf8930c2aad1d016d139b",
+      "observation_ru": "Секция Forest объединяет восемь силуэтов. Под ней расположен счётчик 0/8, а в отдельной нижней полосе — 0/140 для всей коллекции.",
+      "principle_ru": "Отдели прогресс раздела от общего. У закрытого предмета оставь различимый силуэт и единый признак закрытого состояния."
+    },
+    {
+      "id": "animals-04-index-compact",
+      "game_id": "animals",
+      "title_ru": "Каталог в компактном окне",
+      "tags": [
+        "collection",
+        "compact",
+        "desktop"
+      ],
+      "file": "frames/animals-04-index-compact.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        103,
+        114,
+        698,
+        487
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:38:22+07:00",
+      "original_file": "RobloxScreenShot20261105_203822702.png",
+      "original_sha256": "3802246cc97032d3fbda82236c2633a997bb871deda3bd3f274d5d878262d601",
+      "sha256": "3802246cc97032d3fbda82236c2633a997bb871deda3bd3f274d5d878262d601",
+      "observation_ru": "В компактном окне сохранились четыре колонки и оба счётчика. Заголовок и крестик помещаются вместе, а внизу области прокрутки виден следующий ряд.",
+      "principle_ru": "При уменьшении окна проверь четыре вещи: заголовок, выход, прогресс раздела и общий итог."
+    },
+    {
+      "id": "animals-05-shop",
+      "game_id": "animals",
+      "title_ru": "Количество и цена на витрине",
+      "tags": [
+        "shop",
+        "quantity",
+        "disclosure"
+      ],
+      "file": "frames/animals-05-shop.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        148,
+        132,
+        655,
+        488
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:41:14+07:00",
+      "original_file": "RobloxScreenShot20261105_204114750.png",
+      "original_sha256": "cb9a00d2d8be3f223ccc5ddb608d430bbf550687906d3d038e013b23e1865316",
+      "sha256": "cb9a00d2d8be3f223ccc5ddb608d430bbf550687906d3d038e013b23e1865316",
+      "observation_ru": "В одной карточке видны предмет предложения, ряд возможных результатов, кнопка Odds и три варианта количества с отдельными ценами. На малом экране подписи над результатами очень мелкие.",
+      "principle_ru": "Группируй количество с его ценой. Для плотной витрины предусмотрен читаемый подробный просмотр."
+    },
+    {
+      "id": "animals-06-odds",
+      "game_id": "animals",
+      "title_ru": "Подробные шансы",
+      "tags": [
+        "shop",
+        "details",
+        "modal"
+      ],
+      "file": "frames/animals-06-odds.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        223,
+        190,
+        578,
+        452
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:42:16+07:00",
+      "original_file": "RobloxScreenShot20261105_204216662.png",
+      "original_sha256": "c3e3dc9e09bea408ad6740f453eedae46a74abe9df1e0ce09559aef832c86da2",
+      "sha256": "c3e3dc9e09bea408ad6740f453eedae46a74abe9df1e0ce09559aef832c86da2",
+      "observation_ru": "Окно Odds открылось поверх той же витрины. Результаты стали строками с иконкой и названием. Правый столбец содержит вероятности, отдельный крестик закрывает подробности.",
+      "principle_ru": "Чтобы игрок мог сравнить вероятности, выровняй их в один столбец и сохрани контекст исходной карточки."
+    },
+    {
+      "id": "animals-07-empty",
+      "game_id": "animals",
+      "title_ru": "Инвентарь без животных",
+      "tags": [
+        "inventory",
+        "empty-state",
+        "guidance"
+      ],
+      "file": "frames/animals-07-empty.png",
+      "image_px": [
+        800,
+        599
+      ],
+      "capture_viewport_px": [
+        800,
+        599
+      ],
+      "source_crop_px": [
+        0,
+        0,
+        800,
+        599
+      ],
+      "focus_px": [
+        509,
+        64,
+        796,
+        538
+      ],
+      "ignore_regions_px": [],
+      "framing": "game_view",
+      "saved_at": "2026-11-05T20:44:31+07:00",
+      "original_file": "RobloxScreenShot20261105_204431185.png",
+      "original_sha256": "b5a999773d80b9d283d55e1f9835db7e3bfe792f2927dc8fbd8aa215d3ac7173",
+      "sha256": "b5a999773d80b9d283d55e1f9835db7e3bfe792f2927dc8fbd8aa215d3ac7173",
+      "observation_ru": "Боковая панель показывает 0/10 и объясняет первый способ получения животного — бросить еду за линию. Жёлтая кнопка Equip Best остаётся заметной даже при пустом списке.",
+      "principle_ru": "Используй конкретную подсказку из пустого состояния. Отдельно проверь, не перетягивает ли внимание действие, для которого ещё нет предметов."
+    }
+  ],
+  "comparisons": [
+    {
+      "before": "spider-training",
+      "after": "spider-02-rebirth",
+      "action_ru": "Открыть Rebirth с HUD",
+      "review_question_ru": "Сопоставить прирост множителя с потерей уровней до подтверждения.",
+      "relation": "interaction"
+    },
+    {
+      "before": "spider-training",
+      "after": "spider-daily-claimed",
+      "action_ru": "Открыть Daily после получения награды",
+      "review_question_ru": "Проверить, как таймер с HUD объясняется внутри календаря.",
+      "relation": "interaction"
+    },
+    {
+      "before": "spider-training",
+      "after": "spider-featured",
+      "action_ru": "Перейти с HUD в Shop",
+      "review_question_ru": "Проверить, как категории и цены разделены в магазине.",
+      "relation": "interaction"
+    },
+    {
+      "before": "spider-gift-conditions",
+      "after": "splash-welcome",
+      "action_ru": "Сравнить условия бонусов в двух играх",
+      "review_question_ru": "Сравнить одну кнопку проверки с раздельными кнопками вступления и получения.",
+      "relation": "cross_game"
+    },
+    {
+      "before": "blox-01-factions",
+      "after": "blox-02-hud",
+      "relation": "interaction",
+      "action_ru": "Выбрать сторону Pirates",
+      "review_question_ru": "На старте различимы состояние персонажа и правила зоны."
+    },
+    {
+      "before": "blox-02-hud",
+      "after": "blox-03-combat",
+      "relation": "interaction",
+      "action_ru": "Выбрать слот ближнего боя",
+      "review_question_ru": "Активный слот и доступные команды должны читаться вместе."
+    },
+    {
+      "before": "blox-02-hud",
+      "after": "blox-04-quest",
+      "relation": "interaction",
+      "action_ru": "Включить подсказку компаса",
+      "review_question_ru": "Игрок может связать инструкцию с конкретной целью в мире."
+    },
+    {
+      "before": "blox-03-combat",
+      "after": "blox-05-strike",
+      "relation": "same_mode",
+      "action_ru": "Нанести тренировочный удар",
+      "review_question_ru": "Проверить, что центральная анимация читается при активной панели приёмов."
+    },
+    {
+      "before": "splash-01-inventory",
+      "after": "splash-02-loadout",
+      "relation": "interaction",
+      "action_ru": "Перейти из Inventory в Loadout",
+      "review_question_ru": "Сравнить остатки запасов с тем, какие слоты заняты."
+    },
+    {
+      "before": "animals-01-hud",
+      "after": "animals-02-hud-wide",
+      "relation": "window_size",
+      "action_ru": "Сопоставить размеры окна ПК",
+      "review_question_ru": "Проверить края, занимаемую высоту и свободный центр."
+    },
+    {
+      "before": "animals-03-index",
+      "after": "animals-04-index-compact",
+      "relation": "window_size",
+      "action_ru": "Уменьшить окно с открытым каталогом",
+      "review_question_ru": "Проверить сетку, оба счётчика и доступ к закрытию."
+    },
+    {
+      "before": "animals-05-shop",
+      "after": "animals-06-odds",
+      "relation": "interaction",
+      "action_ru": "Открыть Odds у предложения",
+      "review_question_ru": "Проверить читаемость списка и видимость родительской витрины."
+    },
+    {
+      "before": "animals-01-hud",
+      "after": "animals-07-empty",
+      "relation": "interaction",
+      "action_ru": "Открыть Animals с HUD",
+      "review_question_ru": "Проверить, что при пустом списке объясняется первое действие."
+    }
+  ],
+  "revision": "native-png-2",
+  "capture_method": "Roblox Player built-in Print Screen / RobloxScreenShot*.png",
+  "recapture_notes_ru": "В Spider Arm первый шаг обучения уже пройден и награда первого дня уже получена. В этой редакции показаны текущая тренировка, доступное перерождение, полученный первый день и открытые панели. В трёх остальных играх повторно сняты все 14 прежних состояний. Добавлено приветствие DONT SPLASH.",
+  "color_check": {
+    "method_ru": "Сравнение окна и игрового PNG на одном ракурсе в +1 Spider Arm. Сохранены новые игровые кадры с доступной фактурой светлых участков.",
+    "comparison_file": "capture-comparison.png",
+    "hdr_display": true
+  }
+}

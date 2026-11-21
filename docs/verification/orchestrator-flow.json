@@ -1,0 +1,45 @@
+{
+  "at": "2026-11-02T11:10:33.151Z",
+  "projectId": "6e2f4916-c5c9-4cd0-be4d-b92075fabd84",
+  "sourceTaskId": "4b8f6b4a-1554-47f4-a782-7edb8d1d3551",
+  "taskId": "cd978d99-3f5f-44be-b118-a34a25cce393",
+  "reviewId": "664da0ab-ceda-4903-adcc-e8166c9916bd",
+  "reviewerThreadId": "01a19bf1-d816-7272-b93f-86c6a1c05598",
+  "candidateHash": "c8c1a7aeb6186bcaae8a851b4ac4a9f3bd4a8db59c558a0391386fda313f23ae",
+  "completeDocumentCharacters": 22845,
+  "acceptanceChecks": [
+    "launch",
+    "core-loop",
+    "win-loss",
+    "progression",
+    "save-rejoin",
+    "receipt-idempotency",
+    "cancel-purchase",
+    "network",
+    "mobile-ui",
+    "desktop-ui",
+    "localization",
+    "performance"
+  ],
+  "approvalGranted": false,
+  "newGenerationTurns": 0,
+  "newStudioCommands": 0,
+  "sourcePreserved": true,
+  "downloadMatchesDocument": true,
+  "reloadPreservesDocument": true,
+  "viewports": [
+    "1440x1060",
+    "390x844"
+  ],
+  "unchangedOtherProjects": [
+    "eac0e47c-dd88-4c71-a820-2819fa1f12f2",
+    "5b826c6d-3938-4fc3-9f39-af7f503eb42e",
+    "b70a5d55-2e59-494b-b217-02c44de12ef8",
+    "d716ad5a-4396-4545-bf77-a1097af4bae7",
+    "337e4454-3f11-448c-a3f5-d85add808128",
+    "e8a2f8b9-3059-434d-8e3e-5c3bda85051b",
+    "87768022-1b2a-4c56-a874-aad04c76e6ef",
+    "21c9226c-7a72-4ae5-a95e-3678dfdacefd"
+  ],
+  "errors": []
+}

@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-11-01T10:53:30.379Z",
+  "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+  "sha": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+  "licensePath": "LICENSE",
+  "status": "downloaded-for-review",
+  "packages": [
+    {
+      "id": "game-ui-ux",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-ui-ux",
+      "sha": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 10090,
+          "sha256": "54816447c4d07f9ab65782ebb7138dd0927c9cd84a3647e8806f2a86a3a094ff"
+        },
+        {
+          "path": "references/layout-and-flow.md",
+          "bytes": 7637,
+          "sha256": "961fc8c8e45a1ee5120e1deef9f6aef932ae3949e6f1ce26548b9d7616775d73"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 11395,
+          "sha256": "6f82dcfeb95a1c0a0452180a3b16f21bf82111780018fed59d95a052b5b75f6c"
+        }
+      ],
+      "optionalNonMarkdown": []
+    },
+    {
+      "id": "roblox-luau",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-luau",
+      "sha": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 9634,
+          "sha256": "3b9310d54cd5d4b390e79e97157c6224ceb7676a5087352928ad84f8ea8218cb"
+        },
+        {
+          "path": "references/client-server.md",
+          "bytes": 4833,
+          "sha256": "6ff67b85345105480af3a6dbdbfff7c240e7a15eaf5c84d8079307993f72bdc7"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 11395,
+          "sha256": "6f82dcfeb95a1c0a0452180a3b16f21bf82111780018fed59d95a052b5b75f6c"
+        }
+      ],
+      "optionalNonMarkdown": []
+    },
+    {
+      "id": "roblox-datastores",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-datastores",
+      "sha": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 9014,
+          "sha256": "8fd15365225d7e5428040ed2d09872f7d5547cb0010576ce39fda1880c74b439"
+        },
+        {
+          "path": "references/sessions-and-limits.md",
+          "bytes": 6735,
+          "sha256": "4f2cbb7da7273b3aab86ca124f8391684d1c1771a9735c7785bbfd6961bb0e7c"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 11395,
+          "sha256": "6f82dcfeb95a1c0a0452180a3b16f21bf82111780018fed59d95a052b5b75f6c"
+        }
+      ],
+      "optionalNonMarkdown": []
+    },
+    {
+      "id": "roblox-ui",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-ui",
+      "sha": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 12652,
+          "sha256": "f3875cccdb75523c0cc90c55f911d5b267ad9f6566bd5d552b565c329e8ab71c"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "bytes": 190,
+          "sha256": "4c67a26a3054126e21db6fb6f893135944a8ca0fac9d619506e867b989073ded"
+        },
+        {
+          "path": "assets/inventory-quality-test.model.json",
+          "bytes": 12115,
+          "sha256": "cf9b4953a17bf85709aff48ff0da8acfb3a4ed2760c79e30534878820fb06d38"
+        },
+        {
+          "path": "assets/inventory-quality-test.project.json",
+          "bytes": 229,
+          "sha256": "ab2388eefb502d3e9e165aadc55aba09841940c757ad6d06048e4a8fcdfa0348"
+        },
+        {
+          "path": "references/input-navigation.md",
+          "bytes": 4826,
+          "sha256": "a31a6379911db1827ef00b70a2eeeb56996f3e757526305bc661a5d46a38137b"
+        },
+        {
+          "path": "references/responsive-layout.md",
+          "bytes": 6969,
+          "sha256": "99572066781c1705c06acfc693d36e8eaf60643df16ae14d7fbfda29cd908ecc"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 11395,
+          "sha256": "6f82dcfeb95a1c0a0452180a3b16f21bf82111780018fed59d95a052b5b75f6c"
+        }
+      ],
+      "optionalNonMarkdown": [
+        "skills/other-engines/roblox-ui/agents/openai.yaml",
+        "skills/other-engines/roblox-ui/assets/inventory-quality-test.model.json",
+        "skills/other-engines/roblox-ui/assets/inventory-quality-test.project.json"
+      ]
+    },
+    {
+      "id": "create-game-assets",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/create-game-assets",
+      "sha": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 8152,
+          "sha256": "36cd246a434fefe1e36feff066597a6268d9f63364bee387ee65a22f03838b5d"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "bytes": 231,
+          "sha256": "b5ff9e75ab8a845324d28745aa97af0a3cd4fccc56067a6494947e12e40f1990"
+        },
+        {
+          "path": "assets/art-direction-brief.md",
+          "bytes": 858,
+          "sha256": "6d5dc4f9f5fcb24300bab9ce7dbd56d5c948ba41da3cca2d3b3d235fee5fb72c"
+        },
+        {
+          "path": "assets/asset-manifest.json",
+          "bytes": 969,
+          "sha256": "6cce05638c11b80eb5c8f776cf187f479a2579f1a1729b0970b1cc8e5fab4c8e"
+        },
+        {
+          "path": "references/art-direction.md",
+          "bytes": 3876,
+          "sha256": "19b2ccb827eae0c6c4cd3648ab7febb82e44706bef8515f2e8912de23dec0a5c"
+        },
+        {
+          "path": "references/provenance.md",
+          "bytes": 2605,
+          "sha256": "098d3cf915cd66e8ff0ad3a639964167edf2280f9e23efbae3ea6242d5bea3db"
+        },
+        {
+          "path": "references/raster-pipeline.md",
+          "bytes": 4236,
+          "sha256": "d7a5714628fd8f4b66d03e060488e353b163b811112b164af218beb2b6450a02"
+        },
+        {
+          "path": "references/three-d-pipeline.md",
+          "bytes": 3163,
+          "sha256": "ee6ed7c373e15ffeb8e6b275618482f028279a8146f01b6cfe6a8411cb8a3db4"
+        },
+        {
+          "path": "scripts/asset_report.py",
+          "bytes": 5392,
+          "sha256": "99f4b38f9c4fe036f97ab1d4effd7f6931b62d24a90330a5a2f5ae71e7d1a77c"
+        },
+        {
+          "path": "scripts/build_preview_sheet.py",
+          "bytes": 3353,
+          "sha256": "002a550a7b5fac6d8815078a72afc249dd828c40d975b2323223fc770118c64b"
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "bytes": 15,
+          "sha256": "bbced595a25debee9232fbb784d35ee4f04967d3dbc528e8c3073d3e9adbe2ca"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 11395,
+          "sha256": "6f82dcfeb95a1c0a0452180a3b16f21bf82111780018fed59d95a052b5b75f6c"
+        }
+      ],
+      "optionalNonMarkdown": [
+        "skills/disciplines/create-game-assets/agents/openai.yaml",
+        "skills/disciplines/create-game-assets/assets/asset-manifest.json",
+        "skills/disciplines/create-game-assets/scripts/asset_report.py",
+        "skills/disciplines/create-game-assets/scripts/build_preview_sheet.py",
+        "skills/disciplines/create-game-assets/scripts/requirements.txt"
+      ]
+    }
+  ]
+}

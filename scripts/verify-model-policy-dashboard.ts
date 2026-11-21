@@ -1,0 +1,33 @@
+import {chromium,expect} from "@playwright/test";
+import {DatabaseSync} from "node:sqlite";
+import {mkdirSync,writeFileSync} from "node:fs";
+import {resolve} from "node:path";
+import {Vault} from "../server/vault.js";
+const db=new DatabaseSync("data/studio.sqlite",{readOnly:true});
+const get=(kind:string,id:string)=>{const row=db.prepare("SELECT body FROM records WHERE kind=? AND id=?").get(kind,id);return row?JSON.parse(row.body as string):undefined};
+const token=await new Vault({get} as any).get("dashboard-token");db.close();
+if(!token)throw new Error("No dashboard access");
+const browser=await chromium.launch({headless:true}),page=await browser.newPage({viewport:{width:1440,height:1100}}),errors:string[]=[];
+page.on("pageerror",e=>errors.push(e.message));
+try{
+ await page.addInitScript(({token,id})=>{sessionStorage.setItem("automation-token",token);localStorage.setItem("automation-project",id)},{token,id:"6e2f4916-c5c9-4cd0-be4d-b92075fabd84"});
+ await page.goto("http://127.0.0.1:4317");
+ await page.getByRole("button",{name:"План и агенты",exact:true}).click();
+ await expect(page.getByRole("heading",{name:"Команда разработки",exact:true})).toBeVisible();
+ const panel=page.getByRole("region",{name:"Независимая проверка",exact:true});
+ await expect(panel.getByLabel("API-ключ LLMASS",{exact:true})).toHaveAttribute("type","password");
+ const loaded=page.waitForResponse(r=>r.url().endsWith("/api/external-reviewer/models")&&r.request().method()==="POST");
+ await panel.getByRole("button",{name:"Загрузить модели",exact:true}).click();
+ const response=await loaded;if(!response.ok())throw new Error(await response.text());const catalog=await response.json();
+ expect(catalog.models.length).toBeGreaterThan(0);
+ await expect(panel.getByRole("combobox")).toHaveCount(1);
+ await expect.poll(()=>panel.locator("option").count()).toBe(catalog.models.length+1);
+ const known=catalog.models.find((m:any)=>m.contextWindow&&m.maxOutputTokens);if(!known)throw new Error("No model with context metadata");
+ await panel.getByRole("combobox").selectOption(known.id);
+ await expect(panel.getByText(/Контекст:/)).toContainText(new Intl.NumberFormat("ru-RU").format(known.contextWindow));
+ await expect(panel.getByRole("button",{name:"Загрузить модели",exact:true})).toBeEnabled();
+ const dir=resolve("outputs/model-policy-verification");mkdirSync(dir,{recursive:true});
+ await panel.screenshot({path:resolve(dir,"external-reviewer.png")});
+ const report={modelCount:catalog.models.length,knownContexts:catalog.models.filter((m:any)=>m.contextWindow).length,unknownContexts:catalog.models.filter((m:any)=>!m.contextWindow).length,passwordField:true,catalogEndpoint:"https://llmass.arbitron.dev/v1/models",enabled:catalog.enabled,configured:catalog.configured,pageErrors:errors,paidRequests:0};
+ expect(errors).toHaveLength(0);writeFileSync(resolve(dir,"dashboard.json"),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+}finally{await browser.close()}

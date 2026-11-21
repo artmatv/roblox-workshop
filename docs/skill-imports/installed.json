@@ -1,0 +1,78 @@
+{
+  "at": "2026-11-01T10:58:09.963Z",
+  "review": "Source instructions, references, fixture data and Python source reviewed. Scripts not executed. One Roblox UI primary per project; Studio profile validation remains separate.",
+  "packages": [
+    {
+      "id": "game-ui-ux",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-ui-ux",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "license": "Apache-2.0",
+      "files": 3,
+      "hash": "997cecf209134e6c92629cb9d0d1bad622010d9d2fefa025e7c4233ebbba1073",
+      "packageHash": "0453e5c1c55eae89f31cd4d5ecb350e8feb52de1279936690bb093cd589015be",
+      "compatibilityCheckedAt": "2026-11-01T10:58:09.739Z",
+      "profileTaskValidated": false
+    },
+    {
+      "id": "roblox-luau",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-luau",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "license": "Apache-2.0",
+      "files": 3,
+      "hash": "d79ec449a38243ee4ea437336f12254e810c00231dd88051423305423bdfd819",
+      "packageHash": "c6ecfed41e03c09eb9fbffa7a7c1ddfbeb420e35cfdb3d989196fb3f8126f484",
+      "compatibilityCheckedAt": "2026-11-01T10:58:09.782Z",
+      "profileTaskValidated": false
+    },
+    {
+      "id": "roblox-datastores",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-datastores",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "license": "Apache-2.0",
+      "files": 3,
+      "hash": "5219af2d200fd59324c614fd4ca921ea5c860e50471e191ed135bb82eb654dd1",
+      "packageHash": "e9caa8ecf21fbcd2acc83629f96f2cdf1c2a744042513e1c581913bb1292ee2d",
+      "compatibilityCheckedAt": "2026-11-01T10:58:09.825Z",
+      "profileTaskValidated": false
+    },
+    {
+      "id": "roblox-ui",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-ui",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "license": "Apache-2.0",
+      "files": 7,
+      "hash": "247be6ff130ef133e90c4312818202cd3ad2415c2ad5590951e7ec86e554b1d4",
+      "packageHash": "2fb33044851cb2a26e542bbf2d1dfd5735ee84addd0351f0a6f462cb4ce360f6",
+      "compatibilityCheckedAt": "2026-11-01T10:58:09.876Z",
+      "profileTaskValidated": false
+    },
+    {
+      "id": "create-game-assets",
+      "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/create-game-assets",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "license": "Apache-2.0",
+      "files": 12,
+      "hash": "63378b9a03f0d7e4e5daa206f141a7939bbc4fce8b2fdcd6cf2b2100e09759bb",
+      "packageHash": "bfec6a304211d710afd1d4584527642f103e19dbc7b12e54cde8fe869c91b348",
+      "compatibilityCheckedAt": "2026-11-01T10:58:09.948Z",
+      "profileTaskValidated": false
+    },
+    {
+      "id": "roblox-ui-styles",
+      "source": "file:///D:/Work/roblox/automation/.agents/skills/roblox-ui-styles/SKILL.md",
+      "version": "1.0.0",
+      "license": "Project-owned original style kit; user photographs are personal visual references",
+      "files": 37,
+      "hash": "1d83721dda488de12917f3dd85ee11f31c9b7531312a0a0bd42c735f9bacb170",
+      "packageHash": "5030175855e4c1e771ced345929b281b6a65f0a8ba4daaaaf55548c629a19848",
+      "compatibilityCheckedAt": "2026-11-02T10:21:01.809Z",
+      "profileTaskValidated": false,
+      "verification": "ui-style-presets.json; ui-style-kit-artwork.json; native game UI acceptance remains separate"
+    }
+  ],
+  "projects": [
+    "b70a5d55-2e59-494b-b217-02c44de12ef8",
+    "d716ad5a-4396-4545-bf77-a1097af4bae7",
+    "337e4454-3f11-448c-a3f5-d85add808128"
+  ]
+}

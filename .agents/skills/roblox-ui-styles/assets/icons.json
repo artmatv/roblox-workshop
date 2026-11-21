@@ -1,0 +1,21 @@
+{
+  "viewBox": "0 0 64 64",
+  "license": "Original vector artwork for this project",
+  "icons": {
+    "shop": {"label":"Shop","color":"#ff638b","paths":[{"d":"M10 20h44l-3 31H13z","fill":"main"},{"d":"M22 22v-6a10 10 0 0 1 20 0v6","fill":"none"},{"d":"M17 28h30v8H17z","fill":"light"}]},
+    "inventory": {"label":"Gear","color":"#b29aff","paths":[{"d":"M13 22l19-12 19 12v27L32 58 13 49z","fill":"main"},{"d":"M13 23l19 11 19-11M32 34v24","fill":"none"},{"d":"M22 17l19 12v10l-9 5V33L14 23z","fill":"light"}]},
+    "world": {"label":"World","color":"#39d8cc","paths":[{"d":"M10 51l7-29 14 7 16-8 7 29-16-6-15 9z","fill":"main"},{"d":"M25 8a11 11 0 0 1 19 8c0 8-12 20-12 20S21 24 21 16a11 11 0 0 1 4-8z","fill":"accent"},{"d":"M32 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z","fill":"light"}]},
+    "rebirth": {"label":"Rebirth","color":"#fc8b67","paths":[{"d":"M16 24a19 19 0 0 1 32-7l7 9-18 1 5-6a11 11 0 0 0-19 5z","fill":"main"},{"d":"M48 40a19 19 0 0 1-32 7l-7-9 18-1-5 6a11 11 0 0 0 19-5z","fill":"light"}]},
+    "gift": {"label":"Gift","color":"#c97bff","paths":[{"d":"M10 27h44v27H10z","fill":"main"},{"d":"M7 23h50v12H7z","fill":"light"},{"d":"M27 23h10v31H27z","fill":"accent"},{"d":"M30 23C7 24 15 3 24 10l8 13 8-13c10-7 16 14-8 13z","fill":"accent"}]},
+    "potion": {"label":"Potion","color":"#b36aff","paths":[{"d":"M25 7h14v17l14 22a9 9 0 0 1-8 13H19a9 9 0 0 1-8-13l14-22z","fill":"light"},{"d":"M18 39h28l5 9a5 5 0 0 1-5 7H18a5 5 0 0 1-5-7z","fill":"main"},{"d":"M23 5h18v9H23z","fill":"accent"}]},
+    "coins": {"label":"Coins","color":"#ffd448","paths":[{"d":"M9 38h27v16H9zM22 30h28v23H22z","fill":"main"},{"d":"M13 38h18M26 34h20M26 42h20M26 49h20","fill":"none"},{"d":"M28 6a17 17 0 1 0 0 34 17 17 0 0 0 0-34z","fill":"accent"},{"d":"M31 12h-6v21h6M20 18h14M20 27h14","fill":"none"}]},
+    "gem": {"label":"Gems","color":"#33e3ee","paths":[{"d":"M15 12h34l11 16-28 31L4 28z","fill":"main"},{"d":"M15 12l8 16 9-16 9 16 8-16M4 28h56M23 28l9 31 9-31","fill":"none"},{"d":"M10 25l8-9 3 9z","fill":"light"}]},
+    "strength": {"label":"Power","color":"#ffb43d","paths":[{"d":"M9 38l7-21 9-5 9 8-6 9-7-3-2 13 13-10 17 1 9 12-3 13H20L8 48z","fill":"main"},{"d":"M35 30l8 9M19 39l-1 10M27 16l-5 8","fill":"none"}]},
+    "play": {"label":"Play","color":"#59f087","paths":[{"d":"M19 9l36 23-36 23z","fill":"main"},{"d":"M24 18l21 14-21 14z","fill":"light"}]},
+    "settings": {"label":"Settings","color":"#91a8bb","paths":[{"d":"M25 6h14l2 8 8 5 8-1 4 13-7 5-1 9 4 7-12 7-6-6h-9l-6 6-12-7 4-8-1-8-7-5 4-13 8 1 7-5z","fill":"main"},{"d":"M32 22a11 11 0 1 0 0 22 11 11 0 0 0 0-22z","fill":"light"}]},
+    "close": {"label":"Close","color":"#ff687c","paths":[{"d":"M13 7l19 18L51 7l7 9-18 17 18 17-8 9-18-18L14 59l-8-9 18-17L6 16z","fill":"main"}]},
+    "trophy": {"label":"Trophy","color":"#ffdc56","paths":[{"d":"M19 7h26v20L32 40 19 27zM25 39h14v12h10v8H15v-8h10z","fill":"main"},{"d":"M19 13H8v12l12 7M45 13h11v12l-12 7","fill":"none"},{"d":"M27 12h6v15h-6z","fill":"light"}]},
+    "lock": {"label":"Locked","color":"#a5b8c9","paths":[{"d":"M14 27h36v31H14z","fill":"main"},{"d":"M22 27V16a10 10 0 0 1 20 0v11","fill":"none"},{"d":"M32 38v9","fill":"none"}]},
+    "check": {"label":"Selected","color":"#6df3a2","paths":[{"d":"M8 30l14 13L52 9l9 9-38 42L1 39z","fill":"main"}]}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-02",
+  "studioId": "125d3d43-c5bb-41fa-ac3d-d5171dc9d631",
+  "method": "Actual Roblox Studio Play client with temporary native ModuleScript fixture; stopped Play and removed the fixture afterwards",
+  "dynamicAutoLocalize": false,
+  "rejectsNonEnglish": true,
+  "literal": "Имя игрока",
+  "audit": {
+    "cloudTranslation": "unpublished-not-tested",
+    "errors": [],
+    "sourceLocaleId": "en-us",
+    "guiCount": 4,
+    "passed": true,
+    "entries": 1
+  },
+  "sourceLocaleId": "en-us",
+  "cloudTranslationTested": false,
+  "updated": "Parcels: 3 / 3",
+  "passed": true,
+  "disconnectedAutoLocalize": true,
+  "newStaticAutoLocalize": true,
+  "sourceTableRemoved": true,
+  "bound": "Parcels: 1 / 3",
+  "first": "Parcels: 1 / 3",
+  "sourceTable": "en-us"
+}

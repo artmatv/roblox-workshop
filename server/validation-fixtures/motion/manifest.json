@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "canonicalization": "UTF-8 bytes with CRLF and CR normalized to LF; binary payloads retain byte identity",
+  "provenance": {
+    "upstreamCommit": "5aad881d1e6553cc3671ad549fdf01b8191bdc37",
+    "exporters": {
+      "to_roblox.py": "24fe0a212ed03df891a4578408b9a1732c6d7ab68d54a6edf1bfe634e1ee4457",
+      "glb_tool.py": "531fbe89a5a8a30fc34651757d3bc42c59e03a095d688d90a7bfba0a252264ba",
+      "emit_luau.py": "325f363531321a2df12e5ff2caecf618b6370b363a99fac7a571f0a3686b96f5",
+      "verify_vfx.py": "eff572267d0b419fa8c9a6cef2bb4b86fc3bd77e42062b7623b0131836c2c878"
+    },
+    "animation": "docs/skill-imports/sypho-roblox-animation/resources/references/example-fk-wave.json; exported by pinned bundled to_roblox.py with --folder ReplicatedStorage.__SyphoMotionDiagnostic_Anims --no-verify",
+    "mesh": "generate_mesh.py; closed cube GLB, 8 positions, 12 triangles, 2x2x2 studs; goldens are byte-identical",
+    "vfx": "fixed task-local copy of packaged simple_particle.json with emitter-compatible nested ColorSequence RGB and valid Vector3/NumberRange values, 40 particle burst and 15-18 second lifetime; verified and exported by pinned bundled emit_luau.py --compact"
+  },
+  "inputs": {
+    "input/animation.json": {
+      "rawSha256": "0d3a2499b428540aa5d9c99785b14d3674e0bd233580ff5df15c833a77c32d85",
+      "canonicalSha256": "0d3a2499b428540aa5d9c99785b14d3674e0bd233580ff5df15c833a77c32d85"
+    },
+    "input/mesh.glb": {
+      "rawSha256": "8775b00b65c041addac5e8a8025af3b14f178fbc055a8afa196eefbef828f116",
+      "canonicalSha256": "8775b00b65c041addac5e8a8025af3b14f178fbc055a8afa196eefbef828f116"
+    },
+    "input/vfx/simple_particle.json": {
+      "rawSha256": "51ae6d927bddf02e121feadd8dcb65e194266de5e29a1f71858518e1d108c5b7",
+      "canonicalSha256": "51ae6d927bddf02e121feadd8dcb65e194266de5e29a1f71858518e1d108c5b7"
+    }
+  },
+  "goldens": {
+    "golden/animation.luau": {
+      "rawSha256": "745b7c8966e1736dc2c96842532d73b6e673ee44ab917194649957e0e62f3170",
+      "canonicalSha256": "4fec2bd95a7379ba4fb57e1e4002d63821659bf026e74b0a2ef7b4712b944bc7"
+    },
+    "golden/mesh.glb": {
+      "rawSha256": "8775b00b65c041addac5e8a8025af3b14f178fbc055a8afa196eefbef828f116",
+      "canonicalSha256": "8775b00b65c041addac5e8a8025af3b14f178fbc055a8afa196eefbef828f116"
+    },
+    "golden/vfx.lua": {
+      "rawSha256": "4ac45ac79ed94dc5f5e83196ad90b913f545d0c266b8215baccee90c2f1059bb",
+      "canonicalSha256": "ff05dcf777120ef0a735c9b36b9c94c9afe92edd78becb4a059eaab4946a1e4a"
+    }
+  }
+}

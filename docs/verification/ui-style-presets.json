@@ -1,0 +1,81 @@
+{
+  "at": "2026-11-02T10:21:49.704Z",
+  "projectId": "21c9226c-7a72-4ae5-a95e-3678dfdacefd",
+  "skills": [
+    "game-ui-ux",
+    "roblox-luau",
+    "roblox-datastores",
+    "roblox-ui",
+    "create-game-assets",
+    "roblox-ui-styles"
+  ],
+  "selectedAndReloaded": [
+    "bright-simulator",
+    "tactical-tycoon",
+    "neon-clicker"
+  ],
+  "screens": [
+    {
+      "device": "desktop",
+      "screen": "hud",
+      "images": 3
+    },
+    {
+      "device": "desktop",
+      "screen": "menu",
+      "images": 3
+    },
+    {
+      "device": "desktop",
+      "screen": "shop",
+      "images": 3
+    },
+    {
+      "device": "desktop",
+      "screen": "inventory",
+      "images": 3
+    },
+    {
+      "device": "mobile",
+      "screen": "hud",
+      "images": 3
+    },
+    {
+      "device": "mobile",
+      "screen": "menu",
+      "images": 3
+    },
+    {
+      "device": "mobile",
+      "screen": "shop",
+      "images": 3
+    },
+    {
+      "device": "mobile",
+      "screen": "inventory",
+      "images": 3
+    }
+  ],
+  "iconSheetsLoaded": 3,
+  "originalUserPhotosLoaded": 3,
+  "approvalPersisted": true,
+  "generatedTasks": 0,
+  "studioCommands": 0,
+  "unchangedOtherProjects": [
+    "eac0e47c-dd88-4c71-a820-2819fa1f12f2",
+    "5b826c6d-3938-4fc3-9f39-af7f503eb42e",
+    "b70a5d55-2e59-494b-b217-02c44de12ef8",
+    "d716ad5a-4396-4545-bf77-a1097af4bae7",
+    "337e4454-3f11-448c-a3f5-d85add808128",
+    "e8a2f8b9-3059-434d-8e3e-5c3bda85051b",
+    "87768022-1b2a-4c56-a874-aad04c76e6ef",
+    "6e2f4916-c5c9-4cd0-be4d-b92075fabd84"
+  ],
+  "nativeGameChecks": "Not run; style examples are not runtime evidence",
+  "viewports": [
+    "1440x1060",
+    "390x844"
+  ],
+  "errors": [],
+  "fileFailures": []
+}

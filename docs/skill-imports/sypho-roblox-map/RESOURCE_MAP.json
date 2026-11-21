@@ -1,0 +1,114 @@
+{
+  "files": [
+    {
+      "originalPath": "profiles/default.json",
+      "path": "resources/profiles/default.json",
+      "hash": "0b4a53f6ddc701734040eb02ac598fd8d28276c8b7ed8d791dc5edc38058aaac"
+    },
+    {
+      "originalPath": "profiles/wallrun_example.json",
+      "path": "resources/profiles/wallrun_example.json",
+      "hash": "3b1fbf467413763233c3e3009f8f25ad16386b578e2310f12cd33d242f9f4fca"
+    },
+    {
+      "originalPath": "references/map-design.md",
+      "path": "resources/references/map-design.md",
+      "hash": "ac6a6428f84ff9594dc90a16f7054a7fe4566bbd2c0bfcf94ded6e28700e81ce"
+    },
+    {
+      "originalPath": "references/movement-numbers.md",
+      "path": "resources/references/movement-numbers.md",
+      "hash": "5ecf3f4fcac19aa97b4db3043b8edada75d13c15bee4a275b04c17764195d98f"
+    },
+    {
+      "originalPath": "scripts/checks_budget.py",
+      "path": "resources/scripts/checks_budget.py",
+      "hash": "09de9e738c8ec4e80f91213af18ce3b1b0449d2dbde8f8fcacb9c720b8124089"
+    },
+    {
+      "originalPath": "scripts/checks_design.py",
+      "path": "resources/scripts/checks_design.py",
+      "hash": "230178f882dbc605964f84c8aa6bdce456e134e6f1f6914c9f6a3fc7dfb127d2"
+    },
+    {
+      "originalPath": "scripts/checks_terrain.py",
+      "path": "resources/scripts/checks_terrain.py",
+      "hash": "ef40fdfa2a4bba39923b2fa03962482a32ab6f81f3c656965881875219b21882"
+    },
+    {
+      "originalPath": "scripts/emit.py",
+      "path": "resources/scripts/emit.py",
+      "hash": "ddcd3027a32fb957836f4ed58dd256523e73c55c4ddd61db9d9af739871f9ad3"
+    },
+    {
+      "originalPath": "scripts/geom.py",
+      "path": "resources/scripts/geom.py",
+      "hash": "01b8a071c31ee7ffb727a38e7951d37b218f0ca06ac2f1a143f510fa5001f47d"
+    },
+    {
+      "originalPath": "scripts/outline.py",
+      "path": "resources/scripts/outline.py",
+      "hash": "a6dafa5e83fe0147470eb955ec7631e77af82a7b53ea461235c72a3ed23a630b"
+    },
+    {
+      "originalPath": "scripts/plan.py",
+      "path": "resources/scripts/plan.py",
+      "hash": "ce9765fc3ade8fc9d14b0060ea34ae56b741bb68954d740f437be7b58f14b43d"
+    },
+    {
+      "originalPath": "scripts/prove.py",
+      "path": "resources/scripts/prove.py",
+      "hash": "3b3b01e6813da2bb1baba682179071e070bbc809015974ccdb46886dfa19a6f3"
+    },
+    {
+      "originalPath": "scripts/reach.py",
+      "path": "resources/scripts/reach.py",
+      "hash": "c362eff4f605f8005ee917f023760c85cec0b9e7cb9fd571b9a5ad0a24d66ac3"
+    },
+    {
+      "originalPath": "scripts/spec.py",
+      "path": "resources/scripts/spec.py",
+      "hash": "263dc0eeb2a0cf76cccf04bc63f2fa9d654d7c2c400e9912bf40f361aa758c77"
+    },
+    {
+      "originalPath": "scripts/terrain.py",
+      "path": "resources/scripts/terrain.py",
+      "hash": "cc780492164f6711d09fe14564e2ca2cddb53339270f110ecd02feb8a3f21fb0"
+    },
+    {
+      "originalPath": "scripts/theme.py",
+      "path": "resources/scripts/theme.py",
+      "hash": "63ab9be7aaa8a6bf734f4cffbd1f2f9c2fb9979af6f46e228d02b808ba0d32c0"
+    },
+    {
+      "originalPath": "scripts/verify_map.py",
+      "path": "resources/scripts/verify_map.py",
+      "hash": "0b87bb007847bd3ce22dbc95a25cd67879b14f9157a4a27978a604366fdb2dc0"
+    },
+    {
+      "originalPath": "specs/duel_arena.json",
+      "path": "resources/specs/duel_arena.json",
+      "hash": "9a356f43af1ff142879491b5011d7fd95ebe5340e50cb932f92ee631474be8af"
+    },
+    {
+      "originalPath": "specs/meadow_island.json",
+      "path": "resources/specs/meadow_island.json",
+      "hash": "c39f567ba0837c9eb90f7b0baa6c35e0f16df5e90807d8cd8ab9990a3e59e399"
+    },
+    {
+      "originalPath": "specs/minimal.json",
+      "path": "resources/specs/minimal.json",
+      "hash": "6e8111221f4c7f4e7b7d79d7581a16147ae98089a1ccdc287316bc37191fdcd9"
+    },
+    {
+      "originalPath": "specs/sky_citadel.json",
+      "path": "resources/specs/sky_citadel.json",
+      "hash": "cbbe43317c4255f40121b1cfb639994eadcf2802dc845a429ff717ad1c09f049"
+    },
+    {
+      "originalPath": "themes/sky_citadel.json",
+      "path": "resources/themes/sky_citadel.json",
+      "hash": "1961e8b6ebe59d6db01ccd081e234b5e4b1f0955e9d0cfafdaad14cb1778c0c9"
+    }
+  ]
+}

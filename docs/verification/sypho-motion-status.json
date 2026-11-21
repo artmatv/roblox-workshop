@@ -1,0 +1,331 @@
+{
+  "checkedAt": "2026-11-05T05:12:53Z",
+  "status": "partial",
+  "taskId": "186f27fd-5ae9-4d5b-bbcf-e25ff2f7087d",
+  "serverAccepted": true,
+  "requiredUserAction": null,
+  "observedPassed": [
+    "Collection illustrations show distinct items with correct identities and three tool swatches",
+    "recycler material/motion and clear intake/output confirmed; sandstone path and stage 3 planting across all 8 plots confirmed",
+    "runtime ReducedMotion binding confirmed",
+    "the separate Park gameplay bubble/spark was visible after server-confirmed pickup",
+    "motion diagnostic task 44a063f3-de7d-4927-94ee-e9b1bdfbfe7c host accepted 16/16; its diagnostic VFX capture still showed no clearly discernible particles",
+    "latest VFX package hash 788868a56d78a831e807c372b4f8ff3b6964e26102511842a3700a5f3b3a903b",
+    "A Park Reborn task 186f27fd-5ae9-4d5b-bbcf-e25ff2f7087d succeeded at revision 11; snapshot eeaca447-3e14-4707-be16-75d1d29eb378 succeeded"
+  ],
+  "unverified": [
+    "Grow attempt 3 ended without an accepted host visual result or snapshot; only two frames were reviewed and remain inconclusive",
+    "Grow follow-up ccdadc57-405a-4d8b-9e57-5c90b09ddd03 was blocked by required external HTTP 503 before host visual review; no new accepted version or snapshot, last accepted revision remains 10",
+    "Cloud translation in Creator Hub is unconfirmed; the official English catalog is installed and audited locally but is not proof of published-experience localization",
+    "cloud save/rejoin, physical touch-device behavior, real purchases, external networking, multiplayer and full performance acceptance",
+    "complete full-game QA beyond the accepted Park task and its 9-frame native visual gate"
+  ],
+  "tests": {
+    "latestMotionStudio": "11/11",
+    "latestBlenderJournal": "7/7",
+    "focusedNativeAndProfiles": "43/43",
+    "typecheck": "passed",
+    "fullSuite": "208/210; both stale expectations repaired and targeted checks passed",
+    "latestLiveHost": "Park task succeeded; native visual PASS 9 frames",
+    "latestVfxPackageHash": "788868a56d78a831e807c372b4f8ff3b6964e26102511842a3700a5f3b3a903b",
+    "latestMotionDiagnosticHost": "16/16 accepted for task 44a063f3-de7d-4927-94ee-e9b1bdfbfe7c",
+    "growRuntime": "17be attempt 3 terminal failed at revision 10; two-frame host visual INCONCLUSIVE and no snapshot. ccdadc57-405a-4d8b-9e57-5c90b09ddd03 attempt 1 BLOCKED by required external HTTP 503 before host visual review; no new version/snapshot; last accepted revision 10",
+    "growUxArt": "7ccbf4a1-c091-4390-b926-b46730eaf38e was blocked by upstream routing and superseded without loss",
+    "growLocalization": "Official English catalog installed locally: 250 entries (up from 236), 4 desktop + 8 phone screen audits, countdown 19 to 15 without reset. Catalog artifact SHA-256 2846198fb08f260015c3f944795caeaf13d488eb30ddaed8b4f8495e7c1d7e3e; latest source SHA-256 verified in continuation1-current-source-hashes and continuation2-source-hashes: catalog 827f4ea18d40379dfbdd50c31c117b8b2c86eb8ececbba7abf10308552d54605 (44841 bytes), AutomationI18n 5f85ccaa4224ecb09c8e6eec9afc1eec7b8c0d079fede1309757bc082437c7df, AutomationLocalization e238970ed614d11abace4536f5dc8d3f7cfca7bcf9a392b22cafcd1d7080ea59. Cloud translation remains unconfirmed."
+  },
+  "qualityJobs": {
+    "grow": {
+      "status": "partial-local-work-complete-formal-review-blocked",
+      "supersededUxArtTask": {
+        "status": "superseded",
+        "taskId": "7ccbf4a1-c091-4390-b926-b46730eaf38e",
+        "reason": "Blocked by upstream routing; superseded without loss."
+      },
+      "checkpointTask": {
+        "idPrefix": "17be",
+        "attempt": 2,
+        "status": "checkpoint-saved-deadline-expired-naturally",
+        "sourcesSaved": 6,
+        "realCoverageItems": 14,
+        "hostPass": false,
+        "snapshot": false,
+        "sourceFiles": [
+          "HUD.client.luau",
+          "Loop.server.luau",
+          "GeneCreatureGeometry.luau",
+          "GeneCreatureMotion.luau",
+          "GenePresentation.luau",
+          "GeneVisitors.luau"
+        ]
+      },
+      "attempt3": {
+        "idPrefix": "17be",
+        "attempt": 3,
+        "status": "terminal-failed",
+        "revision": 10,
+        "hostVisual": "INCONCLUSIVE",
+        "framesReviewed": 2,
+        "snapshotAccepted": false,
+        "reason": "Only two frames: side paw contact on Display 1/2; show the full Lab launch button after scrolling in landscape."
+      },
+      "preservedWork": {
+        "sourceFidelity": {
+          "filesMatched": 6,
+          "backendFilesUnchanged": 4
+        },
+        "syntheticCoordinator": {
+          "orders": 45,
+          "upgrades": [
+            "U1",
+            "U2",
+            "U3"
+          ],
+          "costs": [
+            100,
+            250,
+            600
+          ],
+          "capacity": 8,
+          "scope": "local synthetic Coordinator; not cloud/profile proof"
+        },
+        "glimfin": {
+          "materials": 4,
+          "actualSavedPalette": 2,
+          "displaySlot": 2,
+          "quadAssetHashPrefix": "31336"
+        },
+        "unavailableUi": "UIUnavailable→Ready local check",
+        "englishLocalization": {
+          "entries": 250,
+          "previousEntries": 236,
+          "officialLocalInstall": true,
+          "desktopScreensAudited": 4,
+          "phoneScreensAudited": 8,
+          "countdownBefore": 19,
+          "countdownAfter": 15,
+          "timerReset": false,
+          "cloudTranslationConfirmed": false
+        }
+      },
+      "latestFollowup": {
+        "taskId": "ccdadc57-405a-4d8b-9e57-5c90b09ddd03",
+        "attempt": 1,
+        "status": "blocked-required-external-http-503",
+        "hostVisualReview": false,
+        "newVersion": false,
+        "snapshot": false,
+        "lastAcceptedRevision": 10,
+        "localWork": {
+          "interfaceAndTextureAndModelPass": true,
+          "gapBeforeStuds": 0.417273686,
+          "gapAfterStuds": 0.00000016467102037509562,
+          "normalIdleSampleSeconds": 0.3,
+          "reducedPoseMeasured": true,
+          "editableMeshApiSucceeded": true,
+          "labStartButtonFullyVisibleAndActiveAfterScroll": true,
+          "capturedFramesManuallyReviewedByRoot": 14,
+          "manualReviewIsHostPass": false,
+          "evidenceFiles": [
+            "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/continuation2-results.json",
+            "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/continuation2-source-hashes.json",
+            "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/continuation2-unchanged-fidelity.json",
+            "data/native-runs/ccdadc57-405a-4d8b-9e57-5c90b09ddd03/6e26c3465740afc3d213fd13.jpg",
+            "data/native-runs/ccdadc57-405a-4d8b-9e57-5c90b09ddd03/e06f1b03fdca32b7888ec284.jpg"
+          ]
+        },
+        "localization": {
+          "entries": 250,
+          "previousEntries": 236,
+          "artifactSha256": "2846198fb08f260015c3f944795caeaf13d488eb30ddaed8b4f8495e7c1d7e3e",
+          "catalogSourceSha256": "827f4ea18d40379dfbdd50c31c117b8b2c86eb8ececbba7abf10308552d54605",
+          "catalogBytes": 44841,
+          "i18nSourceSha256": "5f85ccaa4224ecb09c8e6eec9afc1eec7b8c0d079fede1309757bc082437c7df",
+          "localizationSourceSha256": "e238970ed614d11abace4536f5dc8d3f7cfca7bcf9a392b22cafcd1d7080ea59",
+          "cloudTranslationConfirmed": false
+        }
+      },
+      "hostRefresh": {
+        "safeQuiescentUpdatePerformed": true,
+        "projectsChecked": 10,
+        "activeTasks": 0,
+        "inflight": 0,
+        "studioMode": "Edit",
+        "liveInstallConfirmed": true,
+        "hashAuditConfirmed": true,
+        "snapshotConfirmed": false,
+        "followupTaskId": "adf2710d-37b7-4422-a7b2-1578498bcbc9",
+        "createdOnce": true,
+        "followupStatus": "blocked-required-external-http-503",
+        "latestFollowupTaskId": "ccdadc57-405a-4d8b-9e57-5c90b09ddd03",
+        "latestFollowupStatus": "blocked-required-external-http-503; no host visual review, version or snapshot"
+      },
+      "visualDiagnostic": "Three source texture fetches failed; authored cream/teal fallback is visible but does not restore source textures. Follow-up locally repaired mesh/material/contact and Lab scroll evidence; root manually reviewed selected 14 frames, not a host PASS. Required external HTTP 503 blocked formal review; no new version/snapshot, revision 10 remains last accepted.",
+      "evidenceFiles": [
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-fidelity.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-backend-fidelity.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-backend-hashes.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-upgrades-results.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-unavailable-results.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-palette-runtime-results.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-material-affected-results.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-i18n-draft-status.json",
+        "data/projects/bc41d46a-16e1-4376-a1a5-66a602e89310/workspace/runtime/owner3-final-art-state.json"
+      ]
+    },
+    "park": {
+      "status": "succeeded",
+      "taskId": "186f27fd-5ae9-4d5b-bbcf-e25ff2f7087d",
+      "revision": 11,
+      "snapshotId": "eeaca447-3e14-4707-be16-75d1e29eb378",
+      "nativeVisual": "PASS 9 frames",
+      "evidenceFiles": [
+        "data/projects/6e2f4916-c5c9-4cd0-be4d-b92075fabd84/workspace/reports/art-pass-evidence.json",
+        "data/projects/6e2f4916-c5c9-4cd0-be4d-b92075fabd84/workspace/reports/art-pass-plots.json",
+        "data/projects/6e2f4916-c5c9-4cd0-be4d-b92075fabd84/workspace/reports/attempt2-coverage.json"
+      ]
+    }
+  },
+  "oldPackages": [
+    {
+      "id": "game-ui-ux",
+      "unchanged": true
+    },
+    {
+      "id": "roblox-luau",
+      "unchanged": true
+    },
+    {
+      "id": "roblox-datastores",
+      "unchanged": true
+    },
+    {
+      "id": "roblox-ui",
+      "unchanged": true
+    },
+    {
+      "id": "create-game-assets",
+      "unchanged": true
+    },
+    {
+      "id": "roblox-ui-styles",
+      "unchanged": true
+    },
+    {
+      "id": "sypho-roblox-map",
+      "unchanged": true
+    },
+    {
+      "id": "sypho-roblox-sfx",
+      "unchanged": true
+    },
+    {
+      "id": "sypho-roblox-ui-tools",
+      "unchanged": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "eac0e47c-dd88-4c71-a820-2819fa1f12f2",
+      "name": "Проверка интерфейса",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "5b826c6d-3938-4fc3-9f39-af7f503eb42e",
+      "name": "Приёмка Studio bridge",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "b70a5d55-2e59-494b-b217-02c44de12ef8",
+      "name": "Лунные почтальоны",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "d716ad5a-4396-4545-bf77-a1097af4bae7",
+      "name": "Кристальный питомник",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "337e4454-3f11-448c-a3f5-d85add808128",
+      "name": "Световые маяки",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "e8a2f8b9-3059-434d-8e3e-5c3bda85051b",
+      "name": "Проверка автоматических навыков",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "87768022-1b2a-4c56-a874-aad04c76e6ef",
+      "name": "Приёмка плагина и дашборда",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "6e2f4916-c5c9-4cd0-be4d-b92075fabd84",
+      "name": "A Park Reborn",
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true,
+      "revision": 11,
+      "latestTaskId": "186f27fd-5ae9-4d5b-bbcf-e25ff2f7087d",
+      "snapshotId": "eeaca447-3e14-4707-be16-75d1e29eb378",
+      "taskSucceeded": true
+    },
+    {
+      "id": "21c9226c-7a72-4ae5-a95e-3678dfdacefd",
+      "name": "Проверка готовых UI стилей",
+      "revisionUnchanged": true,
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true
+    },
+    {
+      "id": "bc41d46a-16e1-4376-a1a5-66a602e89310",
+      "name": "Grow a Creature",
+      "stageUnchanged": true,
+      "settingsUnchanged": true,
+      "approvalsUnchanged": true,
+      "oldPinsUnchanged": true,
+      "revision": 10,
+      "latestRuntimeTaskId": "ccdadc57-405a-4d8b-9e57-5c90b09ddd03",
+      "runtimeTaskStatus": "attempt 1 blocked by required external HTTP 503; no host visual review, new version or snapshot; last accepted revision 10",
+      "followupUxArtTaskId": "7ccbf4a1-c091-4390-b926-b46730eaf38e",
+      "followupUxArtStatus": "superseded without loss; local observations carried into ccdadc follow-up",
+      "latestRuntimeTaskPrefix": "17be",
+      "supersededTaskId": "7ccbf4a1-c091-4390-b926-b46730eaf38e",
+      "localizationFollowupTaskId": "adf2710d-37b7-4422-a7b2-1578498bcbc9",
+      "localizationFollowupStatus": "official 250-entry catalog installed and source hashes verified locally; cloud translation unconfirmed",
+      "latestUxArtTaskId": "ccdadc57-405a-4d8b-9e57-5c90b09ddd03",
+      "latestUxArtTaskStatus": "blocked required external HTTP 503; local contact and scrolled Lab evidence completed; no host review/new version/snapshot"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-01T19:32:39.715Z",
+  "isolated": true,
+  "sessions": [
+    47832,
+    41940
+  ],
+  "projectPersisted": true,
+  "automaticSkills": [
+    "game-ui-ux",
+    "roblox-luau",
+    "roblox-datastores",
+    "roblox-ui",
+    "create-game-assets"
+  ],
+  "manualPinCalls": 0,
+  "portClosedBeforeRestart": true
+}

@@ -1,0 +1,38 @@
+export const stages = [
+  "research",
+  "concept",
+  "style",
+  "specification",
+  "production",
+  "review",
+  "release",
+  "analytics",
+] as const;
+export const roles = [
+  "orchestrator",
+  "researcher",
+  "designer",
+  "art",
+  "gameplay",
+  "ui",
+  "assets",
+  "qa",
+] as const;
+export const labels: Record<string, string> = {
+  research: "Исследование",
+  concept: "Концепция",
+  style: "Оформление",
+  specification: "Спецификация",
+  production: "Разработка",
+  review: "Проверка",
+  release: "Релиз",
+  analytics: "Аналитика",
+  orchestrator: "Оркестратор",
+  researcher: "Исследователь",
+  designer: "Геймдизайнер",
+  art: "Арт-директор",
+  gameplay: "Геймплей",
+  ui: "Интерфейс",
+  assets: "Ресурсы",
+  qa: "Тестировщик",
+};

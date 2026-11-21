@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "pattern": "^(Workspace|ReplicatedStorage|ServerScriptService|ServerStorage|StarterGui|StarterPlayer|Lighting|SoundService)(\\/[\\w .-]+)*$"
+    },
+    "className": {
+      "type": "string",
+      "pattern": "^\\w+$"
+    },
+    "properties": {
+      "default": {},
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {}
+    },
+    "source": {
+      "type": "string",
+      "maxLength": 500000
+    }
+  },
+  "required": [
+    "path",
+    "className",
+    "properties"
+  ],
+  "additionalProperties": false
+}

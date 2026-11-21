@@ -1,0 +1,174 @@
+{
+  "at": "2026-11-02T10:06:01.529Z",
+  "checks": [
+    {
+      "preset": "bright-simulator",
+      "screen": "hud",
+      "device": "desktop",
+      "file": "bright-simulator-hud-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "bright-simulator",
+      "screen": "menu",
+      "device": "desktop",
+      "file": "bright-simulator-menu-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "bright-simulator",
+      "screen": "shop",
+      "device": "desktop",
+      "file": "bright-simulator-shop-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "bright-simulator",
+      "screen": "inventory",
+      "device": "desktop",
+      "file": "bright-simulator-inventory-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "bright-simulator",
+      "screen": "hud",
+      "device": "mobile",
+      "file": "bright-simulator-hud-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "bright-simulator",
+      "screen": "menu",
+      "device": "mobile",
+      "file": "bright-simulator-menu-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "bright-simulator",
+      "screen": "shop",
+      "device": "mobile",
+      "file": "bright-simulator-shop-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "bright-simulator",
+      "screen": "inventory",
+      "device": "mobile",
+      "file": "bright-simulator-inventory-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "hud",
+      "device": "desktop",
+      "file": "tactical-tycoon-hud-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "menu",
+      "device": "desktop",
+      "file": "tactical-tycoon-menu-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "shop",
+      "device": "desktop",
+      "file": "tactical-tycoon-shop-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "inventory",
+      "device": "desktop",
+      "file": "tactical-tycoon-inventory-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "hud",
+      "device": "mobile",
+      "file": "tactical-tycoon-hud-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "menu",
+      "device": "mobile",
+      "file": "tactical-tycoon-menu-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "shop",
+      "device": "mobile",
+      "file": "tactical-tycoon-shop-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "tactical-tycoon",
+      "screen": "inventory",
+      "device": "mobile",
+      "file": "tactical-tycoon-inventory-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "hud",
+      "device": "desktop",
+      "file": "neon-clicker-hud-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "menu",
+      "device": "desktop",
+      "file": "neon-clicker-menu-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "shop",
+      "device": "desktop",
+      "file": "neon-clicker-shop-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "inventory",
+      "device": "desktop",
+      "file": "neon-clicker-inventory-desktop.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "hud",
+      "device": "mobile",
+      "file": "neon-clicker-hud-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "menu",
+      "device": "mobile",
+      "file": "neon-clicker-menu-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "shop",
+      "device": "mobile",
+      "file": "neon-clicker-shop-mobile.png",
+      "overflow": []
+    },
+    {
+      "preset": "neon-clicker",
+      "screen": "inventory",
+      "device": "mobile",
+      "file": "neon-clicker-inventory-mobile.png",
+      "overflow": []
+    }
+  ],
+  "errors": []
+}

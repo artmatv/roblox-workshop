@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "method": "Native Roblox LocalizationTable and Translator:Translate with two identically named Shop labels under different GUI branches; all temporary instances remained outside the place and were destroyed",
+  "sourceLocaleId": "en-us",
+  "source": "Shop",
+  "contexts": ["StarterGui.Main.Shop", "StarterGui.Other.Shop"],
+  "runtimeContexts": ["PlayerGui.Main.Shop", "PlayerGui.Other.Shop"],
+  "fixtureLocale": "fr",
+  "results": ["Boutique", "Magasin"],
+  "passed": true,
+  "cloudTranslationTested": false
+}

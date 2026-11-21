@@ -1,0 +1,166 @@
+{
+  "at": "2026-11-02T10:21:42.755Z",
+  "projectId": "e8a2f8b9-3059-434d-8e3e-5c3bda85051b",
+  "skills": [
+    {
+      "id": "game-ui-ux",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "hash": "997cecf209134e6c92629cb9d0d1bad622010d9d2fefa025e7c4233ebbba1073",
+      "roles": [
+        "art",
+        "designer",
+        "ui"
+      ]
+    },
+    {
+      "id": "roblox-luau",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "hash": "d79ec449a38243ee4ea437336f12254e810c00231dd88051423305423bdfd819",
+      "roles": [
+        "gameplay",
+        "qa"
+      ]
+    },
+    {
+      "id": "roblox-datastores",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "hash": "5219af2d200fd59324c614fd4ca921ea5c860e50471e191ed135bb82eb654dd1",
+      "roles": [
+        "gameplay",
+        "qa"
+      ]
+    },
+    {
+      "id": "roblox-ui",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "hash": "247be6ff130ef133e90c4312818202cd3ad2415c2ad5590951e7ec86e554b1d4",
+      "roles": [
+        "ui",
+        "art"
+      ]
+    },
+    {
+      "id": "create-game-assets",
+      "version": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "hash": "63378b9a03f0d7e4e5daa206f141a7939bbc4fce8b2fdcd6cf2b2100e09759bb",
+      "roles": [
+        "art",
+        "assets"
+      ]
+    },
+    {
+      "id": "roblox-ui-styles",
+      "version": "1.0.0",
+      "hash": "1d83721dda488de12917f3dd85ee11f31c9b7531312a0a0bd42c735f9bacb170",
+      "roles": [
+        "art",
+        "ui",
+        "assets",
+        "qa"
+      ]
+    }
+  ],
+  "manualImportCalls": 0,
+  "manualPinCalls": 0,
+  "generatedTasks": 0,
+  "automaticAssignmentEvent": true,
+  "dashboardBadges": "all 6 present",
+  "viewports": [
+    "1440x1060",
+    "390x844"
+  ],
+  "errors": [],
+  "realRoleTasks": [
+    {
+      "projectId": "d716ad5a-4396-4545-bf77-a1097af4bae7",
+      "taskId": "5f815477-0fd0-4a5f-a4f7-68a11349fff2",
+      "role": "art",
+      "kind": "style-preview",
+      "status": "succeeded",
+      "skills": [
+        "local-art",
+        "game-ui-ux",
+        "roblox-luau",
+        "roblox-ui",
+        "create-game-assets"
+      ],
+      "studioEvidence": "6436dde8-6d85-4152-acfe-3359712531ef"
+    },
+    {
+      "projectId": "d716ad5a-4396-4545-bf77-a1097af4bae7",
+      "taskId": "c091e5ce-4eb1-4467-99f1-f918cd4abe92",
+      "role": "art",
+      "kind": "style-preview-draft",
+      "status": "succeeded",
+      "skills": [
+        "local-art",
+        "game-ui-ux",
+        "roblox-luau",
+        "roblox-ui",
+        "create-game-assets"
+      ],
+      "studioEvidence": null
+    },
+    {
+      "projectId": "d716ad5a-4396-4545-bf77-a1097af4bae7",
+      "taskId": "1928063d-5417-4f5f-9ddb-1f9190868a9b",
+      "role": "art",
+      "kind": "style-preview-draft",
+      "status": "succeeded",
+      "skills": [
+        "local-art",
+        "game-ui-ux",
+        "roblox-luau",
+        "roblox-ui",
+        "create-game-assets"
+      ],
+      "studioEvidence": null
+    },
+    {
+      "projectId": "337e4454-3f11-448c-a3f5-d85add808128",
+      "taskId": "55eb730c-028c-41f2-919c-7eb1562a812a",
+      "role": "art",
+      "kind": "style-preview-draft",
+      "status": "succeeded",
+      "skills": [
+        "local-art",
+        "game-ui-ux",
+        "roblox-luau",
+        "roblox-ui",
+        "create-game-assets"
+      ],
+      "studioEvidence": null
+    },
+    {
+      "projectId": "337e4454-3f11-448c-a3f5-d85add808128",
+      "taskId": "b4ade359-da95-454f-844a-bbf39e60b332",
+      "role": "art",
+      "kind": "style-preview-draft",
+      "status": "succeeded",
+      "skills": [
+        "local-art",
+        "game-ui-ux",
+        "roblox-luau",
+        "roblox-ui",
+        "create-game-assets"
+      ],
+      "studioEvidence": null
+    },
+    {
+      "projectId": "337e4454-3f11-448c-a3f5-d85add808128",
+      "taskId": "f6a2edb1-0e44-4d95-ada1-983010ac6f3e",
+      "role": "art",
+      "kind": "style-preview-draft",
+      "status": "succeeded",
+      "skills": [
+        "local-art",
+        "game-ui-ux",
+        "roblox-luau",
+        "roblox-ui",
+        "create-game-assets"
+      ],
+      "studioEvidence": null
+    }
+  ],
+  "roleRouting": "Covered by tests/default-skills.test.ts; native task verification recorded separately"
+}

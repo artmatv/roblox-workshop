@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-01T10:58:11.380Z",
+  "source": "User rejected similar styles and requested Roblox skill",
+  "projects": [
+    {
+      "projectId": "b70a5d55-2e59-494b-b217-02c44de12ef8",
+      "name": "Лунные почтальоны",
+      "feedbackId": "fbe7059a-e74e-489c-8364-f84e54db33b0",
+      "taskIds": [
+        "3f34629a-9ae9-4602-b868-5d98ce10290f"
+      ]
+    },
+    {
+      "projectId": "d716ad5a-4396-4545-bf77-a1097af4bae7",
+      "name": "Кристальный питомник",
+      "feedbackId": "e56bf654-979e-4cdd-a8ab-4058eaf43e3d",
+      "taskIds": [
+        "9ed567c4-eb78-423c-af79-d1a4a554f43b"
+      ]
+    },
+    {
+      "projectId": "337e4454-3f11-448c-a3f5-d85add808128",
+      "name": "Световые маяки",
+      "feedbackId": "b19d3189-0d36-4198-9d9c-8bf08eaf1941",
+      "taskIds": [
+        "c01dbb22-434f-4229-ba79-3b3cc2a0b877"
+      ]
+    }
+  ]
+}

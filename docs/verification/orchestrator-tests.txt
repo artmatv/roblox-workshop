@@ -1,0 +1,113 @@
+
+> roblox-autonomous-studio@0.1.0 test
+> tsx --test tests/*.test.ts
+
+✔ repair feedback retains errors after a large layout report and both real devices (21.5439ms)
+(node:15984) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ service shutdown interrupts each active task once even when requested twice (2224.3827ms)
+✔ project, decisions and events survive a process restart (1288.4281ms)
+✔ production cannot bypass concept/style/specification/budget gates (1133.8794ms)
+✔ changing approved requirements invalidates dependent approvals and queued work (984.9522ms)
+✔ a file cannot escape the task root through relative traversal (1087.7211ms)
+✔ budget reservations are atomic, counted once and released on settlement (675.0095ms)
+✔ invalid estimates, daily, stage and provider limits are enforced (731.6525ms)
+✔ quota maps include every source entry, clamp percentages and keep unknowns (0.7427ms)
+✔ scope and untrusted code are rejected before integration (559.1732ms)
+✔ changed pinned skills or unavailable required tools block execution (569.6806ms)
+✔ Studio commands bind project, connection, revision and write queue (599.0128ms)
+✔ interrupted tasks and uncertain operations survive restart without replay (560.8011ms)
+✔ release requires actual checks, phone, assets, target and exact version (712.017ms)
+✔ CSV handles quotes, missing values, provenance and duplicate imports (883.6334ms)
+✔ place XML exports nested services, typed properties and escaped source (1.0909ms)
+✔ XML enum tokens match verified Studio values without inventing unknown values (0.5264ms)
+✔ retrying a failed Studio check requeues its operation instead of building an empty manifest (589.2641ms)
+✔ an accepted corrected manifest clears the old error and normalizes a redundant matching name (577.082ms)
+✔ invalid generated code is corrected automatically and retrying one task preserves its diagnostic (588.418ms)
+(node:21708) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ new projects automatically receive complete pinned Roblox skills and tasks load instructions by role (2190.4749ms)
+✔ resumed Codex sessions receive the actual current skill instructions (1449.555ms)
+(node:12296) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ dashboard reports the actual pinned skill after upgrade and respects a disabled package (2308.09ms)
+✔ dashboard distinguishes configured localization, a real check, and outdated integration; downloads exist on disk (1335.329ms)
+✔ Studio indicator requires a fresh live connection, including during Play (0.5469ms)
+(node:4540) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ English source catalogue, Roblox runtime and CSV are injected once and exported with AutoLocalize (31.6874ms)
+✔ non-English authored UI, source-locale overrides and invalid parameter keys fail before application (2.4381ms)
+✔ production merges role catalogues, detects conflicting keys and retains untouched prior strings (2.2795ms)
+✔ all new and existing projects require localization; QA automatically receives the UI skills (2334.0717ms)
+(node:12856) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ HTTP: authenticated project workflow, origin restrictions and scoped plugin pairing (2741.2814ms)
+(node:30944) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ complete skill bundles retain reviewed tools without running them and use one primary UI skill (2323.3119ms)
+✔ a skill upgrade retains the pinned older instruction package (1320.7131ms)
+✔ external API generation cannot bypass approved budget or spend on unknown free-credit applicability (838.2999ms)
+✔ backup contains an independently readable consistent SQLite database (229.3268ms)
+(node:23572) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ unsupported Lighting service fields are reported together before a Studio write (4.8167ms)
+✔ a refusal or empty result cannot count as a prepared native scene (1.0838ms)
+✔ a bounded native patch preserves unchanged world and files and rejects stale or foreign bases (2.8269ms)
+✔ a reviewed local correction creates a new skill-backed artifact, preserves its base and cannot target a stale source (2419.7914ms)
+✔ resuming work preserves diagnostics and does not resurrect replaced previews or completed Studio failures (1304.5362ms)
+(node:44528) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ streaming deltas never rescan saved builds and relevant events load only active tasks (2171.2609ms)
+(node:15720) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✖ style comparison produces every screen on both devices and rejects palette-only variants (3163.4583ms)
+✔ concept art can load local guidance without Studio while scene validation still requires it (943.9004ms)
+✔ native candidates can be prepared offline, require compatible Studio to apply and repair failed runtime checks within the limit (1380.0898ms)
+✔ new preview rendering preserves the previous package and cannot change selected styles (1132.0765ms)
+(node:20832) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ ready styles can be selected and approved offline; selection starts no agents, Studio commands or paid operations (2464.4108ms)
+✔ preset approval rejects changed definitions and pinned archives survive a skill upgrade (1244.109ms)
+✔ interface turns receive the pinned style skill, actual kit tokens, icon vectors and the selected user reference (1058.7601ms)
+✔ preset catalogue, image files, selection and reload work through the authenticated API without Studio (1665.4113ms)
+✔ SVG packages reject executable/external content while accepting the shipped standalone icons (0.6466ms)
+✔ an old concept image never hides a later Studio capture of the same screen (0.3811ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 49
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15728.9915
+
+✖ failing tests:
+
+test at tests\style-previews.test.ts:1:605
+✖ style comparison produces every screen on both devices and rejects palette-only variants (3163.4583ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Правила/. Input:
+  
+  'Error: Ответ содержит только summary; результат работы отсутствует'
+  
+      at TestContext.<anonymous> (D:\Work\roblox\automation\tests\style-previews.test.ts:166:12)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1103:25)
+      at Test.start (node:internal/test_runner/test:1000:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Ответ содержит только summary; результат работы отсутствует
+        at normalizeAgentDeliverable (D:\Work\roblox\automation\server\orchestrator.ts:126:11)
+        at Engine.prepareResult (D:\Work\roblox\automation\server\engine.ts:1780:5)
+        at Engine.acceptResult (D:\Work\roblox\automation\server\engine.ts:1898:25)
+        at <anonymous> (D:\Work\roblox\automation\tests\style-previews.test.ts:168:11)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (D:\Work\roblox\automation\tests\style-previews.test.ts:166:12)
+        at Test.runInAsyncScope (node:async_hooks:214:14)
+        at Test.run (node:internal/test_runner/test:1103:25)
+        at Test.start (node:internal/test_runner/test:1000:17),
+    expected: /Правила/,
+    operator: 'throws',
+    diff: 'simple'
+  }

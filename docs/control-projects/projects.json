@@ -1,0 +1,27 @@
+{
+  "approvedAt": "2026-11-01T10:34:17.535Z",
+  "approvalSource": "User chat: Утверждаю три предложенные концепции",
+  "projects": [
+    {
+      "name": "Лунные почтальоны",
+      "genre": "Obby",
+      "key": "moon",
+      "id": "b70a5d55-2e59-494b-b217-02c44de12ef8",
+      "conceptApproved": true
+    },
+    {
+      "name": "Кристальный питомник",
+      "genre": "Симулятор с прогрессией",
+      "key": "crystal",
+      "id": "d716ad5a-4396-4545-bf77-a1097af4bae7",
+      "conceptApproved": true
+    },
+    {
+      "name": "Световые маяки",
+      "genre": "Многопользовательские раунды",
+      "key": "beacons",
+      "id": "337e4454-3f11-448c-a3f5-d85add808128",
+      "conceptApproved": true
+    }
+  ]
+}
