@@ -4,7 +4,7 @@ import { now } from "../shared/domain.js";
 import { Store, id } from "./store.js";
 import { Vault } from "./vault.js";
 import type { Engine } from "./engine.js";
-async function jsonFetch(url: string, init: RequestInit = {}) {
+export async function jsonFetch(url: string, init: RequestInit = {}) {
   const r = await fetch(url, { ...init, signal: AbortSignal.timeout(30_000) });
   if (!r.ok) throw new Error(`Источник вернул HTTP ${r.status}`);
   return r.json();
