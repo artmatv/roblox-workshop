@@ -8,6 +8,7 @@ import type {
   UiStylePreset,
 } from "../shared/ui-style-presets.js";
 import { Store, hash } from "./store.js";
+import { ownerReferenceImages } from "./owner-references.js";
 
 export const UI_STYLE_SKILL = "roblox-ui-styles";
 const marker = z.object({
@@ -169,17 +170,18 @@ export function presetReferenceImages(
   role: Role,
 ) {
   if (!["art", "ui", "assets", "qa"].includes(role)) return [];
+  const owner = ownerReferenceImages(store, project.id);
   const style = project.selectedStyle
     ? store.get<StylePackage>("style", project.selectedStyle)
     : undefined;
-  if (!style?.rules.preset) return [];
+  if (!style?.rules.preset) return owner;
   const preset = assertPresetStyle(store, project, style);
   const path = presetReferencePath(
     store,
     preset.id,
     project.skillPins[UI_STYLE_SKILL],
   );
-  return path ? [{ type: "localImage", path }] : [];
+  return [...(path ? [{ type: "localImage", path }] : []), ...owner];
 }
 export function presetReferencePath(
   store: Store,

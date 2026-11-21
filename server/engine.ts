@@ -54,6 +54,11 @@ import {
 } from "../shared/production-plan.js";
 import { normalizeLimits } from "./codex.js";
 import { subscriptionAccount, type AgentServer } from "./agent-server.js";
+import {
+  PlayerCapture,
+  buildOwnerBrief,
+  ownerStyleContext,
+} from "./owner-references.js";
 import { balance, reserve, settle, releaseReservation } from "./budget.js";
 import { builtInSkills, externalSkills, families } from "./catalog.js";
 import { exportPlace, normalizeEnumTokens } from "./export.js";
@@ -136,11 +141,13 @@ export class Engine {
     { promise: Promise<NameSuggestionsResult>; controller: AbortController }
   >();
   native: NativeHarness;
+  capture: PlayerCapture;
   constructor(
     public store: Store,
     public codex: AgentServer,
   ) {
     this.native = new NativeHarness(this);
+    this.capture = new PlayerCapture(store);
     for (const s of [...builtInSkills, ...externalSkills])
       if (!store.get("skill", s.id)) {
         store.put("skill", s);
@@ -300,6 +307,7 @@ export class Engine {
   async stop() {
     if (this.stopping) return;
     this.stopping = true;
+    this.capture.close();
     if (this.timer) clearInterval(this.timer);
     for (const t of this.store
       .all<Task>("task")
@@ -1105,6 +1113,23 @@ export class Engine {
       hash: p.approvals[name].hash,
     });
   }
+  async buildReferenceBrief(key: string) {
+    const project = this.project(key);
+    if (this.stopping)
+      throw new Error("Сервис завершает работу. Повторите после запуска.");
+    if (!this.codex.ready || !subscriptionAccount(this.account))
+      throw new Error("Для брифа стиля подключите аккаунт исполнителя");
+    if (this.quotaBlocked(project))
+      throw new Error("Бриф стиля ожидает восстановления квоты");
+    if (!this.models.length)
+      this.models = (await this.codex.models()).data || [];
+    return buildOwnerBrief({
+      store: this.store,
+      agent: this.codex,
+      project,
+      models: this.models,
+    });
+  }
   async suggestProjectNames(key: string) {
     const pending = this.namingRequests.get(key);
     if (pending) return pending.promise;
@@ -1513,7 +1538,11 @@ export class Engine {
             this.store.put("task", task);
           }
           this.setExecution(p, "running");
-          this.store.event(p.id, "execution.quota.resumed", this.quotaReason(p));
+          this.store.event(
+            p.id,
+            "execution.quota.resumed",
+            this.quotaReason(p),
+          );
         }
         if (p.execution !== "running") continue;
         const tasks = this.openTasks(p.id);
@@ -2127,6 +2156,7 @@ export class Engine {
           specification: p.specification,
           requiredChecks: p.requiredChecks,
           gameLanguage: GAME_LANGUAGE_POLICY,
+          ownerStyle: ownerStyleContext(this.store, p.id),
         },
         style:
           t.previewStyleId || p.selectedStyle
@@ -2296,7 +2326,9 @@ export class Engine {
       if (this.quotaBlocked())
         throw new Error("Проверка оркестратора ожидает квоты ChatGPT");
       if (!this.codex.ready || !subscriptionAccount(this.account))
-        throw new Error("Для проверки оркестратора подключите аккаунт исполнителя");
+        throw new Error(
+          "Для проверки оркестратора подключите аккаунт исполнителя",
+        );
       const work = resolve(this.store.root, "reviews", review.id);
       const effortConfig = await this.effortConfig(p, t, true, work);
       mkdirSync(work, { recursive: true });
@@ -2399,6 +2431,7 @@ export class Engine {
                 specification: p.specification,
                 requiredChecks: p.requiredChecks,
                 gameLanguage: GAME_LANGUAGE_POLICY,
+                ownerStyle: ownerStyleContext(this.store, p.id),
               },
               style: p.selectedStyle
                 ? this.store.get("style", p.selectedStyle)

@@ -94,6 +94,7 @@ export class Store {
       "skillValidationContext",
       "nativeExternalReview",
       "nameGeneration",
+      "ownerReference",
       "integrationBase",
       "nativeDelivery",
       "nativeVisualReview",

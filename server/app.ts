@@ -34,6 +34,13 @@ import { families } from "./catalog.js";
 import { balance } from "./budget.js";
 import { normalizeLimits, PINNED_CODEX } from "./codex.js";
 import {
+  addReferenceImage,
+  ownerReference,
+  referenceImages,
+  removeReferenceImage,
+  saveReferencePrompt,
+} from "./owner-references.js";
+import {
   type Command,
   type StudioConnection,
   type Project,
@@ -263,6 +270,11 @@ export function createApp(
         .all<StylePackage>("style")
         .filter((s) => s.projectId === p.id && s.supersededAt),
       research: store.all<any>("research").filter((r) => r.projectId === p.id),
+      ownerReference: {
+        ...ownerReference(store, p.id),
+        images: referenceImages(store, p.id),
+        capture: engine.capture.status(p.id),
+      },
       feedback: store.all<any>("feedback").filter((r) => r.projectId === p.id),
       commands: store
         .allWithoutInstances<any>("command", ["$.result", "$.payload.manifest"])
@@ -430,7 +442,11 @@ export function createApp(
         .all<any>("command")
         .filter((record) => record.projectId === project.id)
         .map((record) => record.id);
-      const targets = [`projects/${project.id}`, `naming/${project.id}`];
+      const targets = [
+        `projects/${project.id}`,
+        `naming/${project.id}`,
+        `references/${project.id}`,
+      ];
       for (const taskId of taskIds)
         targets.push(
           `tasks/${taskId}`,
@@ -564,6 +580,31 @@ export function createApp(
   });
   app.post("/api/projects/:id/prototype", (req, res) =>
     res.json(engine.prototype(req.params.id)),
+  );
+  app.post("/api/projects/:id/owner-references/images", (req, res) => {
+    engine.project(req.params.id);
+    res.json(addReferenceImage(store, req.params.id, req.body));
+  });
+  app.delete("/api/projects/:id/owner-references/images/:name", (req, res) => {
+    engine.project(req.params.id);
+    removeReferenceImage(store, req.params.id, req.params.name);
+    res.json({ ok: true });
+  });
+  app.patch("/api/projects/:id/owner-references", (req, res) => {
+    engine.project(req.params.id);
+    res.json(saveReferencePrompt(store, req.params.id, req.body?.prompt));
+  });
+  app.post("/api/projects/:id/owner-references/capture", (req, res) => {
+    engine.project(req.params.id);
+    const action = z.enum(["start", "stop"]).parse(req.body?.action);
+    res.json(
+      action === "start"
+        ? engine.capture.start(req.params.id)
+        : engine.capture.stop(req.params.id),
+    );
+  });
+  app.post("/api/projects/:id/owner-references/brief", async (req, res) =>
+    res.json(await engine.buildReferenceBrief(req.params.id)),
   );
   app.post("/api/projects/:id/references", (req, res) => {
     engine.project(req.params.id);

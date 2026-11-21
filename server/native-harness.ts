@@ -25,6 +25,7 @@ import {
 } from "../shared/agent-policy.js";
 import { findCodex, workshopCodexHome } from "./codex.js";
 import { subscriptionAccount } from "./agent-server.js";
+import { ownerStyleContext } from "./owner-references.js";
 import {
   ACCEPTED_FILE,
   acceptedItemsText,
@@ -2485,6 +2486,7 @@ ${listItems(priorFrameItems)}`
             genre: p.genre,
             concept: p.concept,
             style: e.store.get("style", p.selectedStyle!),
+            ownerStyle: ownerStyleContext(e.store, p.id),
             nativeStudio: bound,
             revision: p.revision,
           },

@@ -2235,3 +2235,126 @@ a:focus-visible {
 .production-plan .quality {
   color: #6f7c68;
 }
+.owner-steps {
+  list-style: none;
+  counter-reset: owner-step;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.owner-steps > li {
+  counter-increment: owner-step;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+.owner-steps h3 {
+  margin: 0;
+  font-size: 14px;
+}
+.owner-steps h3::before {
+  content: counter(owner-step) ". ";
+  color: var(--green);
+}
+.owner-steps p {
+  margin: 0;
+  color: var(--muted);
+}
+.owner-steps textarea,
+.owner-steps .button-row input {
+  width: 100%;
+}
+.owner-steps .button-row {
+  flex-wrap: wrap;
+}
+.button-like {
+  border: 1px solid #dce2d9;
+  background: #fff;
+  border-radius: 7px;
+  padding: 9px 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 550;
+}
+.button-like:hover {
+  background: #eef2e9;
+}
+.owner-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.owner-gallery figure {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.owner-gallery figure.picked {
+  border-color: var(--green);
+  box-shadow: 0 0 0 1px var(--green);
+}
+.owner-gallery .preview {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.owner-gallery figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 4px 4px 9px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.owner-gallery figcaption button {
+  padding: 4px;
+}
+.owner-brief {
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.owner-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 8px 0;
+}
+.owner-palette span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+.owner-palette i {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+}
+.owner-brief dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4px 14px;
+  margin: 0;
+}
+.owner-brief dt {
+  color: var(--muted);
+}
+.owner-brief dd {
+  margin: 0;
+}
+.button-like .file-input {
+  display: none;
+}

@@ -60,6 +60,7 @@ import { VersionComparison } from "./VersionComparison";
 import { StyleDetails } from "./StyleDetails";
 import { StylePresetLibrary } from "./StylePresetLibrary";
 import { AssetPreview } from "./AssetPreview";
+import { OwnerReferences } from "./OwnerReferences";
 import { SpecificationDocument } from "./SpecificationDocument";
 import type { ResultReview } from "../server/orchestrator";
 import { preferredStylePreview } from "../shared/style-preview-selection";
@@ -900,6 +901,12 @@ function Overview({
         project={p}
         session={detail.nativeSession}
         onDevelop={(text) => run(() => action("develop", { text }))}
+      />
+      <OwnerReferences
+        projectId={p.id}
+        reference={detail.ownerReference}
+        run={run}
+        api={api}
       />
       {failure && (
         <section className="card" role="alert">
