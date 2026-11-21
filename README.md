@@ -4,6 +4,14 @@
 
 Локальное приложение для Windows: русский дашборд, постоянный сервис, рабочие сессии ИИ-агента, очередь сборки и устанавливаемый плагин Studio. Агент работает через **Codex** (подписка ChatGPT) или **Claude Code** (подписка Claude) — исполнитель выбирается при запуске. Реализация по [ТЗ версии 1.4](docs/SPEC_SOURCE_RU.md).
 
+| Обзор проекта | Концепция и стиль: три готовые заготовки |
+| --- | --- |
+| ![Обзор проекта](docs/screenshots/overview.png) | ![Концепция и стиль](docs/screenshots/concept-style.png) |
+| **План и агенты: команда разработки** | **Аккаунты и расходы** |
+| ![План и агенты](docs/screenshots/plan-agents.png) | ![Аккаунты и расходы](docs/screenshots/accounts.png) |
+
+<p align="center"><img src="docs/screenshots/overview-mobile.png" alt="Обзор на телефоне" width="260"><br><sub>Дашборд в ширине телефона</sub></p>
+
 ## Требования
 
 - Windows 10/11, Node.js 24.13 или новее.
