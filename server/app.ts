@@ -53,6 +53,8 @@ import {
   now,
 } from "../shared/domain.js";
 import { currentMilestone } from "../shared/production-plan.js";
+import { checkIdea } from "./idea-lab.js";
+import { validIdeaPicks, type Idea } from "../shared/idea-lab.js";
 const token = () => randomBytes(32).toString("hex");
 // Latest visual verdicts for the current production milestone (the plan view
 // shows them per item); accepted milestones need none.
@@ -529,6 +531,38 @@ export function createApp(
     });
     return res.json({ ok: true });
   });
+  app.get("/api/ideas", (_req, res) =>
+    res.json(
+      store
+        .all<Idea>("idea")
+        .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+        .slice(0, 12),
+    ),
+  );
+  app.post("/api/ideas", async (req, res) =>
+    res.json(
+      await engine.developIdea(
+        z
+          .object({ verb: z.string(), article: z.string(), noun: z.string() })
+          .parse(req.body.words),
+      ),
+    ),
+  );
+  const idea = (key: string) => {
+    const found = store.get<Idea>("idea", key);
+    if (!found) throw new Error("Идея не найдена");
+    return found;
+  };
+  app.patch("/api/ideas/:id", (req, res) => {
+    const saved = idea(req.params.id);
+    saved.picks = validIdeaPicks(req.body.picks);
+    saved.updatedAt = now();
+    store.put("idea", saved);
+    res.json(saved);
+  });
+  app.post("/api/ideas/:id/check", async (req, res) =>
+    res.json(await checkIdea(store, idea(req.params.id))),
+  );
   app.post("/api/projects/:id/name-suggestions", async (req, res) => {
     res.json(await engine.suggestProjectNames(req.params.id));
   });

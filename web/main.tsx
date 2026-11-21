@@ -7,6 +7,7 @@ import {
   specialistProfile,
 } from "../shared/agent-policy";
 import { NativeDevelopment } from "./NativeDevelopment";
+import { IdeaLab } from "./IdeaLab";
 import { ProjectDirection } from "./ProjectDirection";
 import { productionRepairSources } from "../shared/production-recovery";
 import { ProjectNameEditor } from "./ProjectNameEditor";
@@ -49,6 +50,7 @@ import {
   Layers,
   ExternalLink,
   Trash2,
+  Lightbulb,
 } from "lucide-react";
 import { labels, stages, roles } from "../shared/vocabulary";
 import type { Project, Task, Version, StylePackage } from "../shared/domain";
@@ -162,6 +164,7 @@ const nav = [
   { id: "assets", label: "Библиотека ресурсов", icon: Package },
   { id: "release", label: "Релизы", icon: Send },
   { id: "analytics", label: "Аналитика", icon: ChartNoAxesCombined },
+  { id: "ideas", label: "Лаборатория идей", icon: Lightbulb },
   { id: "finance", label: "Аккаунты и расходы", icon: Wallet },
   { id: "skills", label: "Навыки", icon: BookOpen },
 ];
@@ -524,7 +527,7 @@ function App() {
               </button>
             )}
           </div>
-          {!p && !["finance", "skills"].includes(view) ? (
+          {!p && !["ideas", "finance", "skills"].includes(view) ? (
             <Empty onCreate={() => setModal(true)} />
           ) : view === "overview" ? (
             <Overview {...context} />
@@ -546,6 +549,16 @@ function App() {
             <Releases {...context} />
           ) : view === "analytics" ? (
             <Analytics {...context} />
+          ) : view === "ideas" ? (
+            <IdeaLab
+              api={api}
+              run={run}
+              onCreated={(projectId) => {
+                setSelected(projectId);
+                setView("overview");
+                window.scrollTo(0, 0);
+              }}
+            />
           ) : view === "finance" ? (
             <Finance {...context} />
           ) : (
@@ -800,6 +813,8 @@ const descriptions: Record<string, string> = {
   assets: "Происхождение, версии и доступность ресурсов вашей игры.",
   release: "Проверка на телефоне и выпуск конкретной подтверждённой сборки.",
   analytics: "Динамика собственных игр и решения о дальнейшем развитии.",
+  ideas:
+    "Три случайных слова дают название, ИИ раскручивает идею, похожие игры Roblox её проверяют.",
   finance: "Подключения, квоты и деньги учитываются раздельно.",
   skills: "Закреплённые инструкции и проверка совместимости инструментов.",
 };

@@ -60,6 +60,8 @@ import {
   ownerStyleContext,
 } from "./owner-references.js";
 import { balance, reserve, settle, releaseReservation } from "./budget.js";
+import { developIdea } from "./idea-lab.js";
+import type { Idea, IdeaWords } from "../shared/idea-lab.js";
 import { builtInSkills, externalSkills, families } from "./catalog.js";
 import { exportPlace, normalizeEnumTokens } from "./export.js";
 import { seedDefaultSkills, assignDefaultSkills } from "./default-skills.js";
@@ -140,6 +142,8 @@ export class Engine {
     string,
     { promise: Promise<NameSuggestionsResult>; controller: AbortController }
   >();
+  ideaRequest: { promise: Promise<Idea>; controller: AbortController } | null =
+    null;
   native: NativeHarness;
   capture: PlayerCapture;
   constructor(
@@ -316,9 +320,11 @@ export class Engine {
     }
     for (const request of this.namingRequests.values())
       request.controller.abort();
-    await Promise.allSettled(
-      [...this.namingRequests.values()].map((r) => r.promise),
-    );
+    this.ideaRequest?.controller.abort();
+    await Promise.allSettled([
+      ...[...this.namingRequests.values()].map((r) => r.promise),
+      this.ideaRequest?.promise,
+    ]);
     this.codex.close();
   }
   project(key: string) {
@@ -1129,6 +1135,31 @@ export class Engine {
       project,
       models: this.models,
     });
+  }
+  // One idea at a time: the lab is a single owner's brainstorm, not a queue.
+  async developIdea(words: IdeaWords) {
+    if (this.ideaRequest)
+      throw new Error("ИИ уже раскручивает идею. Дождитесь результата.");
+    if (this.stopping)
+      throw new Error("Сервис завершает работу. Повторите после запуска.");
+    if (!this.codex.ready || !subscriptionAccount(this.account))
+      throw new Error("Чтобы раскрутить идею, подключите аккаунт исполнителя");
+    if (this.quotaBlocked())
+      throw new Error("Идея ожидает восстановления квоты исполнителя");
+    const controller = new AbortController();
+    const promise = (async () => {
+      if (!this.models.length)
+        this.models = (await this.codex.models()).data || [];
+      return developIdea({
+        store: this.store,
+        agent: this.codex,
+        models: this.models,
+        words,
+        signal: controller.signal,
+      });
+    })().finally(() => (this.ideaRequest = null));
+    this.ideaRequest = { promise, controller };
+    return promise;
   }
   async suggestProjectNames(key: string) {
     const pending = this.namingRequests.get(key);
